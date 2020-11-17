@@ -22,7 +22,7 @@ source("lib/libraries.r", encoding="UTF-8")
 source("lib/rstudio.r", encoding="UTF-8")
 ```
 
-# Izbira teme
+# Izbira teme: Analiza spletnih nakupov posameznikov v EU
 
 Nakupovanje v spletnih trgovinah postaja vedno bolj priljubljeno, zato sem se odločila za analizo podatkov o spletnem nakupovanju v državah EU. Zanimajo me predvsem pogostost omenjenega načina nakupovanja v posameznih državah EU, nakupovalne navade posameznikov, ki kupujejo/ naročajo na spletu ter težave, ki se pojavijo pri spletnih nakupih. Pozorna bom tudi na gibanje opazovanih podatkov skozi čas ter morebitne povezave, ki se pojavijo med njimi npr. kako so povezani pogostost spletnega nakupovanja in številčnost težav, ki se pri tem pojavijo, katere starostne skupine kupujejo več in katere izdelke...
 
