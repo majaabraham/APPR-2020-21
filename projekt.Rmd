@@ -1,6 +1,6 @@
 ---
 title: "Poročilo pri predmetu Analiza podatkov s programom R"
-author: "Študent FMF"
+author: "Maja Abraham"
 output:
   html_document: default
   pdf_document:
@@ -24,9 +24,9 @@ source("lib/rstudio.r", encoding="UTF-8")
 
 # Izbira teme
 
-Za vzorec bomo prikazali nekaj podatkov o slovenskih občinah.
+Nakupovanje v spletnih trgovinah postaja vedno bolj priljubljeno, zato sem se odločila za analizo podatkov o spletnem nakupovanju v državah EU. Zanimajo me predvsem pogostost omenjenega načina nakupovanja v posameznih državah EU, nakupovalne navade posameznikov, ki kupujejo/ naročajo na spletu ter težave, ki se pojavijo pri spletnih nakupih. Pozorna bom tudi na gibanje opazovanih podatkov skozi čas ter morebitne povezave, ki se pojavijo med njimi npr. kako so povezani pogostost spletnega nakupovanja in številčnost težav, ki se pri tem pojavijo, katere starostne skupine kupujejo več in katere izdelke...
 
-![](slike/grb.png)
+![](slike/e-nakupovanje.png)
 
 ***
 
