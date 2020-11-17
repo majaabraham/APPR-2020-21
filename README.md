@@ -10,68 +10,68 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2020/21
 
 Nakupovanje v spletnih trgovinah postaja vedno bolj priljubljeno, zato sem se odločila za analizo podatkov o spletnem nakupovanju v državah EU. Zanimajo me predvsem pogostost omenjenega načina nakupovanja v posameznih državah EU, nakupovalne navade posameznikov, ki kupujejo/ naročajo na spletu ter težave, ki se pojavijo pri spletnih nakupih. Pozorna bom tudi na gibanje opazovanih podatkov skozi čas ter morebitne povezave, ki se pojavijo med njimi npr. kako so povezani pogostost spletnega nakupovanja in številčnost težav, ki se pri tem pojavijo, katere starostne skupine kupujejo več in katere izdelke... 
 
-Večino podatkov sem pridobila iz spletne strani [Eurostat](https://ec.europa.eu/eurostat). Izvozila sem podatke v različnih formatih (CSV, HTML, XLS), pri tem sem uporabila naslednje tabele:
+Večino podatkov sem pridobila iz spletne strani [Eurostat](https://ec.europa.eu/eurostat). Izvozila sem podatke v različnih formatih (CSV, HTML, XLS). Pri tem sem uporabila naslednje tabele:
 
-* Spletni nakupi posameznikov[https://ec.europa.eu/eurostat/databrowser/view/isoc_ec_ibuy/default/table?lang=en]
-* Težave, s katerimi se srečujejo posamezniki pri nakupu / naročilu prek interneta[https://ec.europa.eu/eurostat/databrowser/view/isoc_ec_iprb/default/table?lang=en]
+* Spletni nakupi posameznikov: https://ec.europa.eu/eurostat/databrowser/view/isoc_ec_ibuy/default/table?lang=en
+* Težave, s katerimi se srečujejo posamezniki pri nakupu / naročilu prek interneta: https://ec.europa.eu/eurostat/databrowser/view/isoc_ec_iprb/default/table?lang=en
 
-Na spletni strani [https://www.webretailer.com/b/online-marketplaces-europe/] se nahaja tabela o najbolj priljubljenih spletnih trgovinah v Evropi.
+Na spletni strani https://www.webretailer.com/b/online-marketplaces-europe/ se nahaja tabela o najbolj priljubljenih spletnih trgovinah v Evropi.
 
 
 **Predvidene tabele:**
 1. tabela: Podatki o zadnjem spletnem nakupu za posamezno leto, v odstotkih populacije
-..* leto
-..* država
-..* spol
-..* starostna skupina
-..* zadnji spletni nakup
-..* odstotek
+* leto
+* država
+* spol
+* starostna skupina
+* zadnji spletni nakup
+* odstotek
 
 2. tabela: Pogostost nakupovanja po spletu glede na spol, obdobje 3. mesecev, v odstotkih populacije
-..* leto
-..* država
-..* spol
-..* pogostost nakupa
-..* odstotek
+* leto
+* država
+* spol
+* pogostost nakupa
+* odstotek
 
 3. tabela: Pogostost nakupovanja po spletu glede na starost, obdobje 3. mesecev, v odstotkih populacije
-..* leto
-..* država
-..* starostna skupina
-..* pogostost nakupa
-..* odstotek
+* leto
+* država
+* starostna skupina
+* pogostost nakupa
+* odstotek
 
 4. tabela: Podatki o vrstah blaga/storitve spletnih nakupov, v odstotkih kupcev
-..* leto
-..* država
-..* starostna skupina
-..* vrsta blaga/ storitve
-..* odstotek
+* leto
+* država
+* starostna skupina
+* vrsta blaga/ storitve
+* odstotek
 
 5. tabela: Vrednosti spletnih nakupov, v odstotkih kupcev
-..* leto
-..* država
-..* starostna skupina
-..* vrednost
-..* odstotek
+* leto
+* država
+* starostna skupina
+* vrednost
+* odstotek
 
 6. tabela: Podatki o spletnih nakupih glede na izvor prodajalca, v odstotkih kupcev
-..* leto
-..* država
-..* starostna skupina
-..* izvor prodajalca
-..* odstotek
+* leto
+* država
+* starostna skupina
+* izvor prodajalca
+* odstotek
 
 7. tabela: Pogostost težav, ki jih imajo kupci pri spletnem nakupovanju, v odstotkih kupcev
-..* leto
-..* država
-..* težava
-..* odstotek
+* leto
+* država
+* težava
+* odstotek
 
 8. tabela: Najbolj priljubljene spletne trgovine v evropi
-..* trgovina
-..* vrsta izdelkov
-..* št. obiskov/mesec
+* trgovina
+* vrsta izdelkov
+* št. obiskov/mesec
 
 ## Program
 
