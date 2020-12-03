@@ -1,7 +1,13 @@
-library(knitr)
-library(rvest)
-library(gsubfn)
+library(readxl)
+library(dplyr)
+library(readr)
 library(tidyr)
+library(rvest)
+library(stringr)
+
+library(openxlsx)
+library(knitr)
+library(gsubfn)
 library(tmap)
 library(shiny)
 

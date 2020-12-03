@@ -1,0 +1,981 @@
+leto,država,težava,odstotek
+2009,EU28,težave s garancijami,NA
+2009,EU28,hitrost dostave daljša od navedene,5
+2009,EU28,stroški dostave ali končna cena višja od navedene,1
+2009,EU28,napačno ali poškodovano blago / opravljene storitve,3
+2009,EU28,težave z goljufijo,2
+2009,EU28,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2009,EU28,drugo,2
+2009,Belgija,težave s garancijami,NA
+2009,Belgija,hitrost dostave daljša od navedene,2
+2009,Belgija,stroški dostave ali končna cena višja od navedene,0
+2009,Belgija,napačno ali poškodovano blago / opravljene storitve,1
+2009,Belgija,težave z goljufijo,1
+2009,Belgija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2009,Belgija,drugo,1
+2009,Bolgarija,težave s garancijami,NA
+2009,Bolgarija,hitrost dostave daljša od navedene,4
+2009,Bolgarija,stroški dostave ali končna cena višja od navedene,NA
+2009,Bolgarija,napačno ali poškodovano blago / opravljene storitve,2
+2009,Bolgarija,težave z goljufijo,NA
+2009,Bolgarija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,NA
+2009,Bolgarija,drugo,NA
+2009,Češka,težave s garancijami,NA
+2009,Češka,hitrost dostave daljša od navedene,2
+2009,Češka,stroški dostave ali končna cena višja od navedene,0
+2009,Češka,napačno ali poškodovano blago / opravljene storitve,1
+2009,Češka,težave z goljufijo,0
+2009,Češka,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,0
+2009,Češka,drugo,0
+2009,Danska,težave s garancijami,NA
+2009,Danska,hitrost dostave daljša od navedene,3
+2009,Danska,stroški dostave ali končna cena višja od navedene,1
+2009,Danska,napačno ali poškodovano blago / opravljene storitve,1
+2009,Danska,težave z goljufijo,1
+2009,Danska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2009,Danska,drugo,1
+2009,Nemčija,težave s garancijami,NA
+2009,Nemčija,hitrost dostave daljša od navedene,5
+2009,Nemčija,stroški dostave ali končna cena višja od navedene,1
+2009,Nemčija,napačno ali poškodovano blago / opravljene storitve,4
+2009,Nemčija,težave z goljufijo,2
+2009,Nemčija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2009,Nemčija,drugo,3
+2009,Estonija,težave s garancijami,NA
+2009,Estonija,hitrost dostave daljša od navedene,1
+2009,Estonija,stroški dostave ali končna cena višja od navedene,1
+2009,Estonija,napačno ali poškodovano blago / opravljene storitve,1
+2009,Estonija,težave z goljufijo,1
+2009,Estonija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2009,Estonija,drugo,2
+2009,Irska,težave s garancijami,NA
+2009,Irska,hitrost dostave daljša od navedene,NA
+2009,Irska,stroški dostave ali končna cena višja od navedene,NA
+2009,Irska,napačno ali poškodovano blago / opravljene storitve,NA
+2009,Irska,težave z goljufijo,NA
+2009,Irska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,NA
+2009,Irska,drugo,NA
+2009,Grčija,težave s garancijami,NA
+2009,Grčija,hitrost dostave daljša od navedene,1
+2009,Grčija,stroški dostave ali končna cena višja od navedene,1
+2009,Grčija,napačno ali poškodovano blago / opravljene storitve,3
+2009,Grčija,težave z goljufijo,2
+2009,Grčija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,0
+2009,Grčija,drugo,1
+2009,Španija,težave s garancijami,NA
+2009,Španija,hitrost dostave daljša od navedene,2
+2009,Španija,stroški dostave ali končna cena višja od navedene,1
+2009,Španija,napačno ali poškodovano blago / opravljene storitve,1
+2009,Španija,težave z goljufijo,1
+2009,Španija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2009,Španija,drugo,1
+2009,Francija,težave s garancijami,NA
+2009,Francija,hitrost dostave daljša od navedene,5
+2009,Francija,stroški dostave ali končna cena višja od navedene,1
+2009,Francija,napačno ali poškodovano blago / opravljene storitve,4
+2009,Francija,težave z goljufijo,2
+2009,Francija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2009,Francija,drugo,2
+2009,Hrvaška,težave s garancijami,NA
+2009,Hrvaška,hitrost dostave daljša od navedene,1
+2009,Hrvaška,stroški dostave ali končna cena višja od navedene,1
+2009,Hrvaška,napačno ali poškodovano blago / opravljene storitve,0
+2009,Hrvaška,težave z goljufijo,1
+2009,Hrvaška,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,0
+2009,Hrvaška,drugo,3
+2009,Italija,težave s garancijami,NA
+2009,Italija,hitrost dostave daljša od navedene,3
+2009,Italija,stroški dostave ali končna cena višja od navedene,0
+2009,Italija,napačno ali poškodovano blago / opravljene storitve,2
+2009,Italija,težave z goljufijo,1
+2009,Italija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2009,Italija,drugo,1
+2009,Ciper,težave s garancijami,NA
+2009,Ciper,hitrost dostave daljša od navedene,2
+2009,Ciper,stroški dostave ali končna cena višja od navedene,1
+2009,Ciper,napačno ali poškodovano blago / opravljene storitve,2
+2009,Ciper,težave z goljufijo,2
+2009,Ciper,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,0
+2009,Ciper,drugo,1
+2009,Latvija,težave s garancijami,NA
+2009,Latvija,hitrost dostave daljša od navedene,3
+2009,Latvija,stroški dostave ali končna cena višja od navedene,1
+2009,Latvija,napačno ali poškodovano blago / opravljene storitve,2
+2009,Latvija,težave z goljufijo,1
+2009,Latvija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2009,Latvija,drugo,2
+2009,Litva,težave s garancijami,NA
+2009,Litva,hitrost dostave daljša od navedene,2
+2009,Litva,stroški dostave ali končna cena višja od navedene,2
+2009,Litva,napačno ali poškodovano blago / opravljene storitve,2
+2009,Litva,težave z goljufijo,0
+2009,Litva,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2009,Litva,drugo,1
+2009,Luksemburg,težave s garancijami,NA
+2009,Luksemburg,hitrost dostave daljša od navedene,2
+2009,Luksemburg,stroški dostave ali končna cena višja od navedene,1
+2009,Luksemburg,napačno ali poškodovano blago / opravljene storitve,2
+2009,Luksemburg,težave z goljufijo,2
+2009,Luksemburg,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2009,Luksemburg,drugo,1
+2009,Madžarska,težave s garancijami,NA
+2009,Madžarska,hitrost dostave daljša od navedene,3
+2009,Madžarska,stroški dostave ali končna cena višja od navedene,1
+2009,Madžarska,napačno ali poškodovano blago / opravljene storitve,3
+2009,Madžarska,težave z goljufijo,2
+2009,Madžarska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2009,Madžarska,drugo,1
+2009,Malta,težave s garancijami,NA
+2009,Malta,hitrost dostave daljša od navedene,7
+2009,Malta,stroški dostave ali končna cena višja od navedene,0
+2009,Malta,napačno ali poškodovano blago / opravljene storitve,4
+2009,Malta,težave z goljufijo,4
+2009,Malta,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2009,Malta,drugo,3
+2009,Nizozemska,težave s garancijami,NA
+2009,Nizozemska,hitrost dostave daljša od navedene,16
+2009,Nizozemska,stroški dostave ali končna cena višja od navedene,3
+2009,Nizozemska,napačno ali poškodovano blago / opravljene storitve,5
+2009,Nizozemska,težave z goljufijo,2
+2009,Nizozemska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2009,Nizozemska,drugo,2
+2009,Avstrija,težave s garancijami,NA
+2009,Avstrija,hitrost dostave daljša od navedene,2
+2009,Avstrija,stroški dostave ali končna cena višja od navedene,NA
+2009,Avstrija,napačno ali poškodovano blago / opravljene storitve,NA
+2009,Avstrija,težave z goljufijo,NA
+2009,Avstrija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,NA
+2009,Avstrija,drugo,NA
+2009,Poljska,težave s garancijami,NA
+2009,Poljska,hitrost dostave daljša od navedene,7
+2009,Poljska,stroški dostave ali končna cena višja od navedene,1
+2009,Poljska,napačno ali poškodovano blago / opravljene storitve,4
+2009,Poljska,težave z goljufijo,1
+2009,Poljska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2009,Poljska,drugo,1
+2009,Portugalska,težave s garancijami,NA
+2009,Portugalska,hitrost dostave daljša od navedene,NA
+2009,Portugalska,stroški dostave ali končna cena višja od navedene,NA
+2009,Portugalska,napačno ali poškodovano blago / opravljene storitve,NA
+2009,Portugalska,težave z goljufijo,NA
+2009,Portugalska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,NA
+2009,Portugalska,drugo,NA
+2009,Romunija,težave s garancijami,NA
+2009,Romunija,hitrost dostave daljša od navedene,6
+2009,Romunija,stroški dostave ali končna cena višja od navedene,3
+2009,Romunija,napačno ali poškodovano blago / opravljene storitve,1
+2009,Romunija,težave z goljufijo,NA
+2009,Romunija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2009,Romunija,drugo,1
+2009,Slovenija,težave s garancijami,NA
+2009,Slovenija,hitrost dostave daljša od navedene,3
+2009,Slovenija,stroški dostave ali končna cena višja od navedene,1
+2009,Slovenija,napačno ali poškodovano blago / opravljene storitve,3
+2009,Slovenija,težave z goljufijo,0
+2009,Slovenija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2009,Slovenija,drugo,1
+2009,Slovaška,težave s garancijami,NA
+2009,Slovaška,hitrost dostave daljša od navedene,6
+2009,Slovaška,stroški dostave ali končna cena višja od navedene,2
+2009,Slovaška,napačno ali poškodovano blago / opravljene storitve,4
+2009,Slovaška,težave z goljufijo,1
+2009,Slovaška,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2009,Slovaška,drugo,1
+2009,Finska,težave s garancijami,NA
+2009,Finska,hitrost dostave daljša od navedene,5
+2009,Finska,stroški dostave ali končna cena višja od navedene,1
+2009,Finska,napačno ali poškodovano blago / opravljene storitve,4
+2009,Finska,težave z goljufijo,3
+2009,Finska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2009,Finska,drugo,2
+2009,Švedska,težave s garancijami,NA
+2009,Švedska,hitrost dostave daljša od navedene,2
+2009,Švedska,stroški dostave ali končna cena višja od navedene,0
+2009,Švedska,napačno ali poškodovano blago / opravljene storitve,2
+2009,Švedska,težave z goljufijo,1
+2009,Švedska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2009,Švedska,drugo,1
+2015,EU28,težave s garancijami,NA
+2015,EU28,hitrost dostave daljša od navedene,16
+2015,EU28,stroški dostave ali končna cena višja od navedene,3
+2015,EU28,napačno ali poškodovano blago / opravljene storitve,8
+2015,EU28,težave z goljufijo,3
+2015,EU28,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2015,EU28,drugo,2
+2015,Belgija,težave s garancijami,NA
+2015,Belgija,hitrost dostave daljša od navedene,15
+2015,Belgija,stroški dostave ali končna cena višja od navedene,6
+2015,Belgija,napačno ali poškodovano blago / opravljene storitve,5
+2015,Belgija,težave z goljufijo,2
+2015,Belgija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2015,Belgija,drugo,4
+2015,Bolgarija,težave s garancijami,NA
+2015,Bolgarija,hitrost dostave daljša od navedene,12
+2015,Bolgarija,stroški dostave ali končna cena višja od navedene,3
+2015,Bolgarija,napačno ali poškodovano blago / opravljene storitve,4
+2015,Bolgarija,težave z goljufijo,2
+2015,Bolgarija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2015,Bolgarija,drugo,4
+2015,Češka,težave s garancijami,NA
+2015,Češka,hitrost dostave daljša od navedene,8
+2015,Češka,stroški dostave ali končna cena višja od navedene,2
+2015,Češka,napačno ali poškodovano blago / opravljene storitve,1
+2015,Češka,težave z goljufijo,1
+2015,Češka,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2015,Češka,drugo,1
+2015,Danska,težave s garancijami,NA
+2015,Danska,hitrost dostave daljša od navedene,10
+2015,Danska,stroški dostave ali končna cena višja od navedene,3
+2015,Danska,napačno ali poškodovano blago / opravljene storitve,3
+2015,Danska,težave z goljufijo,2
+2015,Danska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2015,Danska,drugo,3
+2015,Nemčija,težave s garancijami,NA
+2015,Nemčija,hitrost dostave daljša od navedene,6
+2015,Nemčija,stroški dostave ali končna cena višja od navedene,1
+2015,Nemčija,napačno ali poškodovano blago / opravljene storitve,5
+2015,Nemčija,težave z goljufijo,2
+2015,Nemčija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2015,Nemčija,drugo,1
+2015,Estonija,težave s garancijami,NA
+2015,Estonija,hitrost dostave daljša od navedene,14
+2015,Estonija,stroški dostave ali končna cena višja od navedene,1
+2015,Estonija,napačno ali poškodovano blago / opravljene storitve,8
+2015,Estonija,težave z goljufijo,4
+2015,Estonija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2015,Estonija,drugo,1
+2015,Irska,težave s garancijami,NA
+2015,Irska,hitrost dostave daljša od navedene,10
+2015,Irska,stroški dostave ali končna cena višja od navedene,3
+2015,Irska,napačno ali poškodovano blago / opravljene storitve,4
+2015,Irska,težave z goljufijo,2
+2015,Irska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,5
+2015,Irska,drugo,2
+2015,Grčija,težave s garancijami,NA
+2015,Grčija,hitrost dostave daljša od navedene,6
+2015,Grčija,stroški dostave ali končna cena višja od navedene,1
+2015,Grčija,napačno ali poškodovano blago / opravljene storitve,3
+2015,Grčija,težave z goljufijo,2
+2015,Grčija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2015,Grčija,drugo,1
+2015,Španija,težave s garancijami,NA
+2015,Španija,hitrost dostave daljša od navedene,4
+2015,Španija,stroški dostave ali končna cena višja od navedene,1
+2015,Španija,napačno ali poškodovano blago / opravljene storitve,3
+2015,Španija,težave z goljufijo,2
+2015,Španija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2015,Španija,drugo,2
+2015,Francija,težave s garancijami,NA
+2015,Francija,hitrost dostave daljša od navedene,29
+2015,Francija,stroški dostave ali končna cena višja od navedene,6
+2015,Francija,napačno ali poškodovano blago / opravljene storitve,10
+2015,Francija,težave z goljufijo,4
+2015,Francija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2015,Francija,drugo,3
+2015,Hrvaška,težave s garancijami,NA
+2015,Hrvaška,hitrost dostave daljša od navedene,7
+2015,Hrvaška,stroški dostave ali končna cena višja od navedene,1
+2015,Hrvaška,napačno ali poškodovano blago / opravljene storitve,2
+2015,Hrvaška,težave z goljufijo,5
+2015,Hrvaška,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2015,Hrvaška,drugo,1
+2015,Italija,težave s garancijami,NA
+2015,Italija,hitrost dostave daljša od navedene,4
+2015,Italija,stroški dostave ali končna cena višja od navedene,1
+2015,Italija,napačno ali poškodovano blago / opravljene storitve,4
+2015,Italija,težave z goljufijo,1
+2015,Italija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2015,Italija,drugo,0
+2015,Ciper,težave s garancijami,NA
+2015,Ciper,hitrost dostave daljša od navedene,11
+2015,Ciper,stroški dostave ali končna cena višja od navedene,2
+2015,Ciper,napačno ali poškodovano blago / opravljene storitve,5
+2015,Ciper,težave z goljufijo,3
+2015,Ciper,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2015,Ciper,drugo,2
+2015,Latvija,težave s garancijami,NA
+2015,Latvija,hitrost dostave daljša od navedene,8
+2015,Latvija,stroški dostave ali končna cena višja od navedene,1
+2015,Latvija,napačno ali poškodovano blago / opravljene storitve,3
+2015,Latvija,težave z goljufijo,1
+2015,Latvija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,0
+2015,Latvija,drugo,2
+2015,Litva,težave s garancijami,NA
+2015,Litva,hitrost dostave daljša od navedene,7
+2015,Litva,stroški dostave ali končna cena višja od navedene,1
+2015,Litva,napačno ali poškodovano blago / opravljene storitve,3
+2015,Litva,težave z goljufijo,1
+2015,Litva,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2015,Litva,drugo,1
+2015,Luksemburg,težave s garancijami,NA
+2015,Luksemburg,hitrost dostave daljša od navedene,20
+2015,Luksemburg,stroški dostave ali končna cena višja od navedene,6
+2015,Luksemburg,napačno ali poškodovano blago / opravljene storitve,8
+2015,Luksemburg,težave z goljufijo,3
+2015,Luksemburg,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,5
+2015,Luksemburg,drugo,1
+2015,Madžarska,težave s garancijami,NA
+2015,Madžarska,hitrost dostave daljša od navedene,4
+2015,Madžarska,stroški dostave ali končna cena višja od navedene,1
+2015,Madžarska,napačno ali poškodovano blago / opravljene storitve,3
+2015,Madžarska,težave z goljufijo,1
+2015,Madžarska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2015,Madžarska,drugo,32
+2015,Malta,težave s garancijami,NA
+2015,Malta,hitrost dostave daljša od navedene,34
+2015,Malta,stroški dostave ali končna cena višja od navedene,7
+2015,Malta,napačno ali poškodovano blago / opravljene storitve,17
+2015,Malta,težave z goljufijo,6
+2015,Malta,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,10
+2015,Malta,drugo,3
+2015,Nizozemska,težave s garancijami,NA
+2015,Nizozemska,hitrost dostave daljša od navedene,23
+2015,Nizozemska,stroški dostave ali končna cena višja od navedene,3
+2015,Nizozemska,napačno ali poškodovano blago / opravljene storitve,9
+2015,Nizozemska,težave z goljufijo,2
+2015,Nizozemska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,6
+2015,Nizozemska,drugo,5
+2015,Avstrija,težave s garancijami,NA
+2015,Avstrija,hitrost dostave daljša od navedene,16
+2015,Avstrija,stroški dostave ali končna cena višja od navedene,3
+2015,Avstrija,napačno ali poškodovano blago / opravljene storitve,6
+2015,Avstrija,težave z goljufijo,1
+2015,Avstrija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2015,Avstrija,drugo,2
+2015,Poljska,težave s garancijami,NA
+2015,Poljska,hitrost dostave daljša od navedene,10
+2015,Poljska,stroški dostave ali končna cena višja od navedene,1
+2015,Poljska,napačno ali poškodovano blago / opravljene storitve,4
+2015,Poljska,težave z goljufijo,1
+2015,Poljska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2015,Poljska,drugo,1
+2015,Portugalska,težave s garancijami,NA
+2015,Portugalska,hitrost dostave daljša od navedene,6
+2015,Portugalska,stroški dostave ali končna cena višja od navedene,2
+2015,Portugalska,napačno ali poškodovano blago / opravljene storitve,4
+2015,Portugalska,težave z goljufijo,3
+2015,Portugalska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2015,Portugalska,drugo,1
+2015,Romunija,težave s garancijami,NA
+2015,Romunija,hitrost dostave daljša od navedene,11
+2015,Romunija,stroški dostave ali končna cena višja od navedene,4
+2015,Romunija,napačno ali poškodovano blago / opravljene storitve,2
+2015,Romunija,težave z goljufijo,NA
+2015,Romunija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2015,Romunija,drugo,2
+2015,Slovenija,težave s garancijami,NA
+2015,Slovenija,hitrost dostave daljša od navedene,7
+2015,Slovenija,stroški dostave ali končna cena višja od navedene,2
+2015,Slovenija,napačno ali poškodovano blago / opravljene storitve,5
+2015,Slovenija,težave z goljufijo,1
+2015,Slovenija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2015,Slovenija,drugo,5
+2015,Slovaška,težave s garancijami,NA
+2015,Slovaška,hitrost dostave daljša od navedene,12
+2015,Slovaška,stroški dostave ali končna cena višja od navedene,1
+2015,Slovaška,napačno ali poškodovano blago / opravljene storitve,4
+2015,Slovaška,težave z goljufijo,0
+2015,Slovaška,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2015,Slovaška,drugo,2
+2015,Finska,težave s garancijami,NA
+2015,Finska,hitrost dostave daljša od navedene,25
+2015,Finska,stroški dostave ali končna cena višja od navedene,5
+2015,Finska,napačno ali poškodovano blago / opravljene storitve,13
+2015,Finska,težave z goljufijo,4
+2015,Finska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,9
+2015,Finska,drugo,6
+2015,Švedska,težave s garancijami,NA
+2015,Švedska,hitrost dostave daljša od navedene,24
+2015,Švedska,stroški dostave ali končna cena višja od navedene,6
+2015,Švedska,napačno ali poškodovano blago / opravljene storitve,15
+2015,Švedska,težave z goljufijo,4
+2015,Švedska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,9
+2015,Švedska,drugo,4
+2016,EU28,težave s garancijami,NA
+2016,EU28,hitrost dostave daljša od navedene,17
+2016,EU28,stroški dostave ali končna cena višja od navedene,4
+2016,EU28,napačno ali poškodovano blago / opravljene storitve,9
+2016,EU28,težave z goljufijo,3
+2016,EU28,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2016,EU28,drugo,2
+2016,Belgija,težave s garancijami,NA
+2016,Belgija,hitrost dostave daljša od navedene,19
+2016,Belgija,stroški dostave ali končna cena višja od navedene,5
+2016,Belgija,napačno ali poškodovano blago / opravljene storitve,6
+2016,Belgija,težave z goljufijo,2
+2016,Belgija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2016,Belgija,drugo,3
+2016,Bolgarija,težave s garancijami,NA
+2016,Bolgarija,hitrost dostave daljša od navedene,7
+2016,Bolgarija,stroški dostave ali končna cena višja od navedene,1
+2016,Bolgarija,napačno ali poškodovano blago / opravljene storitve,4
+2016,Bolgarija,težave z goljufijo,1
+2016,Bolgarija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2016,Bolgarija,drugo,3
+2016,Češka,težave s garancijami,NA
+2016,Češka,hitrost dostave daljša od navedene,11
+2016,Češka,stroški dostave ali končna cena višja od navedene,2
+2016,Češka,napačno ali poškodovano blago / opravljene storitve,4
+2016,Češka,težave z goljufijo,1
+2016,Češka,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2016,Češka,drugo,1
+2016,Danska,težave s garancijami,NA
+2016,Danska,hitrost dostave daljša od navedene,12
+2016,Danska,stroški dostave ali končna cena višja od navedene,3
+2016,Danska,napačno ali poškodovano blago / opravljene storitve,5
+2016,Danska,težave z goljufijo,2
+2016,Danska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2016,Danska,drugo,4
+2016,Nemčija,težave s garancijami,NA
+2016,Nemčija,hitrost dostave daljša od navedene,7
+2016,Nemčija,stroški dostave ali končna cena višja od navedene,1
+2016,Nemčija,napačno ali poškodovano blago / opravljene storitve,5
+2016,Nemčija,težave z goljufijo,2
+2016,Nemčija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2016,Nemčija,drugo,1
+2016,Estonija,težave s garancijami,NA
+2016,Estonija,hitrost dostave daljša od navedene,14
+2016,Estonija,stroški dostave ali končna cena višja od navedene,1
+2016,Estonija,napačno ali poškodovano blago / opravljene storitve,8
+2016,Estonija,težave z goljufijo,3
+2016,Estonija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2016,Estonija,drugo,1
+2016,Irska,težave s garancijami,NA
+2016,Irska,hitrost dostave daljša od navedene,8
+2016,Irska,stroški dostave ali končna cena višja od navedene,3
+2016,Irska,napačno ali poškodovano blago / opravljene storitve,3
+2016,Irska,težave z goljufijo,2
+2016,Irska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2016,Irska,drugo,1
+2016,Grčija,težave s garancijami,NA
+2016,Grčija,hitrost dostave daljša od navedene,5
+2016,Grčija,stroški dostave ali končna cena višja od navedene,0
+2016,Grčija,napačno ali poškodovano blago / opravljene storitve,2
+2016,Grčija,težave z goljufijo,1
+2016,Grčija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2016,Grčija,drugo,2
+2016,Španija,težave s garancijami,NA
+2016,Španija,hitrost dostave daljša od navedene,4
+2016,Španija,stroški dostave ali končna cena višja od navedene,1
+2016,Španija,napačno ali poškodovano blago / opravljene storitve,4
+2016,Španija,težave z goljufijo,2
+2016,Španija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2016,Španija,drugo,1
+2016,Francija,težave s garancijami,NA
+2016,Francija,hitrost dostave daljša od navedene,25
+2016,Francija,stroški dostave ali končna cena višja od navedene,5
+2016,Francija,napačno ali poškodovano blago / opravljene storitve,10
+2016,Francija,težave z goljufijo,4
+2016,Francija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2016,Francija,drugo,3
+2016,Hrvaška,težave s garancijami,NA
+2016,Hrvaška,hitrost dostave daljša od navedene,8
+2016,Hrvaška,stroški dostave ali končna cena višja od navedene,0
+2016,Hrvaška,napačno ali poškodovano blago / opravljene storitve,5
+2016,Hrvaška,težave z goljufijo,4
+2016,Hrvaška,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,0
+2016,Hrvaška,drugo,2
+2016,Italija,težave s garancijami,NA
+2016,Italija,hitrost dostave daljša od navedene,NA
+2016,Italija,stroški dostave ali končna cena višja od navedene,NA
+2016,Italija,napačno ali poškodovano blago / opravljene storitve,NA
+2016,Italija,težave z goljufijo,NA
+2016,Italija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,NA
+2016,Italija,drugo,NA
+2016,Ciper,težave s garancijami,NA
+2016,Ciper,hitrost dostave daljša od navedene,8
+2016,Ciper,stroški dostave ali končna cena višja od navedene,3
+2016,Ciper,napačno ali poškodovano blago / opravljene storitve,4
+2016,Ciper,težave z goljufijo,2
+2016,Ciper,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2016,Ciper,drugo,3
+2016,Latvija,težave s garancijami,NA
+2016,Latvija,hitrost dostave daljša od navedene,NA
+2016,Latvija,stroški dostave ali končna cena višja od navedene,NA
+2016,Latvija,napačno ali poškodovano blago / opravljene storitve,NA
+2016,Latvija,težave z goljufijo,NA
+2016,Latvija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,NA
+2016,Latvija,drugo,NA
+2016,Litva,težave s garancijami,NA
+2016,Litva,hitrost dostave daljša od navedene,10
+2016,Litva,stroški dostave ali končna cena višja od navedene,1
+2016,Litva,napačno ali poškodovano blago / opravljene storitve,5
+2016,Litva,težave z goljufijo,3
+2016,Litva,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2016,Litva,drugo,1
+2016,Luksemburg,težave s garancijami,NA
+2016,Luksemburg,hitrost dostave daljša od navedene,22
+2016,Luksemburg,stroški dostave ali končna cena višja od navedene,8
+2016,Luksemburg,napačno ali poškodovano blago / opravljene storitve,12
+2016,Luksemburg,težave z goljufijo,4
+2016,Luksemburg,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,5
+2016,Luksemburg,drugo,1
+2016,Madžarska,težave s garancijami,NA
+2016,Madžarska,hitrost dostave daljša od navedene,9
+2016,Madžarska,stroški dostave ali končna cena višja od navedene,1
+2016,Madžarska,napačno ali poškodovano blago / opravljene storitve,6
+2016,Madžarska,težave z goljufijo,1
+2016,Madžarska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2016,Madžarska,drugo,1
+2016,Malta,težave s garancijami,NA
+2016,Malta,hitrost dostave daljša od navedene,33
+2016,Malta,stroški dostave ali končna cena višja od navedene,5
+2016,Malta,napačno ali poškodovano blago / opravljene storitve,14
+2016,Malta,težave z goljufijo,6
+2016,Malta,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,10
+2016,Malta,drugo,3
+2016,Nizozemska,težave s garancijami,NA
+2016,Nizozemska,hitrost dostave daljša od navedene,24
+2016,Nizozemska,stroški dostave ali končna cena višja od navedene,3
+2016,Nizozemska,napačno ali poškodovano blago / opravljene storitve,10
+2016,Nizozemska,težave z goljufijo,4
+2016,Nizozemska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,7
+2016,Nizozemska,drugo,7
+2016,Avstrija,težave s garancijami,NA
+2016,Avstrija,hitrost dostave daljša od navedene,21
+2016,Avstrija,stroški dostave ali končna cena višja od navedene,4
+2016,Avstrija,napačno ali poškodovano blago / opravljene storitve,9
+2016,Avstrija,težave z goljufijo,3
+2016,Avstrija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2016,Avstrija,drugo,2
+2016,Poljska,težave s garancijami,NA
+2016,Poljska,hitrost dostave daljša od navedene,12
+2016,Poljska,stroški dostave ali končna cena višja od navedene,1
+2016,Poljska,napačno ali poškodovano blago / opravljene storitve,4
+2016,Poljska,težave z goljufijo,2
+2016,Poljska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2016,Poljska,drugo,1
+2016,Portugalska,težave s garancijami,NA
+2016,Portugalska,hitrost dostave daljša od navedene,5
+2016,Portugalska,stroški dostave ali končna cena višja od navedene,1
+2016,Portugalska,napačno ali poškodovano blago / opravljene storitve,4
+2016,Portugalska,težave z goljufijo,1
+2016,Portugalska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2016,Portugalska,drugo,1
+2016,Romunija,težave s garancijami,NA
+2016,Romunija,hitrost dostave daljša od navedene,8
+2016,Romunija,stroški dostave ali končna cena višja od navedene,3
+2016,Romunija,napačno ali poškodovano blago / opravljene storitve,3
+2016,Romunija,težave z goljufijo,0
+2016,Romunija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2016,Romunija,drugo,2
+2016,Slovenija,težave s garancijami,NA
+2016,Slovenija,hitrost dostave daljša od navedene,9
+2016,Slovenija,stroški dostave ali končna cena višja od navedene,2
+2016,Slovenija,napačno ali poškodovano blago / opravljene storitve,4
+2016,Slovenija,težave z goljufijo,2
+2016,Slovenija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2016,Slovenija,drugo,4
+2016,Slovaška,težave s garancijami,NA
+2016,Slovaška,hitrost dostave daljša od navedene,9
+2016,Slovaška,stroški dostave ali končna cena višja od navedene,0
+2016,Slovaška,napačno ali poškodovano blago / opravljene storitve,4
+2016,Slovaška,težave z goljufijo,0
+2016,Slovaška,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2016,Slovaška,drugo,2
+2016,Finska,težave s garancijami,NA
+2016,Finska,hitrost dostave daljša od navedene,29
+2016,Finska,stroški dostave ali končna cena višja od navedene,5
+2016,Finska,napačno ali poškodovano blago / opravljene storitve,14
+2016,Finska,težave z goljufijo,5
+2016,Finska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,8
+2016,Finska,drugo,7
+2016,Švedska,težave s garancijami,NA
+2016,Švedska,hitrost dostave daljša od navedene,22
+2016,Švedska,stroški dostave ali končna cena višja od navedene,7
+2016,Švedska,napačno ali poškodovano blago / opravljene storitve,10
+2016,Švedska,težave z goljufijo,3
+2016,Švedska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,5
+2016,Švedska,drugo,4
+2017,EU28,težave s garancijami,NA
+2017,EU28,hitrost dostave daljša od navedene,17
+2017,EU28,stroški dostave ali končna cena višja od navedene,4
+2017,EU28,napačno ali poškodovano blago / opravljene storitve,9
+2017,EU28,težave z goljufijo,3
+2017,EU28,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2017,EU28,drugo,2
+2017,Belgija,težave s garancijami,NA
+2017,Belgija,hitrost dostave daljša od navedene,20
+2017,Belgija,stroški dostave ali končna cena višja od navedene,6
+2017,Belgija,napačno ali poškodovano blago / opravljene storitve,5
+2017,Belgija,težave z goljufijo,2
+2017,Belgija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2017,Belgija,drugo,5
+2017,Bolgarija,težave s garancijami,NA
+2017,Bolgarija,hitrost dostave daljša od navedene,7
+2017,Bolgarija,stroški dostave ali končna cena višja od navedene,2
+2017,Bolgarija,napačno ali poškodovano blago / opravljene storitve,4
+2017,Bolgarija,težave z goljufijo,0
+2017,Bolgarija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2017,Bolgarija,drugo,2
+2017,Češka,težave s garancijami,NA
+2017,Češka,hitrost dostave daljša od navedene,5
+2017,Češka,stroški dostave ali končna cena višja od navedene,1
+2017,Češka,napačno ali poškodovano blago / opravljene storitve,2
+2017,Češka,težave z goljufijo,1
+2017,Češka,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2017,Češka,drugo,1
+2017,Danska,težave s garancijami,NA
+2017,Danska,hitrost dostave daljša od navedene,13
+2017,Danska,stroški dostave ali končna cena višja od navedene,4
+2017,Danska,napačno ali poškodovano blago / opravljene storitve,5
+2017,Danska,težave z goljufijo,2
+2017,Danska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2017,Danska,drugo,4
+2017,Nemčija,težave s garancijami,NA
+2017,Nemčija,hitrost dostave daljša od navedene,8
+2017,Nemčija,stroški dostave ali končna cena višja od navedene,1
+2017,Nemčija,napačno ali poškodovano blago / opravljene storitve,6
+2017,Nemčija,težave z goljufijo,2
+2017,Nemčija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2017,Nemčija,drugo,1
+2017,Estonija,težave s garancijami,NA
+2017,Estonija,hitrost dostave daljša od navedene,14
+2017,Estonija,stroški dostave ali končna cena višja od navedene,2
+2017,Estonija,napačno ali poškodovano blago / opravljene storitve,7
+2017,Estonija,težave z goljufijo,4
+2017,Estonija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2017,Estonija,drugo,1
+2017,Irska,težave s garancijami,NA
+2017,Irska,hitrost dostave daljša od navedene,10
+2017,Irska,stroški dostave ali končna cena višja od navedene,3
+2017,Irska,napačno ali poškodovano blago / opravljene storitve,3
+2017,Irska,težave z goljufijo,2
+2017,Irska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2017,Irska,drugo,1
+2017,Grčija,težave s garancijami,NA
+2017,Grčija,hitrost dostave daljša od navedene,4
+2017,Grčija,stroški dostave ali končna cena višja od navedene,0
+2017,Grčija,napačno ali poškodovano blago / opravljene storitve,3
+2017,Grčija,težave z goljufijo,1
+2017,Grčija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2017,Grčija,drugo,1
+2017,Španija,težave s garancijami,NA
+2017,Španija,hitrost dostave daljša od navedene,5
+2017,Španija,stroški dostave ali končna cena višja od navedene,1
+2017,Španija,napačno ali poškodovano blago / opravljene storitve,3
+2017,Španija,težave z goljufijo,2
+2017,Španija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2017,Španija,drugo,2
+2017,Francija,težave s garancijami,NA
+2017,Francija,hitrost dostave daljša od navedene,27
+2017,Francija,stroški dostave ali končna cena višja od navedene,5
+2017,Francija,napačno ali poškodovano blago / opravljene storitve,11
+2017,Francija,težave z goljufijo,4
+2017,Francija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,6
+2017,Francija,drugo,2
+2017,Hrvaška,težave s garancijami,NA
+2017,Hrvaška,hitrost dostave daljša od navedene,11
+2017,Hrvaška,stroški dostave ali končna cena višja od navedene,1
+2017,Hrvaška,napačno ali poškodovano blago / opravljene storitve,4
+2017,Hrvaška,težave z goljufijo,3
+2017,Hrvaška,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2017,Hrvaška,drugo,2
+2017,Italija,težave s garancijami,NA
+2017,Italija,hitrost dostave daljša od navedene,14
+2017,Italija,stroški dostave ali končna cena višja od navedene,2
+2017,Italija,napačno ali poškodovano blago / opravljene storitve,5
+2017,Italija,težave z goljufijo,1
+2017,Italija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2017,Italija,drugo,1
+2017,Ciper,težave s garancijami,NA
+2017,Ciper,hitrost dostave daljša od navedene,11
+2017,Ciper,stroški dostave ali končna cena višja od navedene,2
+2017,Ciper,napačno ali poškodovano blago / opravljene storitve,4
+2017,Ciper,težave z goljufijo,2
+2017,Ciper,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,0
+2017,Ciper,drugo,2
+2017,Latvija,težave s garancijami,NA
+2017,Latvija,hitrost dostave daljša od navedene,16
+2017,Latvija,stroški dostave ali končna cena višja od navedene,2
+2017,Latvija,napačno ali poškodovano blago / opravljene storitve,6
+2017,Latvija,težave z goljufijo,2
+2017,Latvija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2017,Latvija,drugo,2
+2017,Litva,težave s garancijami,NA
+2017,Litva,hitrost dostave daljša od navedene,10
+2017,Litva,stroški dostave ali končna cena višja od navedene,2
+2017,Litva,napačno ali poškodovano blago / opravljene storitve,5
+2017,Litva,težave z goljufijo,2
+2017,Litva,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2017,Litva,drugo,1
+2017,Luksemburg,težave s garancijami,NA
+2017,Luksemburg,hitrost dostave daljša od navedene,24
+2017,Luksemburg,stroški dostave ali končna cena višja od navedene,9
+2017,Luksemburg,napačno ali poškodovano blago / opravljene storitve,11
+2017,Luksemburg,težave z goljufijo,6
+2017,Luksemburg,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,5
+2017,Luksemburg,drugo,3
+2017,Madžarska,težave s garancijami,NA
+2017,Madžarska,hitrost dostave daljša od navedene,10
+2017,Madžarska,stroški dostave ali končna cena višja od navedene,2
+2017,Madžarska,napačno ali poškodovano blago / opravljene storitve,6
+2017,Madžarska,težave z goljufijo,1
+2017,Madžarska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2017,Madžarska,drugo,1
+2017,Malta,težave s garancijami,NA
+2017,Malta,hitrost dostave daljša od navedene,34
+2017,Malta,stroški dostave ali končna cena višja od navedene,11
+2017,Malta,napačno ali poškodovano blago / opravljene storitve,20
+2017,Malta,težave z goljufijo,8
+2017,Malta,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,9
+2017,Malta,drugo,3
+2017,Nizozemska,težave s garancijami,NA
+2017,Nizozemska,hitrost dostave daljša od navedene,24
+2017,Nizozemska,stroški dostave ali končna cena višja od navedene,4
+2017,Nizozemska,napačno ali poškodovano blago / opravljene storitve,10
+2017,Nizozemska,težave z goljufijo,3
+2017,Nizozemska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,6
+2017,Nizozemska,drugo,6
+2017,Avstrija,težave s garancijami,NA
+2017,Avstrija,hitrost dostave daljša od navedene,15
+2017,Avstrija,stroški dostave ali končna cena višja od navedene,3
+2017,Avstrija,napačno ali poškodovano blago / opravljene storitve,7
+2017,Avstrija,težave z goljufijo,2
+2017,Avstrija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2017,Avstrija,drugo,3
+2017,Poljska,težave s garancijami,NA
+2017,Poljska,hitrost dostave daljša od navedene,11
+2017,Poljska,stroški dostave ali končna cena višja od navedene,1
+2017,Poljska,napačno ali poškodovano blago / opravljene storitve,5
+2017,Poljska,težave z goljufijo,1
+2017,Poljska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2017,Poljska,drugo,1
+2017,Portugalska,težave s garancijami,NA
+2017,Portugalska,hitrost dostave daljša od navedene,5
+2017,Portugalska,stroški dostave ali končna cena višja od navedene,1
+2017,Portugalska,napačno ali poškodovano blago / opravljene storitve,4
+2017,Portugalska,težave z goljufijo,2
+2017,Portugalska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2017,Portugalska,drugo,2
+2017,Romunija,težave s garancijami,NA
+2017,Romunija,hitrost dostave daljša od navedene,9
+2017,Romunija,stroški dostave ali končna cena višja od navedene,2
+2017,Romunija,napačno ali poškodovano blago / opravljene storitve,4
+2017,Romunija,težave z goljufijo,0
+2017,Romunija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,0
+2017,Romunija,drugo,1
+2017,Slovenija,težave s garancijami,NA
+2017,Slovenija,hitrost dostave daljša od navedene,6
+2017,Slovenija,stroški dostave ali končna cena višja od navedene,2
+2017,Slovenija,napačno ali poškodovano blago / opravljene storitve,4
+2017,Slovenija,težave z goljufijo,1
+2017,Slovenija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2017,Slovenija,drugo,2
+2017,Slovaška,težave s garancijami,NA
+2017,Slovaška,hitrost dostave daljša od navedene,7
+2017,Slovaška,stroški dostave ali končna cena višja od navedene,1
+2017,Slovaška,napačno ali poškodovano blago / opravljene storitve,3
+2017,Slovaška,težave z goljufijo,0
+2017,Slovaška,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2017,Slovaška,drugo,1
+2017,Finska,težave s garancijami,NA
+2017,Finska,hitrost dostave daljša od navedene,27
+2017,Finska,stroški dostave ali končna cena višja od navedene,4
+2017,Finska,napačno ali poškodovano blago / opravljene storitve,12
+2017,Finska,težave z goljufijo,4
+2017,Finska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,8
+2017,Finska,drugo,5
+2017,Švedska,težave s garancijami,NA
+2017,Švedska,hitrost dostave daljša od navedene,25
+2017,Švedska,stroški dostave ali končna cena višja od navedene,6
+2017,Švedska,napačno ali poškodovano blago / opravljene storitve,13
+2017,Švedska,težave z goljufijo,3
+2017,Švedska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,7
+2017,Švedska,drugo,8
+2019,EU28,težave s garancijami,NA
+2019,EU28,hitrost dostave daljša od navedene,19
+2019,EU28,stroški dostave ali končna cena višja od navedene,4
+2019,EU28,napačno ali poškodovano blago / opravljene storitve,11
+2019,EU28,težave z goljufijo,4
+2019,EU28,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,6
+2019,EU28,drugo,2
+2019,Belgija,težave s garancijami,NA
+2019,Belgija,hitrost dostave daljša od navedene,23
+2019,Belgija,stroški dostave ali končna cena višja od navedene,4
+2019,Belgija,napačno ali poškodovano blago / opravljene storitve,7
+2019,Belgija,težave z goljufijo,2
+2019,Belgija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2019,Belgija,drugo,4
+2019,Bolgarija,težave s garancijami,NA
+2019,Bolgarija,hitrost dostave daljša od navedene,9
+2019,Bolgarija,stroški dostave ali končna cena višja od navedene,3
+2019,Bolgarija,napačno ali poškodovano blago / opravljene storitve,5
+2019,Bolgarija,težave z goljufijo,1
+2019,Bolgarija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2019,Bolgarija,drugo,3
+2019,Češka,težave s garancijami,NA
+2019,Češka,hitrost dostave daljša od navedene,18
+2019,Češka,stroški dostave ali končna cena višja od navedene,2
+2019,Češka,napačno ali poškodovano blago / opravljene storitve,10
+2019,Češka,težave z goljufijo,2
+2019,Češka,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,19
+2019,Češka,drugo,1
+2019,Danska,težave s garancijami,NA
+2019,Danska,hitrost dostave daljša od navedene,15
+2019,Danska,stroški dostave ali končna cena višja od navedene,5
+2019,Danska,napačno ali poškodovano blago / opravljene storitve,8
+2019,Danska,težave z goljufijo,3
+2019,Danska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2019,Danska,drugo,4
+2019,Nemčija,težave s garancijami,NA
+2019,Nemčija,hitrost dostave daljša od navedene,10
+2019,Nemčija,stroški dostave ali končna cena višja od navedene,1
+2019,Nemčija,napačno ali poškodovano blago / opravljene storitve,8
+2019,Nemčija,težave z goljufijo,3
+2019,Nemčija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2019,Nemčija,drugo,1
+2019,Estonija,težave s garancijami,NA
+2019,Estonija,hitrost dostave daljša od navedene,18
+2019,Estonija,stroški dostave ali končna cena višja od navedene,2
+2019,Estonija,napačno ali poškodovano blago / opravljene storitve,10
+2019,Estonija,težave z goljufijo,5
+2019,Estonija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2019,Estonija,drugo,1
+2019,Irska,težave s garancijami,NA
+2019,Irska,hitrost dostave daljša od navedene,20
+2019,Irska,stroški dostave ali končna cena višja od navedene,5
+2019,Irska,napačno ali poškodovano blago / opravljene storitve,8
+2019,Irska,težave z goljufijo,3
+2019,Irska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,7
+2019,Irska,drugo,1
+2019,Grčija,težave s garancijami,NA
+2019,Grčija,hitrost dostave daljša od navedene,8
+2019,Grčija,stroški dostave ali končna cena višja od navedene,1
+2019,Grčija,napačno ali poškodovano blago / opravljene storitve,4
+2019,Grčija,težave z goljufijo,2
+2019,Grčija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2019,Grčija,drugo,2
+2019,Španija,težave s garancijami,NA
+2019,Španija,hitrost dostave daljša od navedene,5
+2019,Španija,stroški dostave ali končna cena višja od navedene,1
+2019,Španija,napačno ali poškodovano blago / opravljene storitve,3
+2019,Španija,težave z goljufijo,2
+2019,Španija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2019,Španija,drugo,2
+2019,Francija,težave s garancijami,NA
+2019,Francija,hitrost dostave daljša od navedene,28
+2019,Francija,stroški dostave ali končna cena višja od navedene,6
+2019,Francija,napačno ali poškodovano blago / opravljene storitve,12
+2019,Francija,težave z goljufijo,4
+2019,Francija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,6
+2019,Francija,drugo,2
+2019,Hrvaška,težave s garancijami,NA
+2019,Hrvaška,hitrost dostave daljša od navedene,17
+2019,Hrvaška,stroški dostave ali končna cena višja od navedene,3
+2019,Hrvaška,napačno ali poškodovano blago / opravljene storitve,10
+2019,Hrvaška,težave z goljufijo,8
+2019,Hrvaška,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,5
+2019,Hrvaška,drugo,2
+2019,Italija,težave s garancijami,NA
+2019,Italija,hitrost dostave daljša od navedene,18
+2019,Italija,stroški dostave ali končna cena višja od navedene,3
+2019,Italija,napačno ali poškodovano blago / opravljene storitve,8
+2019,Italija,težave z goljufijo,2
+2019,Italija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,6
+2019,Italija,drugo,2
+2019,Ciper,težave s garancijami,NA
+2019,Ciper,hitrost dostave daljša od navedene,11
+2019,Ciper,stroški dostave ali končna cena višja od navedene,2
+2019,Ciper,napačno ali poškodovano blago / opravljene storitve,5
+2019,Ciper,težave z goljufijo,2
+2019,Ciper,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2019,Ciper,drugo,NA
+2019,Latvija,težave s garancijami,NA
+2019,Latvija,hitrost dostave daljša od navedene,13
+2019,Latvija,stroški dostave ali končna cena višja od navedene,1
+2019,Latvija,napačno ali poškodovano blago / opravljene storitve,6
+2019,Latvija,težave z goljufijo,2
+2019,Latvija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2019,Latvija,drugo,1
+2019,Litva,težave s garancijami,NA
+2019,Litva,hitrost dostave daljša od navedene,10
+2019,Litva,stroški dostave ali končna cena višja od navedene,2
+2019,Litva,napačno ali poškodovano blago / opravljene storitve,6
+2019,Litva,težave z goljufijo,3
+2019,Litva,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2019,Litva,drugo,1
+2019,Luksemburg,težave s garancijami,NA
+2019,Luksemburg,hitrost dostave daljša od navedene,31
+2019,Luksemburg,stroški dostave ali končna cena višja od navedene,7
+2019,Luksemburg,napačno ali poškodovano blago / opravljene storitve,8
+2019,Luksemburg,težave z goljufijo,3
+2019,Luksemburg,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,6
+2019,Luksemburg,drugo,2
+2019,Madžarska,težave s garancijami,NA
+2019,Madžarska,hitrost dostave daljša od navedene,13
+2019,Madžarska,stroški dostave ali končna cena višja od navedene,2
+2019,Madžarska,napačno ali poškodovano blago / opravljene storitve,8
+2019,Madžarska,težave z goljufijo,2
+2019,Madžarska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2019,Madžarska,drugo,3
+2019,Malta,težave s garancijami,NA
+2019,Malta,hitrost dostave daljša od navedene,37
+2019,Malta,stroški dostave ali končna cena višja od navedene,13
+2019,Malta,napačno ali poškodovano blago / opravljene storitve,21
+2019,Malta,težave z goljufijo,11
+2019,Malta,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,12
+2019,Malta,drugo,4
+2019,Nizozemska,težave s garancijami,NA
+2019,Nizozemska,hitrost dostave daljša od navedene,35
+2019,Nizozemska,stroški dostave ali končna cena višja od navedene,3
+2019,Nizozemska,napačno ali poškodovano blago / opravljene storitve,14
+2019,Nizozemska,težave z goljufijo,3
+2019,Nizozemska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,8
+2019,Nizozemska,drugo,5
+2019,Avstrija,težave s garancijami,NA
+2019,Avstrija,hitrost dostave daljša od navedene,22
+2019,Avstrija,stroški dostave ali končna cena višja od navedene,3
+2019,Avstrija,napačno ali poškodovano blago / opravljene storitve,12
+2019,Avstrija,težave z goljufijo,2
+2019,Avstrija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,4
+2019,Avstrija,drugo,3
+2019,Poljska,težave s garancijami,NA
+2019,Poljska,hitrost dostave daljša od navedene,12
+2019,Poljska,stroški dostave ali končna cena višja od navedene,1
+2019,Poljska,napačno ali poškodovano blago / opravljene storitve,5
+2019,Poljska,težave z goljufijo,1
+2019,Poljska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,3
+2019,Poljska,drugo,1
+2019,Portugalska,težave s garancijami,NA
+2019,Portugalska,hitrost dostave daljša od navedene,4
+2019,Portugalska,stroški dostave ali končna cena višja od navedene,1
+2019,Portugalska,napačno ali poškodovano blago / opravljene storitve,2
+2019,Portugalska,težave z goljufijo,1
+2019,Portugalska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2019,Portugalska,drugo,2
+2019,Romunija,težave s garancijami,NA
+2019,Romunija,hitrost dostave daljša od navedene,15
+2019,Romunija,stroški dostave ali končna cena višja od navedene,3
+2019,Romunija,napačno ali poškodovano blago / opravljene storitve,6
+2019,Romunija,težave z goljufijo,1
+2019,Romunija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,1
+2019,Romunija,drugo,3
+2019,Slovenija,težave s garancijami,NA
+2019,Slovenija,hitrost dostave daljša od navedene,9
+2019,Slovenija,stroški dostave ali končna cena višja od navedene,3
+2019,Slovenija,napačno ali poškodovano blago / opravljene storitve,5
+2019,Slovenija,težave z goljufijo,1
+2019,Slovenija,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2019,Slovenija,drugo,2
+2019,Slovaška,težave s garancijami,NA
+2019,Slovaška,hitrost dostave daljša od navedene,10
+2019,Slovaška,stroški dostave ali končna cena višja od navedene,1
+2019,Slovaška,napačno ali poškodovano blago / opravljene storitve,6
+2019,Slovaška,težave z goljufijo,1
+2019,Slovaška,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,2
+2019,Slovaška,drugo,2
+2019,Finska,težave s garancijami,NA
+2019,Finska,hitrost dostave daljša od navedene,25
+2019,Finska,stroški dostave ali končna cena višja od navedene,3
+2019,Finska,napačno ali poškodovano blago / opravljene storitve,10
+2019,Finska,težave z goljufijo,4
+2019,Finska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,8
+2019,Finska,drugo,5
+2019,Švedska,težave s garancijami,NA
+2019,Švedska,hitrost dostave daljša od navedene,30
+2019,Švedska,stroški dostave ali končna cena višja od navedene,7
+2019,Švedska,napačno ali poškodovano blago / opravljene storitve,15
+2019,Švedska,težave z goljufijo,4
+2019,Švedska,Težave s pritožbami in odškodninami / po pritožbi ni bilo zadovoljivega odgovora,8
+2019,Švedska,drugo,4

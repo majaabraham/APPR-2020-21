@@ -1,0 +1,3361 @@
+leto,država,starostna skupina,spol,pogostost,odstotek
+2016,EU28,skupaj,skupaj,1-2,16
+2016,EU28,skupaj,skupaj,3-5,16
+2016,EU28,skupaj,skupaj,6 ali več,14
+2017,EU28,skupaj,skupaj,1-2,17
+2017,EU28,skupaj,skupaj,3-5,17
+2017,EU28,skupaj,skupaj,6 ali več,14
+2018,EU28,skupaj,skupaj,1-2,17
+2018,EU28,skupaj,skupaj,3-5,17
+2018,EU28,skupaj,skupaj,6 ali več,16
+2019,EU28,skupaj,skupaj,1-2,17
+2019,EU28,skupaj,skupaj,3-5,18
+2019,EU28,skupaj,skupaj,6 ali več,17
+2016,EU28,16-24,skupaj,1-2,23
+2016,EU28,16-24,skupaj,3-5,19
+2016,EU28,16-24,skupaj,6 ali več,12
+2017,EU28,16-24,skupaj,1-2,23
+2017,EU28,16-24,skupaj,3-5,21
+2017,EU28,16-24,skupaj,6 ali več,14
+2018,EU28,16-24,skupaj,1-2,24
+2018,EU28,16-24,skupaj,3-5,21
+2018,EU28,16-24,skupaj,6 ali več,15
+2019,EU28,16-24,skupaj,1-2,22
+2019,EU28,16-24,skupaj,3-5,22
+2019,EU28,16-24,skupaj,6 ali več,19
+2016,EU28,25-54,skupaj,1-2,17
+2016,EU28,25-54,skupaj,3-5,18
+2016,EU28,25-54,skupaj,6 ali več,18
+2017,EU28,25-54,skupaj,1-2,18
+2017,EU28,25-54,skupaj,3-5,19
+2017,EU28,25-54,skupaj,6 ali več,19
+2018,EU28,25-54,skupaj,1-2,18
+2018,EU28,25-54,skupaj,3-5,20
+2018,EU28,25-54,skupaj,6 ali več,20
+2019,EU28,25-54,skupaj,1-2,18
+2019,EU28,25-54,skupaj,3-5,21
+2019,EU28,25-54,skupaj,6 ali več,22
+2016,EU28,55-74,skupaj,1-2,11
+2016,EU28,55-74,skupaj,3-5,9
+2016,EU28,55-74,skupaj,6 ali več,7
+2017,EU28,55-74,skupaj,1-2,12
+2017,EU28,55-74,skupaj,3-5,10
+2017,EU28,55-74,skupaj,6 ali več,7
+2018,EU28,55-74,skupaj,1-2,12
+2018,EU28,55-74,skupaj,3-5,10
+2018,EU28,55-74,skupaj,6 ali več,8
+2019,EU28,55-74,skupaj,1-2,13
+2019,EU28,55-74,skupaj,3-5,12
+2019,EU28,55-74,skupaj,6 ali več,8
+2016,EU28,16-24,moški,1-2,23
+2016,EU28,16-24,moški,3-5,18
+2016,EU28,16-24,moški,6 ali več,13
+2017,EU28,16-24,moški,1-2,22
+2017,EU28,16-24,moški,3-5,21
+2017,EU28,16-24,moški,6 ali več,15
+2018,EU28,16-24,moški,1-2,23
+2018,EU28,16-24,moški,3-5,20
+2018,EU28,16-24,moški,6 ali več,15
+2019,EU28,16-24,moški,1-2,21
+2019,EU28,16-24,moški,3-5,22
+2019,EU28,16-24,moški,6 ali več,20
+2016,EU28,16-24,ženske,1-2,23
+2016,EU28,16-24,ženske,3-5,20
+2016,EU28,16-24,ženske,6 ali več,12
+2017,EU28,16-24,ženske,1-2,24
+2017,EU28,16-24,ženske,3-5,20
+2017,EU28,16-24,ženske,6 ali več,11
+2018,EU28,16-24,ženske,1-2,24
+2018,EU28,16-24,ženske,3-5,21
+2018,EU28,16-24,ženske,6 ali več,15
+2019,EU28,16-24,ženske,1-2,23
+2019,EU28,16-24,ženske,3-5,22
+2019,EU28,16-24,ženske,6 ali več,17
+2016,EU28,25-54,moški,1-2,17
+2016,EU28,25-54,moški,3-5,18
+2016,EU28,25-54,moški,6 ali več,18
+2017,EU28,25-54,moški,1-2,18
+2017,EU28,25-54,moški,3-5,19
+2017,EU28,25-54,moški,6 ali več,19
+2018,EU28,25-54,moški,1-2,18
+2018,EU28,25-54,moški,3-5,20
+2018,EU28,25-54,moški,6 ali več,20
+2019,EU28,25-54,moški,1-2,18
+2019,EU28,25-54,moški,3-5,20
+2019,EU28,25-54,moški,6 ali več,22
+2016,EU28,25-54,ženske,1-2,17
+2016,EU28,25-54,ženske,3-5,18
+2016,EU28,25-54,ženske,6 ali več,17
+2017,EU28,25-54,ženske,1-2,19
+2017,EU28,25-54,ženske,3-5,20
+2017,EU28,25-54,ženske,6 ali več,18
+2018,EU28,25-54,ženske,1-2,19
+2018,EU28,25-54,ženske,3-5,20
+2018,EU28,25-54,ženske,6 ali več,21
+2019,EU28,25-54,ženske,1-2,19
+2019,EU28,25-54,ženske,3-5,22
+2019,EU28,25-54,ženske,6 ali več,22
+2016,EU28,55-74,moški,1-2,12
+2016,EU28,55-74,moški,3-5,11
+2016,EU28,55-74,moški,6 ali več,9
+2017,EU28,55-74,moški,1-2,13
+2017,EU28,55-74,moški,3-5,11
+2017,EU28,55-74,moški,6 ali več,9
+2018,EU28,55-74,moški,1-2,13
+2018,EU28,55-74,moški,3-5,12
+2018,EU28,55-74,moški,6 ali več,9
+2019,EU28,55-74,moški,1-2,14
+2019,EU28,55-74,moški,3-5,13
+2019,EU28,55-74,moški,6 ali več,9
+2016,EU28,55-74,ženske,1-2,10
+2016,EU28,55-74,ženske,3-5,8
+2016,EU28,55-74,ženske,6 ali več,5
+2017,EU28,55-74,ženske,1-2,10
+2017,EU28,55-74,ženske,3-5,9
+2017,EU28,55-74,ženske,6 ali več,6
+2018,EU28,55-74,ženske,1-2,11
+2018,EU28,55-74,ženske,3-5,9
+2018,EU28,55-74,ženske,6 ali več,7
+2019,EU28,55-74,ženske,1-2,12
+2019,EU28,55-74,ženske,3-5,10
+2019,EU28,55-74,ženske,6 ali več,7
+2016,Belgija,skupaj,skupaj,1-2,21
+2016,Belgija,skupaj,skupaj,3-5,17
+2016,Belgija,skupaj,skupaj,6 ali več,7
+2017,Belgija,skupaj,skupaj,1-2,21
+2017,Belgija,skupaj,skupaj,3-5,16
+2017,Belgija,skupaj,skupaj,6 ali več,9
+2018,Belgija,skupaj,skupaj,1-2,23
+2018,Belgija,skupaj,skupaj,3-5,16
+2018,Belgija,skupaj,skupaj,6 ali več,10
+2019,Belgija,skupaj,skupaj,1-2,24
+2019,Belgija,skupaj,skupaj,3-5,19
+2019,Belgija,skupaj,skupaj,6 ali več,11
+2016,Belgija,16-24,skupaj,1-2,27
+2016,Belgija,16-24,skupaj,3-5,21
+2016,Belgija,16-24,skupaj,6 ali več,4
+2017,Belgija,16-24,skupaj,1-2,25
+2017,Belgija,16-24,skupaj,3-5,18
+2017,Belgija,16-24,skupaj,6 ali več,7
+2018,Belgija,16-24,skupaj,1-2,28
+2018,Belgija,16-24,skupaj,3-5,19
+2018,Belgija,16-24,skupaj,6 ali več,7
+2019,Belgija,16-24,skupaj,1-2,34
+2019,Belgija,16-24,skupaj,3-5,22
+2019,Belgija,16-24,skupaj,6 ali več,10
+2016,Belgija,25-54,skupaj,1-2,23
+2016,Belgija,25-54,skupaj,3-5,21
+2016,Belgija,25-54,skupaj,6 ali več,10
+2017,Belgija,25-54,skupaj,1-2,24
+2017,Belgija,25-54,skupaj,3-5,20
+2017,Belgija,25-54,skupaj,6 ali več,12
+2018,Belgija,25-54,skupaj,1-2,26
+2018,Belgija,25-54,skupaj,3-5,19
+2018,Belgija,25-54,skupaj,6 ali več,14
+2019,Belgija,25-54,skupaj,1-2,25
+2019,Belgija,25-54,skupaj,3-5,23
+2019,Belgija,25-54,skupaj,6 ali več,16
+2016,Belgija,55-74,skupaj,1-2,16
+2016,Belgija,55-74,skupaj,3-5,8
+2016,Belgija,55-74,skupaj,6 ali več,2
+2017,Belgija,55-74,skupaj,1-2,15
+2017,Belgija,55-74,skupaj,3-5,9
+2017,Belgija,55-74,skupaj,6 ali več,4
+2018,Belgija,55-74,skupaj,1-2,15
+2018,Belgija,55-74,skupaj,3-5,10
+2018,Belgija,55-74,skupaj,6 ali več,3
+2019,Belgija,55-74,skupaj,1-2,19
+2019,Belgija,55-74,skupaj,3-5,10
+2019,Belgija,55-74,skupaj,6 ali več,5
+2016,Belgija,16-24,moški,1-2,26
+2016,Belgija,16-24,moški,3-5,20
+2016,Belgija,16-24,moški,6 ali več,5
+2017,Belgija,16-24,moški,1-2,25
+2017,Belgija,16-24,moški,3-5,15
+2017,Belgija,16-24,moški,6 ali več,6
+2018,Belgija,16-24,moški,1-2,26
+2018,Belgija,16-24,moški,3-5,19
+2018,Belgija,16-24,moški,6 ali več,8
+2019,Belgija,16-24,moški,1-2,36
+2019,Belgija,16-24,moški,3-5,20
+2019,Belgija,16-24,moški,6 ali več,9
+2016,Belgija,16-24,ženske,1-2,28
+2016,Belgija,16-24,ženske,3-5,22
+2016,Belgija,16-24,ženske,6 ali več,4
+2017,Belgija,16-24,ženske,1-2,26
+2017,Belgija,16-24,ženske,3-5,20
+2017,Belgija,16-24,ženske,6 ali več,8
+2018,Belgija,16-24,ženske,1-2,30
+2018,Belgija,16-24,ženske,3-5,20
+2018,Belgija,16-24,ženske,6 ali več,6
+2019,Belgija,16-24,ženske,1-2,31
+2019,Belgija,16-24,ženske,3-5,24
+2019,Belgija,16-24,ženske,6 ali več,11
+2016,Belgija,25-54,moški,1-2,21
+2016,Belgija,25-54,moški,3-5,22
+2016,Belgija,25-54,moški,6 ali več,11
+2017,Belgija,25-54,moški,1-2,23
+2017,Belgija,25-54,moški,3-5,20
+2017,Belgija,25-54,moški,6 ali več,13
+2018,Belgija,25-54,moški,1-2,24
+2018,Belgija,25-54,moški,3-5,19
+2018,Belgija,25-54,moški,6 ali več,15
+2019,Belgija,25-54,moški,1-2,25
+2019,Belgija,25-54,moški,3-5,22
+2019,Belgija,25-54,moški,6 ali več,16
+2016,Belgija,25-54,ženske,1-2,26
+2016,Belgija,25-54,ženske,3-5,20
+2016,Belgija,25-54,ženske,6 ali več,9
+2017,Belgija,25-54,ženske,1-2,25
+2017,Belgija,25-54,ženske,3-5,20
+2017,Belgija,25-54,ženske,6 ali več,11
+2018,Belgija,25-54,ženske,1-2,28
+2018,Belgija,25-54,ženske,3-5,19
+2018,Belgija,25-54,ženske,6 ali več,13
+2019,Belgija,25-54,ženske,1-2,25
+2019,Belgija,25-54,ženske,3-5,23
+2019,Belgija,25-54,ženske,6 ali več,15
+2016,Belgija,55-74,moški,1-2,18
+2016,Belgija,55-74,moški,3-5,10
+2016,Belgija,55-74,moški,6 ali več,3
+2017,Belgija,55-74,moški,1-2,15
+2017,Belgija,55-74,moški,3-5,11
+2017,Belgija,55-74,moški,6 ali več,5
+2018,Belgija,55-74,moški,1-2,16
+2018,Belgija,55-74,moški,3-5,14
+2018,Belgija,55-74,moški,6 ali več,4
+2019,Belgija,55-74,moški,1-2,20
+2019,Belgija,55-74,moški,3-5,11
+2019,Belgija,55-74,moški,6 ali več,6
+2016,Belgija,55-74,ženske,1-2,14
+2016,Belgija,55-74,ženske,3-5,6
+2016,Belgija,55-74,ženske,6 ali več,1
+2017,Belgija,55-74,ženske,1-2,14
+2017,Belgija,55-74,ženske,3-5,7
+2017,Belgija,55-74,ženske,6 ali več,2
+2018,Belgija,55-74,ženske,1-2,14
+2018,Belgija,55-74,ženske,3-5,7
+2018,Belgija,55-74,ženske,6 ali več,3
+2019,Belgija,55-74,ženske,1-2,17
+2019,Belgija,55-74,ženske,3-5,8
+2019,Belgija,55-74,ženske,6 ali več,3
+2016,Bolgarija,skupaj,skupaj,1-2,7
+2016,Bolgarija,skupaj,skupaj,3-5,2
+2016,Bolgarija,skupaj,skupaj,6 ali več,1
+2017,Bolgarija,skupaj,skupaj,1-2,7
+2017,Bolgarija,skupaj,skupaj,3-5,3
+2017,Bolgarija,skupaj,skupaj,6 ali več,1
+2018,Bolgarija,skupaj,skupaj,1-2,8
+2018,Bolgarija,skupaj,skupaj,3-5,4
+2018,Bolgarija,skupaj,skupaj,6 ali več,1
+2019,Bolgarija,skupaj,skupaj,1-2,9
+2019,Bolgarija,skupaj,skupaj,3-5,4
+2019,Bolgarija,skupaj,skupaj,6 ali več,1
+2016,Bolgarija,16-24,skupaj,1-2,14
+2016,Bolgarija,16-24,skupaj,3-5,5
+2016,Bolgarija,16-24,skupaj,6 ali več,2
+2017,Bolgarija,16-24,skupaj,1-2,15
+2017,Bolgarija,16-24,skupaj,3-5,7
+2017,Bolgarija,16-24,skupaj,6 ali več,1
+2018,Bolgarija,16-24,skupaj,1-2,16
+2018,Bolgarija,16-24,skupaj,3-5,6
+2018,Bolgarija,16-24,skupaj,6 ali več,1
+2019,Bolgarija,16-24,skupaj,1-2,18
+2019,Bolgarija,16-24,skupaj,3-5,6
+2019,Bolgarija,16-24,skupaj,6 ali več,0
+2016,Bolgarija,25-54,skupaj,1-2,9
+2016,Bolgarija,25-54,skupaj,3-5,3
+2016,Bolgarija,25-54,skupaj,6 ali več,1
+2017,Bolgarija,25-54,skupaj,1-2,9
+2017,Bolgarija,25-54,skupaj,3-5,4
+2017,Bolgarija,25-54,skupaj,6 ali več,1
+2018,Bolgarija,25-54,skupaj,1-2,11
+2018,Bolgarija,25-54,skupaj,3-5,5
+2018,Bolgarija,25-54,skupaj,6 ali več,1
+2019,Bolgarija,25-54,skupaj,1-2,12
+2019,Bolgarija,25-54,skupaj,3-5,6
+2019,Bolgarija,25-54,skupaj,6 ali več,1
+2016,Bolgarija,55-74,skupaj,1-2,1
+2016,Bolgarija,55-74,skupaj,3-5,0
+2016,Bolgarija,55-74,skupaj,6 ali več,0
+2017,Bolgarija,55-74,skupaj,1-2,1
+2017,Bolgarija,55-74,skupaj,3-5,1
+2017,Bolgarija,55-74,skupaj,6 ali več,0
+2018,Bolgarija,55-74,skupaj,1-2,2
+2018,Bolgarija,55-74,skupaj,3-5,1
+2018,Bolgarija,55-74,skupaj,6 ali več,0
+2019,Bolgarija,55-74,skupaj,1-2,2
+2019,Bolgarija,55-74,skupaj,3-5,1
+2019,Bolgarija,55-74,skupaj,6 ali več,0
+2016,Bolgarija,16-24,moški,1-2,13
+2016,Bolgarija,16-24,moški,3-5,5
+2016,Bolgarija,16-24,moški,6 ali več,3
+2017,Bolgarija,16-24,moški,1-2,13
+2017,Bolgarija,16-24,moški,3-5,6
+2017,Bolgarija,16-24,moški,6 ali več,1
+2018,Bolgarija,16-24,moški,1-2,16
+2018,Bolgarija,16-24,moški,3-5,6
+2018,Bolgarija,16-24,moški,6 ali več,1
+2019,Bolgarija,16-24,moški,1-2,17
+2019,Bolgarija,16-24,moški,3-5,6
+2019,Bolgarija,16-24,moški,6 ali več,0
+2016,Bolgarija,16-24,ženske,1-2,15
+2016,Bolgarija,16-24,ženske,3-5,5
+2016,Bolgarija,16-24,ženske,6 ali več,1
+2017,Bolgarija,16-24,ženske,1-2,16
+2017,Bolgarija,16-24,ženske,3-5,7
+2017,Bolgarija,16-24,ženske,6 ali več,1
+2018,Bolgarija,16-24,ženske,1-2,16
+2018,Bolgarija,16-24,ženske,3-5,6
+2018,Bolgarija,16-24,ženske,6 ali več,2
+2019,Bolgarija,16-24,ženske,1-2,20
+2019,Bolgarija,16-24,ženske,3-5,7
+2019,Bolgarija,16-24,ženske,6 ali več,1
+2016,Bolgarija,25-54,moški,1-2,8
+2016,Bolgarija,25-54,moški,3-5,3
+2016,Bolgarija,25-54,moški,6 ali več,1
+2017,Bolgarija,25-54,moški,1-2,8
+2017,Bolgarija,25-54,moški,3-5,4
+2017,Bolgarija,25-54,moški,6 ali več,1
+2018,Bolgarija,25-54,moški,1-2,9
+2018,Bolgarija,25-54,moški,3-5,4
+2018,Bolgarija,25-54,moški,6 ali več,1
+2019,Bolgarija,25-54,moški,1-2,10
+2019,Bolgarija,25-54,moški,3-5,5
+2019,Bolgarija,25-54,moški,6 ali več,1
+2016,Bolgarija,25-54,ženske,1-2,11
+2016,Bolgarija,25-54,ženske,3-5,3
+2016,Bolgarija,25-54,ženske,6 ali več,1
+2017,Bolgarija,25-54,ženske,1-2,11
+2017,Bolgarija,25-54,ženske,3-5,4
+2017,Bolgarija,25-54,ženske,6 ali več,1
+2018,Bolgarija,25-54,ženske,1-2,12
+2018,Bolgarija,25-54,ženske,3-5,6
+2018,Bolgarija,25-54,ženske,6 ali več,1
+2019,Bolgarija,25-54,ženske,1-2,13
+2019,Bolgarija,25-54,ženske,3-5,6
+2019,Bolgarija,25-54,ženske,6 ali več,1
+2016,Bolgarija,55-74,moški,1-2,1
+2016,Bolgarija,55-74,moški,3-5,1
+2016,Bolgarija,55-74,moški,6 ali več,0
+2017,Bolgarija,55-74,moški,1-2,1
+2017,Bolgarija,55-74,moški,3-5,0
+2017,Bolgarija,55-74,moški,6 ali več,0
+2018,Bolgarija,55-74,moški,1-2,2
+2018,Bolgarija,55-74,moški,3-5,1
+2018,Bolgarija,55-74,moški,6 ali več,0
+2019,Bolgarija,55-74,moški,1-2,2
+2019,Bolgarija,55-74,moški,3-5,1
+2019,Bolgarija,55-74,moški,6 ali več,0
+2016,Bolgarija,55-74,ženske,1-2,2
+2016,Bolgarija,55-74,ženske,3-5,0
+2016,Bolgarija,55-74,ženske,6 ali več,0
+2017,Bolgarija,55-74,ženske,1-2,1
+2017,Bolgarija,55-74,ženske,3-5,1
+2017,Bolgarija,55-74,ženske,6 ali več,0
+2018,Bolgarija,55-74,ženske,1-2,3
+2018,Bolgarija,55-74,ženske,3-5,1
+2018,Bolgarija,55-74,ženske,6 ali več,0
+2019,Bolgarija,55-74,ženske,1-2,2
+2019,Bolgarija,55-74,ženske,3-5,1
+2019,Bolgarija,55-74,ženske,6 ali več,0
+2016,Češka,skupaj,skupaj,1-2,15
+2016,Češka,skupaj,skupaj,3-5,10
+2016,Češka,skupaj,skupaj,6 ali več,4
+2017,Češka,skupaj,skupaj,1-2,16
+2017,Češka,skupaj,skupaj,3-5,12
+2017,Češka,skupaj,skupaj,6 ali več,5
+2018,Češka,skupaj,skupaj,1-2,17
+2018,Češka,skupaj,skupaj,3-5,14
+2018,Češka,skupaj,skupaj,6 ali več,6
+2019,Češka,skupaj,skupaj,1-2,16
+2019,Češka,skupaj,skupaj,3-5,19
+2019,Češka,skupaj,skupaj,6 ali več,7
+2016,Češka,16-24,skupaj,1-2,21
+2016,Češka,16-24,skupaj,3-5,13
+2016,Češka,16-24,skupaj,6 ali več,5
+2017,Češka,16-24,skupaj,1-2,20
+2017,Češka,16-24,skupaj,3-5,17
+2017,Češka,16-24,skupaj,6 ali več,5
+2018,Češka,16-24,skupaj,1-2,25
+2018,Češka,16-24,skupaj,3-5,20
+2018,Češka,16-24,skupaj,6 ali več,5
+2019,Češka,16-24,skupaj,1-2,26
+2019,Češka,16-24,skupaj,3-5,27
+2019,Češka,16-24,skupaj,6 ali več,7
+2016,Češka,25-54,skupaj,1-2,18
+2016,Češka,25-54,skupaj,3-5,13
+2016,Češka,25-54,skupaj,6 ali več,5
+2017,Češka,25-54,skupaj,1-2,20
+2017,Češka,25-54,skupaj,3-5,16
+2017,Češka,25-54,skupaj,6 ali več,7
+2018,Češka,25-54,skupaj,1-2,19
+2018,Češka,25-54,skupaj,3-5,19
+2018,Češka,25-54,skupaj,6 ali več,9
+2019,Češka,25-54,skupaj,1-2,19
+2019,Češka,25-54,skupaj,3-5,24
+2019,Češka,25-54,skupaj,6 ali več,10
+2016,Češka,55-74,skupaj,1-2,7
+2016,Češka,55-74,skupaj,3-5,4
+2016,Češka,55-74,skupaj,6 ali več,1
+2017,Češka,55-74,skupaj,1-2,9
+2017,Češka,55-74,skupaj,3-5,4
+2017,Češka,55-74,skupaj,6 ali več,2
+2018,Češka,55-74,skupaj,1-2,9
+2018,Češka,55-74,skupaj,3-5,5
+2018,Češka,55-74,skupaj,6 ali več,2
+2019,Češka,55-74,skupaj,1-2,9
+2019,Češka,55-74,skupaj,3-5,8
+2019,Češka,55-74,skupaj,6 ali več,2
+2016,Češka,16-24,moški,1-2,19
+2016,Češka,16-24,moški,3-5,12
+2016,Češka,16-24,moški,6 ali več,5
+2017,Češka,16-24,moški,1-2,16
+2017,Češka,16-24,moški,3-5,15
+2017,Češka,16-24,moški,6 ali več,6
+2018,Češka,16-24,moški,1-2,23
+2018,Češka,16-24,moški,3-5,17
+2018,Češka,16-24,moški,6 ali več,4
+2019,Češka,16-24,moški,1-2,28
+2019,Češka,16-24,moški,3-5,25
+2019,Češka,16-24,moški,6 ali več,6
+2016,Češka,16-24,ženske,1-2,23
+2016,Češka,16-24,ženske,3-5,15
+2016,Češka,16-24,ženske,6 ali več,6
+2017,Češka,16-24,ženske,1-2,25
+2017,Češka,16-24,ženske,3-5,19
+2017,Češka,16-24,ženske,6 ali več,5
+2018,Češka,16-24,ženske,1-2,27
+2018,Češka,16-24,ženske,3-5,23
+2018,Češka,16-24,ženske,6 ali več,5
+2019,Češka,16-24,ženske,1-2,24
+2019,Češka,16-24,ženske,3-5,30
+2019,Češka,16-24,ženske,6 ali več,9
+2016,Češka,25-54,moški,1-2,17
+2016,Češka,25-54,moški,3-5,12
+2016,Češka,25-54,moški,6 ali več,5
+2017,Češka,25-54,moški,1-2,18
+2017,Češka,25-54,moški,3-5,15
+2017,Češka,25-54,moški,6 ali več,7
+2018,Češka,25-54,moški,1-2,18
+2018,Češka,25-54,moški,3-5,15
+2018,Češka,25-54,moški,6 ali več,8
+2019,Češka,25-54,moški,1-2,19
+2019,Češka,25-54,moški,3-5,19
+2019,Češka,25-54,moški,6 ali več,10
+2016,Češka,25-54,ženske,1-2,20
+2016,Češka,25-54,ženske,3-5,15
+2016,Češka,25-54,ženske,6 ali več,5
+2017,Češka,25-54,ženske,1-2,21
+2017,Češka,25-54,ženske,3-5,16
+2017,Češka,25-54,ženske,6 ali več,8
+2018,Češka,25-54,ženske,1-2,20
+2018,Češka,25-54,ženske,3-5,22
+2018,Češka,25-54,ženske,6 ali več,11
+2019,Češka,25-54,ženske,1-2,18
+2019,Češka,25-54,ženske,3-5,28
+2019,Češka,25-54,ženske,6 ali več,11
+2016,Češka,55-74,moški,1-2,8
+2016,Češka,55-74,moški,3-5,4
+2016,Češka,55-74,moški,6 ali več,1
+2017,Češka,55-74,moški,1-2,10
+2017,Češka,55-74,moški,3-5,6
+2017,Češka,55-74,moški,6 ali več,2
+2018,Češka,55-74,moški,1-2,9
+2018,Češka,55-74,moški,3-5,4
+2018,Češka,55-74,moški,6 ali več,1
+2019,Češka,55-74,moški,1-2,10
+2019,Češka,55-74,moški,3-5,8
+2019,Češka,55-74,moški,6 ali več,2
+2016,Češka,55-74,ženske,1-2,7
+2016,Češka,55-74,ženske,3-5,4
+2016,Češka,55-74,ženske,6 ali več,0
+2017,Češka,55-74,ženske,1-2,8
+2017,Češka,55-74,ženske,3-5,3
+2017,Češka,55-74,ženske,6 ali več,2
+2018,Češka,55-74,ženske,1-2,8
+2018,Češka,55-74,ženske,3-5,5
+2018,Češka,55-74,ženske,6 ali več,2
+2019,Češka,55-74,ženske,1-2,8
+2019,Češka,55-74,ženske,3-5,7
+2019,Češka,55-74,ženske,6 ali več,2
+2016,Danska,skupaj,skupaj,1-2,24
+2016,Danska,skupaj,skupaj,3-5,26
+2016,Danska,skupaj,skupaj,6 ali več,17
+2017,Danska,skupaj,skupaj,1-2,17
+2017,Danska,skupaj,skupaj,3-5,25
+2017,Danska,skupaj,skupaj,6 ali več,24
+2018,Danska,skupaj,skupaj,1-2,15
+2018,Danska,skupaj,skupaj,3-5,26
+2018,Danska,skupaj,skupaj,6 ali več,31
+2019,Danska,skupaj,skupaj,1-2,22
+2019,Danska,skupaj,skupaj,3-5,25
+2019,Danska,skupaj,skupaj,6 ali več,22
+2016,Danska,16-24,skupaj,1-2,29
+2016,Danska,16-24,skupaj,3-5,27
+2016,Danska,16-24,skupaj,6 ali več,17
+2017,Danska,16-24,skupaj,1-2,19
+2017,Danska,16-24,skupaj,3-5,28
+2017,Danska,16-24,skupaj,6 ali več,19
+2018,Danska,16-24,skupaj,1-2,18
+2018,Danska,16-24,skupaj,3-5,28
+2018,Danska,16-24,skupaj,6 ali več,30
+2019,Danska,16-24,skupaj,1-2,25
+2019,Danska,16-24,skupaj,3-5,31
+2019,Danska,16-24,skupaj,6 ali več,16
+2016,Danska,25-54,skupaj,1-2,22
+2016,Danska,25-54,skupaj,3-5,29
+2016,Danska,25-54,skupaj,6 ali več,23
+2017,Danska,25-54,skupaj,1-2,16
+2017,Danska,25-54,skupaj,3-5,27
+2017,Danska,25-54,skupaj,6 ali več,32
+2018,Danska,25-54,skupaj,1-2,13
+2018,Danska,25-54,skupaj,3-5,27
+2018,Danska,25-54,skupaj,6 ali več,39
+2019,Danska,25-54,skupaj,1-2,20
+2019,Danska,25-54,skupaj,3-5,27
+2019,Danska,25-54,skupaj,6 ali več,30
+2016,Danska,55-74,skupaj,1-2,26
+2016,Danska,55-74,skupaj,3-5,20
+2016,Danska,55-74,skupaj,6 ali več,8
+2017,Danska,55-74,skupaj,1-2,18
+2017,Danska,55-74,skupaj,3-5,20
+2017,Danska,55-74,skupaj,6 ali več,14
+2018,Danska,55-74,skupaj,1-2,16
+2018,Danska,55-74,skupaj,3-5,23
+2018,Danska,55-74,skupaj,6 ali več,18
+2019,Danska,55-74,skupaj,1-2,25
+2019,Danska,55-74,skupaj,3-5,19
+2019,Danska,55-74,skupaj,6 ali več,12
+2016,Danska,16-24,moški,1-2,25
+2016,Danska,16-24,moški,3-5,25
+2016,Danska,16-24,moški,6 ali več,21
+2017,Danska,16-24,moški,1-2,21
+2017,Danska,16-24,moški,3-5,24
+2017,Danska,16-24,moški,6 ali več,22
+2018,Danska,16-24,moški,1-2,20
+2018,Danska,16-24,moški,3-5,25
+2018,Danska,16-24,moški,6 ali več,30
+2019,Danska,16-24,moški,1-2,23
+2019,Danska,16-24,moški,3-5,27
+2019,Danska,16-24,moški,6 ali več,16
+2016,Danska,16-24,ženske,1-2,33
+2016,Danska,16-24,ženske,3-5,30
+2016,Danska,16-24,ženske,6 ali več,12
+2017,Danska,16-24,ženske,1-2,18
+2017,Danska,16-24,ženske,3-5,33
+2017,Danska,16-24,ženske,6 ali več,16
+2018,Danska,16-24,ženske,1-2,16
+2018,Danska,16-24,ženske,3-5,32
+2018,Danska,16-24,ženske,6 ali več,29
+2019,Danska,16-24,ženske,1-2,27
+2019,Danska,16-24,ženske,3-5,36
+2019,Danska,16-24,ženske,6 ali več,15
+2016,Danska,25-54,moški,1-2,20
+2016,Danska,25-54,moški,3-5,29
+2016,Danska,25-54,moški,6 ali več,24
+2017,Danska,25-54,moški,1-2,15
+2017,Danska,25-54,moški,3-5,25
+2017,Danska,25-54,moški,6 ali več,32
+2018,Danska,25-54,moški,1-2,11
+2018,Danska,25-54,moški,3-5,27
+2018,Danska,25-54,moški,6 ali več,39
+2019,Danska,25-54,moški,1-2,19
+2019,Danska,25-54,moški,3-5,28
+2019,Danska,25-54,moški,6 ali več,31
+2016,Danska,25-54,ženske,1-2,25
+2016,Danska,25-54,ženske,3-5,30
+2016,Danska,25-54,ženske,6 ali več,22
+2017,Danska,25-54,ženske,1-2,16
+2017,Danska,25-54,ženske,3-5,28
+2017,Danska,25-54,ženske,6 ali več,33
+2018,Danska,25-54,ženske,1-2,15
+2018,Danska,25-54,ženske,3-5,26
+2018,Danska,25-54,ženske,6 ali več,40
+2019,Danska,25-54,ženske,1-2,21
+2019,Danska,25-54,ženske,3-5,27
+2019,Danska,25-54,ženske,6 ali več,30
+2016,Danska,55-74,moški,1-2,25
+2016,Danska,55-74,moški,3-5,22
+2016,Danska,55-74,moški,6 ali več,9
+2017,Danska,55-74,moški,1-2,18
+2017,Danska,55-74,moški,3-5,21
+2017,Danska,55-74,moški,6 ali več,15
+2018,Danska,55-74,moški,1-2,14
+2018,Danska,55-74,moški,3-5,25
+2018,Danska,55-74,moški,6 ali več,19
+2019,Danska,55-74,moški,1-2,24
+2019,Danska,55-74,moški,3-5,18
+2019,Danska,55-74,moški,6 ali več,13
+2016,Danska,55-74,ženske,1-2,27
+2016,Danska,55-74,ženske,3-5,18
+2016,Danska,55-74,ženske,6 ali več,7
+2017,Danska,55-74,ženske,1-2,18
+2017,Danska,55-74,ženske,3-5,18
+2017,Danska,55-74,ženske,6 ali več,13
+2018,Danska,55-74,ženske,1-2,18
+2018,Danska,55-74,ženske,3-5,22
+2018,Danska,55-74,ženske,6 ali več,17
+2019,Danska,55-74,ženske,1-2,26
+2019,Danska,55-74,ženske,3-5,19
+2019,Danska,55-74,ženske,6 ali več,11
+2016,Nemčija,skupaj,skupaj,1-2,21
+2016,Nemčija,skupaj,skupaj,3-5,24
+2016,Nemčija,skupaj,skupaj,6 ali več,20
+2017,Nemčija,skupaj,skupaj,1-2,19
+2017,Nemčija,skupaj,skupaj,3-5,25
+2017,Nemčija,skupaj,skupaj,6 ali več,22
+2018,Nemčija,skupaj,skupaj,1-2,21
+2018,Nemčija,skupaj,skupaj,3-5,26
+2018,Nemčija,skupaj,skupaj,6 ali več,22
+2019,Nemčija,skupaj,skupaj,1-2,19
+2019,Nemčija,skupaj,skupaj,3-5,27
+2019,Nemčija,skupaj,skupaj,6 ali več,24
+2016,Nemčija,16-24,skupaj,1-2,28
+2016,Nemčija,16-24,skupaj,3-5,26
+2016,Nemčija,16-24,skupaj,6 ali več,14
+2017,Nemčija,16-24,skupaj,1-2,27
+2017,Nemčija,16-24,skupaj,3-5,25
+2017,Nemčija,16-24,skupaj,6 ali več,17
+2018,Nemčija,16-24,skupaj,1-2,25
+2018,Nemčija,16-24,skupaj,3-5,25
+2018,Nemčija,16-24,skupaj,6 ali več,19
+2019,Nemčija,16-24,skupaj,1-2,25
+2019,Nemčija,16-24,skupaj,3-5,29
+2019,Nemčija,16-24,skupaj,6 ali več,20
+2016,Nemčija,25-54,skupaj,1-2,21
+2016,Nemčija,25-54,skupaj,3-5,28
+2016,Nemčija,25-54,skupaj,6 ali več,27
+2017,Nemčija,25-54,skupaj,1-2,20
+2017,Nemčija,25-54,skupaj,3-5,29
+2017,Nemčija,25-54,skupaj,6 ali več,30
+2018,Nemčija,25-54,skupaj,1-2,21
+2018,Nemčija,25-54,skupaj,3-5,29
+2018,Nemčija,25-54,skupaj,6 ali več,29
+2019,Nemčija,25-54,skupaj,1-2,19
+2019,Nemčija,25-54,skupaj,3-5,31
+2019,Nemčija,25-54,skupaj,6 ali več,33
+2016,Nemčija,55-74,skupaj,1-2,18
+2016,Nemčija,55-74,skupaj,3-5,16
+2016,Nemčija,55-74,skupaj,6 ali več,8
+2017,Nemčija,55-74,skupaj,1-2,16
+2017,Nemčija,55-74,skupaj,3-5,18
+2017,Nemčija,55-74,skupaj,6 ali več,10
+2018,Nemčija,55-74,skupaj,1-2,18
+2018,Nemčija,55-74,skupaj,3-5,19
+2018,Nemčija,55-74,skupaj,6 ali več,9
+2019,Nemčija,55-74,skupaj,1-2,18
+2019,Nemčija,55-74,skupaj,3-5,21
+2019,Nemčija,55-74,skupaj,6 ali več,12
+2016,Nemčija,16-24,moški,1-2,29
+2016,Nemčija,16-24,moški,3-5,24
+2016,Nemčija,16-24,moški,6 ali več,14
+2017,Nemčija,16-24,moški,1-2,28
+2017,Nemčija,16-24,moški,3-5,25
+2017,Nemčija,16-24,moški,6 ali več,16
+2018,Nemčija,16-24,moški,1-2,22
+2018,Nemčija,16-24,moški,3-5,26
+2018,Nemčija,16-24,moški,6 ali več,20
+2019,Nemčija,16-24,moški,1-2,24
+2019,Nemčija,16-24,moški,3-5,29
+2019,Nemčija,16-24,moški,6 ali več,22
+2016,Nemčija,16-24,ženske,1-2,27
+2016,Nemčija,16-24,ženske,3-5,28
+2016,Nemčija,16-24,ženske,6 ali več,14
+2017,Nemčija,16-24,ženske,1-2,25
+2017,Nemčija,16-24,ženske,3-5,25
+2017,Nemčija,16-24,ženske,6 ali več,17
+2018,Nemčija,16-24,ženske,1-2,28
+2018,Nemčija,16-24,ženske,3-5,25
+2018,Nemčija,16-24,ženske,6 ali več,18
+2019,Nemčija,16-24,ženske,1-2,27
+2019,Nemčija,16-24,ženske,3-5,28
+2019,Nemčija,16-24,ženske,6 ali več,18
+2016,Nemčija,25-54,moški,1-2,20
+2016,Nemčija,25-54,moški,3-5,27
+2016,Nemčija,25-54,moški,6 ali več,28
+2017,Nemčija,25-54,moški,1-2,19
+2017,Nemčija,25-54,moški,3-5,28
+2017,Nemčija,25-54,moški,6 ali več,30
+2018,Nemčija,25-54,moški,1-2,20
+2018,Nemčija,25-54,moški,3-5,29
+2018,Nemčija,25-54,moški,6 ali več,30
+2019,Nemčija,25-54,moški,1-2,19
+2019,Nemčija,25-54,moški,3-5,30
+2019,Nemčija,25-54,moški,6 ali več,33
+2016,Nemčija,25-54,ženske,1-2,22
+2016,Nemčija,25-54,ženske,3-5,28
+2016,Nemčija,25-54,ženske,6 ali več,27
+2017,Nemčija,25-54,ženske,1-2,21
+2017,Nemčija,25-54,ženske,3-5,30
+2017,Nemčija,25-54,ženske,6 ali več,30
+2018,Nemčija,25-54,ženske,1-2,22
+2018,Nemčija,25-54,ženske,3-5,30
+2018,Nemčija,25-54,ženske,6 ali več,28
+2019,Nemčija,25-54,ženske,1-2,18
+2019,Nemčija,25-54,ženske,3-5,32
+2019,Nemčija,25-54,ženske,6 ali več,34
+2016,Nemčija,55-74,moški,1-2,19
+2016,Nemčija,55-74,moški,3-5,18
+2016,Nemčija,55-74,moški,6 ali več,10
+2017,Nemčija,55-74,moški,1-2,16
+2017,Nemčija,55-74,moški,3-5,20
+2017,Nemčija,55-74,moški,6 ali več,12
+2018,Nemčija,55-74,moški,1-2,19
+2018,Nemčija,55-74,moški,3-5,22
+2018,Nemčija,55-74,moški,6 ali več,11
+2019,Nemčija,55-74,moški,1-2,19
+2019,Nemčija,55-74,moški,3-5,23
+2019,Nemčija,55-74,moški,6 ali več,14
+2016,Nemčija,55-74,ženske,1-2,17
+2016,Nemčija,55-74,ženske,3-5,15
+2016,Nemčija,55-74,ženske,6 ali več,7
+2017,Nemčija,55-74,ženske,1-2,16
+2017,Nemčija,55-74,ženske,3-5,16
+2017,Nemčija,55-74,ženske,6 ali več,8
+2018,Nemčija,55-74,ženske,1-2,18
+2018,Nemčija,55-74,ženske,3-5,17
+2018,Nemčija,55-74,ženske,6 ali več,7
+2019,Nemčija,55-74,ženske,1-2,18
+2019,Nemčija,55-74,ženske,3-5,18
+2019,Nemčija,55-74,ženske,6 ali več,10
+2016,Estonija,skupaj,skupaj,1-2,16
+2016,Estonija,skupaj,skupaj,3-5,17
+2016,Estonija,skupaj,skupaj,6 ali več,12
+2017,Estonija,skupaj,skupaj,1-2,19
+2017,Estonija,skupaj,skupaj,3-5,16
+2017,Estonija,skupaj,skupaj,6 ali več,11
+2018,Estonija,skupaj,skupaj,1-2,18
+2018,Estonija,skupaj,skupaj,3-5,18
+2018,Estonija,skupaj,skupaj,6 ali več,14
+2019,Estonija,skupaj,skupaj,1-2,20
+2019,Estonija,skupaj,skupaj,3-5,21
+2019,Estonija,skupaj,skupaj,6 ali več,16
+2016,Estonija,16-24,skupaj,1-2,18
+2016,Estonija,16-24,skupaj,3-5,27
+2016,Estonija,16-24,skupaj,6 ali več,17
+2017,Estonija,16-24,skupaj,1-2,22
+2017,Estonija,16-24,skupaj,3-5,25
+2017,Estonija,16-24,skupaj,6 ali več,15
+2018,Estonija,16-24,skupaj,1-2,24
+2018,Estonija,16-24,skupaj,3-5,23
+2018,Estonija,16-24,skupaj,6 ali več,20
+2019,Estonija,16-24,skupaj,1-2,24
+2019,Estonija,16-24,skupaj,3-5,28
+2019,Estonija,16-24,skupaj,6 ali več,22
+2016,Estonija,25-54,skupaj,1-2,20
+2016,Estonija,25-54,skupaj,3-5,20
+2016,Estonija,25-54,skupaj,6 ali več,16
+2017,Estonija,25-54,skupaj,1-2,23
+2017,Estonija,25-54,skupaj,3-5,20
+2017,Estonija,25-54,skupaj,6 ali več,15
+2018,Estonija,25-54,skupaj,1-2,21
+2018,Estonija,25-54,skupaj,3-5,24
+2018,Estonija,25-54,skupaj,6 ali več,18
+2019,Estonija,25-54,skupaj,1-2,24
+2019,Estonija,25-54,skupaj,3-5,25
+2019,Estonija,25-54,skupaj,6 ali več,21
+2016,Estonija,55-74,skupaj,1-2,10
+2016,Estonija,55-74,skupaj,3-5,6
+2016,Estonija,55-74,skupaj,6 ali več,2
+2017,Estonija,55-74,skupaj,1-2,11
+2017,Estonija,55-74,skupaj,3-5,6
+2017,Estonija,55-74,skupaj,6 ali več,2
+2018,Estonija,55-74,skupaj,1-2,11
+2018,Estonija,55-74,skupaj,3-5,7
+2018,Estonija,55-74,skupaj,6 ali več,3
+2019,Estonija,55-74,skupaj,1-2,12
+2019,Estonija,55-74,skupaj,3-5,9
+2019,Estonija,55-74,skupaj,6 ali več,4
+2016,Estonija,16-24,moški,1-2,20
+2016,Estonija,16-24,moški,3-5,25
+2016,Estonija,16-24,moški,6 ali več,15
+2017,Estonija,16-24,moški,1-2,24
+2017,Estonija,16-24,moški,3-5,24
+2017,Estonija,16-24,moški,6 ali več,14
+2018,Estonija,16-24,moški,1-2,26
+2018,Estonija,16-24,moški,3-5,21
+2018,Estonija,16-24,moški,6 ali več,16
+2019,Estonija,16-24,moški,1-2,22
+2019,Estonija,16-24,moški,3-5,25
+2019,Estonija,16-24,moški,6 ali več,25
+2016,Estonija,16-24,ženske,1-2,16
+2016,Estonija,16-24,ženske,3-5,29
+2016,Estonija,16-24,ženske,6 ali več,19
+2017,Estonija,16-24,ženske,1-2,20
+2017,Estonija,16-24,ženske,3-5,25
+2017,Estonija,16-24,ženske,6 ali več,15
+2018,Estonija,16-24,ženske,1-2,22
+2018,Estonija,16-24,ženske,3-5,24
+2018,Estonija,16-24,ženske,6 ali več,24
+2019,Estonija,16-24,ženske,1-2,25
+2019,Estonija,16-24,ženske,3-5,32
+2019,Estonija,16-24,ženske,6 ali več,17
+2016,Estonija,25-54,moški,1-2,17
+2016,Estonija,25-54,moški,3-5,17
+2016,Estonija,25-54,moški,6 ali več,15
+2017,Estonija,25-54,moški,1-2,20
+2017,Estonija,25-54,moški,3-5,18
+2017,Estonija,25-54,moški,6 ali več,15
+2018,Estonija,25-54,moški,1-2,21
+2018,Estonija,25-54,moški,3-5,19
+2018,Estonija,25-54,moški,6 ali več,19
+2019,Estonija,25-54,moški,1-2,22
+2019,Estonija,25-54,moški,3-5,23
+2019,Estonija,25-54,moški,6 ali več,21
+2016,Estonija,25-54,ženske,1-2,22
+2016,Estonija,25-54,ženske,3-5,24
+2016,Estonija,25-54,ženske,6 ali več,16
+2017,Estonija,25-54,ženske,1-2,26
+2017,Estonija,25-54,ženske,3-5,23
+2017,Estonija,25-54,ženske,6 ali več,15
+2018,Estonija,25-54,ženske,1-2,22
+2018,Estonija,25-54,ženske,3-5,28
+2018,Estonija,25-54,ženske,6 ali več,18
+2019,Estonija,25-54,ženske,1-2,26
+2019,Estonija,25-54,ženske,3-5,28
+2019,Estonija,25-54,ženske,6 ali več,22
+2016,Estonija,55-74,moški,1-2,6
+2016,Estonija,55-74,moški,3-5,5
+2016,Estonija,55-74,moški,6 ali več,2
+2017,Estonija,55-74,moški,1-2,10
+2017,Estonija,55-74,moški,3-5,6
+2017,Estonija,55-74,moški,6 ali več,2
+2018,Estonija,55-74,moški,1-2,9
+2018,Estonija,55-74,moški,3-5,8
+2018,Estonija,55-74,moški,6 ali več,4
+2019,Estonija,55-74,moški,1-2,10
+2019,Estonija,55-74,moški,3-5,9
+2019,Estonija,55-74,moški,6 ali več,4
+2016,Estonija,55-74,ženske,1-2,12
+2016,Estonija,55-74,ženske,3-5,6
+2016,Estonija,55-74,ženske,6 ali več,3
+2017,Estonija,55-74,ženske,1-2,11
+2017,Estonija,55-74,ženske,3-5,6
+2017,Estonija,55-74,ženske,6 ali več,2
+2018,Estonija,55-74,ženske,1-2,11
+2018,Estonija,55-74,ženske,3-5,7
+2018,Estonija,55-74,ženske,6 ali več,3
+2019,Estonija,55-74,ženske,1-2,14
+2019,Estonija,55-74,ženske,3-5,9
+2019,Estonija,55-74,ženske,6 ali več,3
+2016,Irska,skupaj,skupaj,1-2,16
+2016,Irska,skupaj,skupaj,3-5,17
+2016,Irska,skupaj,skupaj,6 ali več,9
+2017,Irska,skupaj,skupaj,1-2,15
+2017,Irska,skupaj,skupaj,3-5,18
+2017,Irska,skupaj,skupaj,6 ali več,11
+2018,Irska,skupaj,skupaj,1-2,15
+2018,Irska,skupaj,skupaj,3-5,19
+2018,Irska,skupaj,skupaj,6 ali več,18
+2019,Irska,skupaj,skupaj,1-2,17
+2019,Irska,skupaj,skupaj,3-5,23
+2019,Irska,skupaj,skupaj,6 ali več,20
+2016,Irska,16-24,skupaj,1-2,24
+2016,Irska,16-24,skupaj,3-5,19
+2016,Irska,16-24,skupaj,6 ali več,6
+2017,Irska,16-24,skupaj,1-2,17
+2017,Irska,16-24,skupaj,3-5,30
+2017,Irska,16-24,skupaj,6 ali več,19
+2018,Irska,16-24,skupaj,1-2,22
+2018,Irska,16-24,skupaj,3-5,24
+2018,Irska,16-24,skupaj,6 ali več,21
+2019,Irska,16-24,skupaj,1-2,26
+2019,Irska,16-24,skupaj,3-5,31
+2019,Irska,16-24,skupaj,6 ali več,16
+2016,Irska,25-54,skupaj,1-2,17
+2016,Irska,25-54,skupaj,3-5,21
+2016,Irska,25-54,skupaj,6 ali več,12
+2017,Irska,25-54,skupaj,1-2,17
+2017,Irska,25-54,skupaj,3-5,21
+2017,Irska,25-54,skupaj,6 ali več,14
+2018,Irska,25-54,skupaj,1-2,17
+2018,Irska,25-54,skupaj,3-5,24
+2018,Irska,25-54,skupaj,6 ali več,24
+2019,Irska,25-54,skupaj,1-2,17
+2019,Irska,25-54,skupaj,3-5,26
+2019,Irska,25-54,skupaj,6 ali več,26
+2016,Irska,55-74,skupaj,1-2,8
+2016,Irska,55-74,skupaj,3-5,8
+2016,Irska,55-74,skupaj,6 ali več,4
+2017,Irska,55-74,skupaj,1-2,9
+2017,Irska,55-74,skupaj,3-5,9
+2017,Irska,55-74,skupaj,6 ali več,4
+2018,Irska,55-74,skupaj,1-2,10
+2018,Irska,55-74,skupaj,3-5,7
+2018,Irska,55-74,skupaj,6 ali več,5
+2019,Irska,55-74,skupaj,1-2,12
+2019,Irska,55-74,skupaj,3-5,12
+2019,Irska,55-74,skupaj,6 ali več,8
+2016,Irska,16-24,moški,1-2,26
+2016,Irska,16-24,moški,3-5,18
+2016,Irska,16-24,moški,6 ali več,5
+2017,Irska,16-24,moški,1-2,13
+2017,Irska,16-24,moški,3-5,33
+2017,Irska,16-24,moški,6 ali več,16
+2018,Irska,16-24,moški,1-2,26
+2018,Irska,16-24,moški,3-5,25
+2018,Irska,16-24,moški,6 ali več,15
+2019,Irska,16-24,moški,1-2,28
+2019,Irska,16-24,moški,3-5,27
+2019,Irska,16-24,moški,6 ali več,16
+2016,Irska,16-24,ženske,1-2,22
+2016,Irska,16-24,ženske,3-5,21
+2016,Irska,16-24,ženske,6 ali več,6
+2017,Irska,16-24,ženske,1-2,19
+2017,Irska,16-24,ženske,3-5,28
+2017,Irska,16-24,ženske,6 ali več,21
+2018,Irska,16-24,ženske,1-2,18
+2018,Irska,16-24,ženske,3-5,23
+2018,Irska,16-24,ženske,6 ali več,28
+2019,Irska,16-24,ženske,1-2,24
+2019,Irska,16-24,ženske,3-5,35
+2019,Irska,16-24,ženske,6 ali več,16
+2016,Irska,25-54,moški,1-2,16
+2016,Irska,25-54,moški,3-5,19
+2016,Irska,25-54,moški,6 ali več,11
+2017,Irska,25-54,moški,1-2,16
+2017,Irska,25-54,moški,3-5,20
+2017,Irska,25-54,moški,6 ali več,14
+2018,Irska,25-54,moški,1-2,15
+2018,Irska,25-54,moški,3-5,23
+2018,Irska,25-54,moški,6 ali več,22
+2019,Irska,25-54,moški,1-2,16
+2019,Irska,25-54,moški,3-5,24
+2019,Irska,25-54,moški,6 ali več,23
+2016,Irska,25-54,ženske,1-2,18
+2016,Irska,25-54,ženske,3-5,22
+2016,Irska,25-54,ženske,6 ali več,12
+2017,Irska,25-54,ženske,1-2,18
+2017,Irska,25-54,ženske,3-5,21
+2017,Irska,25-54,ženske,6 ali več,14
+2018,Irska,25-54,ženske,1-2,19
+2018,Irska,25-54,ženske,3-5,25
+2018,Irska,25-54,ženske,6 ali več,27
+2019,Irska,25-54,ženske,1-2,19
+2019,Irska,25-54,ženske,3-5,28
+2019,Irska,25-54,ženske,6 ali več,28
+2016,Irska,55-74,moški,1-2,8
+2016,Irska,55-74,moški,3-5,8
+2016,Irska,55-74,moški,6 ali več,4
+2017,Irska,55-74,moški,1-2,9
+2017,Irska,55-74,moški,3-5,10
+2017,Irska,55-74,moški,6 ali več,5
+2018,Irska,55-74,moški,1-2,10
+2018,Irska,55-74,moški,3-5,7
+2018,Irska,55-74,moški,6 ali več,5
+2019,Irska,55-74,moški,1-2,10
+2019,Irska,55-74,moški,3-5,11
+2019,Irska,55-74,moški,6 ali več,8
+2016,Irska,55-74,ženske,1-2,8
+2016,Irska,55-74,ženske,3-5,7
+2016,Irska,55-74,ženske,6 ali več,3
+2017,Irska,55-74,ženske,1-2,10
+2017,Irska,55-74,ženske,3-5,9
+2017,Irska,55-74,ženske,6 ali več,3
+2018,Irska,55-74,ženske,1-2,10
+2018,Irska,55-74,ženske,3-5,8
+2018,Irska,55-74,ženske,6 ali več,5
+2019,Irska,55-74,ženske,1-2,13
+2019,Irska,55-74,ženske,3-5,13
+2019,Irska,55-74,ženske,6 ali več,8
+2016,Grčija,skupaj,skupaj,1-2,12
+2016,Grčija,skupaj,skupaj,3-5,8
+2016,Grčija,skupaj,skupaj,6 ali več,4
+2017,Grčija,skupaj,skupaj,1-2,13
+2017,Grčija,skupaj,skupaj,3-5,9
+2017,Grčija,skupaj,skupaj,6 ali več,4
+2018,Grčija,skupaj,skupaj,1-2,14
+2018,Grčija,skupaj,skupaj,3-5,9
+2018,Grčija,skupaj,skupaj,6 ali več,7
+2019,Grčija,skupaj,skupaj,1-2,12
+2019,Grčija,skupaj,skupaj,3-5,12
+2019,Grčija,skupaj,skupaj,6 ali več,9
+2016,Grčija,16-24,skupaj,1-2,27
+2016,Grčija,16-24,skupaj,3-5,8
+2016,Grčija,16-24,skupaj,6 ali več,2
+2017,Grčija,16-24,skupaj,1-2,27
+2017,Grčija,16-24,skupaj,3-5,10
+2017,Grčija,16-24,skupaj,6 ali več,4
+2018,Grčija,16-24,skupaj,1-2,26
+2018,Grčija,16-24,skupaj,3-5,14
+2018,Grčija,16-24,skupaj,6 ali več,8
+2019,Grčija,16-24,skupaj,1-2,21
+2019,Grčija,16-24,skupaj,3-5,17
+2019,Grčija,16-24,skupaj,6 ali več,11
+2016,Grčija,25-54,skupaj,1-2,14
+2016,Grčija,25-54,skupaj,3-5,11
+2016,Grčija,25-54,skupaj,6 ali več,5
+2017,Grčija,25-54,skupaj,1-2,15
+2017,Grčija,25-54,skupaj,3-5,12
+2017,Grčija,25-54,skupaj,6 ali več,7
+2018,Grčija,25-54,skupaj,1-2,17
+2018,Grčija,25-54,skupaj,3-5,12
+2018,Grčija,25-54,skupaj,6 ali več,10
+2019,Grčija,25-54,skupaj,1-2,14
+2019,Grčija,25-54,skupaj,3-5,15
+2019,Grčija,25-54,skupaj,6 ali več,12
+2016,Grčija,55-74,skupaj,1-2,3
+2016,Grčija,55-74,skupaj,3-5,2
+2016,Grčija,55-74,skupaj,6 ali več,1
+2017,Grčija,55-74,skupaj,1-2,4
+2017,Grčija,55-74,skupaj,3-5,2
+2017,Grčija,55-74,skupaj,6 ali več,1
+2018,Grčija,55-74,skupaj,1-2,6
+2018,Grčija,55-74,skupaj,3-5,2
+2018,Grčija,55-74,skupaj,6 ali več,2
+2019,Grčija,55-74,skupaj,1-2,5
+2019,Grčija,55-74,skupaj,3-5,4
+2019,Grčija,55-74,skupaj,6 ali več,3
+2016,Grčija,16-24,moški,1-2,27
+2016,Grčija,16-24,moški,3-5,7
+2016,Grčija,16-24,moški,6 ali več,4
+2017,Grčija,16-24,moški,1-2,29
+2017,Grčija,16-24,moški,3-5,8
+2017,Grčija,16-24,moški,6 ali več,5
+2018,Grčija,16-24,moški,1-2,25
+2018,Grčija,16-24,moški,3-5,15
+2018,Grčija,16-24,moški,6 ali več,7
+2019,Grčija,16-24,moški,1-2,23
+2019,Grčija,16-24,moški,3-5,17
+2019,Grčija,16-24,moški,6 ali več,10
+2016,Grčija,16-24,ženske,1-2,26
+2016,Grčija,16-24,ženske,3-5,9
+2016,Grčija,16-24,ženske,6 ali več,1
+2017,Grčija,16-24,ženske,1-2,25
+2017,Grčija,16-24,ženske,3-5,11
+2017,Grčija,16-24,ženske,6 ali več,2
+2018,Grčija,16-24,ženske,1-2,26
+2018,Grčija,16-24,ženske,3-5,12
+2018,Grčija,16-24,ženske,6 ali več,9
+2019,Grčija,16-24,ženske,1-2,20
+2019,Grčija,16-24,ženske,3-5,17
+2019,Grčija,16-24,ženske,6 ali več,11
+2016,Grčija,25-54,moški,1-2,14
+2016,Grčija,25-54,moški,3-5,10
+2016,Grčija,25-54,moški,6 ali več,6
+2017,Grčija,25-54,moški,1-2,14
+2017,Grčija,25-54,moški,3-5,13
+2017,Grčija,25-54,moški,6 ali več,7
+2018,Grčija,25-54,moški,1-2,16
+2018,Grčija,25-54,moški,3-5,11
+2018,Grčija,25-54,moški,6 ali več,11
+2019,Grčija,25-54,moški,1-2,13
+2019,Grčija,25-54,moški,3-5,14
+2019,Grčija,25-54,moški,6 ali več,15
+2016,Grčija,25-54,ženske,1-2,14
+2016,Grčija,25-54,ženske,3-5,11
+2016,Grčija,25-54,ženske,6 ali več,5
+2017,Grčija,25-54,ženske,1-2,16
+2017,Grčija,25-54,ženske,3-5,12
+2017,Grčija,25-54,ženske,6 ali več,6
+2018,Grčija,25-54,ženske,1-2,18
+2018,Grčija,25-54,ženske,3-5,12
+2018,Grčija,25-54,ženske,6 ali več,9
+2019,Grčija,25-54,ženske,1-2,15
+2019,Grčija,25-54,ženske,3-5,17
+2019,Grčija,25-54,ženske,6 ali več,8
+2016,Grčija,55-74,moški,1-2,4
+2016,Grčija,55-74,moški,3-5,2
+2016,Grčija,55-74,moški,6 ali več,2
+2017,Grčija,55-74,moški,1-2,5
+2017,Grčija,55-74,moški,3-5,3
+2017,Grčija,55-74,moški,6 ali več,1
+2018,Grčija,55-74,moški,1-2,7
+2018,Grčija,55-74,moški,3-5,4
+2018,Grčija,55-74,moški,6 ali več,2
+2019,Grčija,55-74,moški,1-2,6
+2019,Grčija,55-74,moški,3-5,5
+2019,Grčija,55-74,moški,6 ali več,4
+2016,Grčija,55-74,ženske,1-2,2
+2016,Grčija,55-74,ženske,3-5,2
+2016,Grčija,55-74,ženske,6 ali več,1
+2017,Grčija,55-74,ženske,1-2,4
+2017,Grčija,55-74,ženske,3-5,1
+2017,Grčija,55-74,ženske,6 ali več,0
+2018,Grčija,55-74,ženske,1-2,4
+2018,Grčija,55-74,ženske,3-5,1
+2018,Grčija,55-74,ženske,6 ali več,2
+2019,Grčija,55-74,ženske,1-2,4
+2019,Grčija,55-74,ženske,3-5,3
+2019,Grčija,55-74,ženske,6 ali več,2
+2016,Španija,skupaj,skupaj,1-2,15
+2016,Španija,skupaj,skupaj,3-5,12
+2016,Španija,skupaj,skupaj,6 ali več,8
+2017,Španija,skupaj,skupaj,1-2,19
+2017,Španija,skupaj,skupaj,3-5,13
+2017,Španija,skupaj,skupaj,6 ali več,8
+2018,Španija,skupaj,skupaj,1-2,19
+2018,Španija,skupaj,skupaj,3-5,15
+2018,Španija,skupaj,skupaj,6 ali več,10
+2019,Španija,skupaj,skupaj,1-2,21
+2019,Španija,skupaj,skupaj,3-5,15
+2019,Španija,skupaj,skupaj,6 ali več,11
+2016,Španija,16-24,skupaj,1-2,21
+2016,Španija,16-24,skupaj,3-5,15
+2016,Španija,16-24,skupaj,6 ali več,8
+2017,Španija,16-24,skupaj,1-2,28
+2017,Španija,16-24,skupaj,3-5,15
+2017,Španija,16-24,skupaj,6 ali več,7
+2018,Španija,16-24,skupaj,1-2,30
+2018,Španija,16-24,skupaj,3-5,17
+2018,Španija,16-24,skupaj,6 ali več,7
+2019,Španija,16-24,skupaj,1-2,28
+2019,Španija,16-24,skupaj,3-5,18
+2019,Španija,16-24,skupaj,6 ali več,10
+2016,Španija,25-54,skupaj,1-2,17
+2016,Španija,25-54,skupaj,3-5,15
+2016,Španija,25-54,skupaj,6 ali več,11
+2017,Španija,25-54,skupaj,1-2,22
+2017,Španija,25-54,skupaj,3-5,17
+2017,Španija,25-54,skupaj,6 ali več,11
+2018,Španija,25-54,skupaj,1-2,21
+2018,Španija,25-54,skupaj,3-5,18
+2018,Španija,25-54,skupaj,6 ali več,13
+2019,Španija,25-54,skupaj,1-2,24
+2019,Španija,25-54,skupaj,3-5,19
+2019,Španija,25-54,skupaj,6 ali več,14
+2016,Španija,55-74,skupaj,1-2,7
+2016,Španija,55-74,skupaj,3-5,5
+2016,Španija,55-74,skupaj,6 ali več,2
+2017,Španija,55-74,skupaj,1-2,9
+2017,Španija,55-74,skupaj,3-5,6
+2017,Španija,55-74,skupaj,6 ali več,3
+2018,Španija,55-74,skupaj,1-2,10
+2018,Španija,55-74,skupaj,3-5,7
+2018,Španija,55-74,skupaj,6 ali več,4
+2019,Španija,55-74,skupaj,1-2,13
+2019,Španija,55-74,skupaj,3-5,8
+2019,Španija,55-74,skupaj,6 ali več,4
+2016,Španija,16-24,moški,1-2,20
+2016,Španija,16-24,moški,3-5,17
+2016,Španija,16-24,moški,6 ali več,7
+2017,Španija,16-24,moški,1-2,27
+2017,Španija,16-24,moški,3-5,17
+2017,Španija,16-24,moški,6 ali več,6
+2018,Španija,16-24,moški,1-2,30
+2018,Španija,16-24,moški,3-5,15
+2018,Španija,16-24,moški,6 ali več,8
+2019,Španija,16-24,moški,1-2,30
+2019,Španija,16-24,moški,3-5,18
+2019,Španija,16-24,moški,6 ali več,8
+2016,Španija,16-24,ženske,1-2,22
+2016,Španija,16-24,ženske,3-5,14
+2016,Španija,16-24,ženske,6 ali več,9
+2017,Španija,16-24,ženske,1-2,28
+2017,Španija,16-24,ženske,3-5,12
+2017,Španija,16-24,ženske,6 ali več,7
+2018,Španija,16-24,ženske,1-2,31
+2018,Španija,16-24,ženske,3-5,19
+2018,Španija,16-24,ženske,6 ali več,6
+2019,Španija,16-24,ženske,1-2,27
+2019,Španija,16-24,ženske,3-5,18
+2019,Španija,16-24,ženske,6 ali več,12
+2016,Španija,25-54,moški,1-2,17
+2016,Španija,25-54,moški,3-5,16
+2016,Španija,25-54,moški,6 ali več,12
+2017,Španija,25-54,moški,1-2,22
+2017,Španija,25-54,moški,3-5,17
+2017,Španija,25-54,moški,6 ali več,11
+2018,Španija,25-54,moški,1-2,20
+2018,Španija,25-54,moški,3-5,18
+2018,Španija,25-54,moški,6 ali več,14
+2019,Španija,25-54,moški,1-2,23
+2019,Španija,25-54,moški,3-5,19
+2019,Španija,25-54,moški,6 ali več,15
+2016,Španija,25-54,ženske,1-2,17
+2016,Španija,25-54,ženske,3-5,14
+2016,Španija,25-54,ženske,6 ali več,10
+2017,Španija,25-54,ženske,1-2,22
+2017,Španija,25-54,ženske,3-5,16
+2017,Španija,25-54,ženske,6 ali več,10
+2018,Španija,25-54,ženske,1-2,22
+2018,Španija,25-54,ženske,3-5,19
+2018,Španija,25-54,ženske,6 ali več,13
+2019,Španija,25-54,ženske,1-2,24
+2019,Španija,25-54,ženske,3-5,19
+2019,Španija,25-54,ženske,6 ali več,14
+2016,Španija,55-74,moški,1-2,8
+2016,Španija,55-74,moški,3-5,6
+2016,Španija,55-74,moški,6 ali več,3
+2017,Španija,55-74,moški,1-2,11
+2017,Španija,55-74,moški,3-5,8
+2017,Španija,55-74,moški,6 ali več,3
+2018,Španija,55-74,moški,1-2,12
+2018,Španija,55-74,moški,3-5,8
+2018,Španija,55-74,moški,6 ali več,5
+2019,Španija,55-74,moški,1-2,14
+2019,Španija,55-74,moški,3-5,9
+2019,Španija,55-74,moški,6 ali več,5
+2016,Španija,55-74,ženske,1-2,6
+2016,Španija,55-74,ženske,3-5,3
+2016,Španija,55-74,ženske,6 ali več,2
+2017,Španija,55-74,ženske,1-2,7
+2017,Španija,55-74,ženske,3-5,4
+2017,Španija,55-74,ženske,6 ali več,2
+2018,Španija,55-74,ženske,1-2,9
+2018,Španija,55-74,ženske,3-5,5
+2018,Španija,55-74,ženske,6 ali več,3
+2019,Španija,55-74,ženske,1-2,12
+2019,Španija,55-74,ženske,3-5,6
+2019,Španija,55-74,ženske,6 ali več,3
+2016,Francija,skupaj,skupaj,1-2,22
+2016,Francija,skupaj,skupaj,3-5,20
+2016,Francija,skupaj,skupaj,6 ali več,11
+2017,Francija,skupaj,skupaj,1-2,23
+2017,Francija,skupaj,skupaj,3-5,19
+2017,Francija,skupaj,skupaj,6 ali več,11
+2018,Francija,skupaj,skupaj,1-2,22
+2018,Francija,skupaj,skupaj,3-5,20
+2018,Francija,skupaj,skupaj,6 ali več,13
+2019,Francija,skupaj,skupaj,1-2,23
+2019,Francija,skupaj,skupaj,3-5,21
+2019,Francija,skupaj,skupaj,6 ali več,13
+2016,Francija,16-24,skupaj,1-2,28
+2016,Francija,16-24,skupaj,3-5,23
+2016,Francija,16-24,skupaj,6 ali več,10
+2017,Francija,16-24,skupaj,1-2,26
+2017,Francija,16-24,skupaj,3-5,25
+2017,Francija,16-24,skupaj,6 ali več,11
+2018,Francija,16-24,skupaj,1-2,26
+2018,Francija,16-24,skupaj,3-5,25
+2018,Francija,16-24,skupaj,6 ali več,14
+2019,Francija,16-24,skupaj,1-2,25
+2019,Francija,16-24,skupaj,3-5,26
+2019,Francija,16-24,skupaj,6 ali več,15
+2016,Francija,25-54,skupaj,1-2,24
+2016,Francija,25-54,skupaj,3-5,24
+2016,Francija,25-54,skupaj,6 ali več,14
+2017,Francija,25-54,skupaj,1-2,26
+2017,Francija,25-54,skupaj,3-5,22
+2017,Francija,25-54,skupaj,6 ali več,15
+2018,Francija,25-54,skupaj,1-2,24
+2018,Francija,25-54,skupaj,3-5,24
+2018,Francija,25-54,skupaj,6 ali več,16
+2019,Francija,25-54,skupaj,1-2,26
+2019,Francija,25-54,skupaj,3-5,24
+2019,Francija,25-54,skupaj,6 ali več,17
+2016,Francija,55-74,skupaj,1-2,16
+2016,Francija,55-74,skupaj,3-5,12
+2016,Francija,55-74,skupaj,6 ali več,6
+2017,Francija,55-74,skupaj,1-2,17
+2017,Francija,55-74,skupaj,3-5,11
+2017,Francija,55-74,skupaj,6 ali več,6
+2018,Francija,55-74,skupaj,1-2,18
+2018,Francija,55-74,skupaj,3-5,13
+2018,Francija,55-74,skupaj,6 ali več,6
+2019,Francija,55-74,skupaj,1-2,18
+2019,Francija,55-74,skupaj,3-5,15
+2019,Francija,55-74,skupaj,6 ali več,7
+2016,Francija,16-24,moški,1-2,24
+2016,Francija,16-24,moški,3-5,23
+2016,Francija,16-24,moški,6 ali več,10
+2017,Francija,16-24,moški,1-2,23
+2017,Francija,16-24,moški,3-5,25
+2017,Francija,16-24,moški,6 ali več,15
+2018,Francija,16-24,moški,1-2,20
+2018,Francija,16-24,moški,3-5,28
+2018,Francija,16-24,moški,6 ali več,14
+2019,Francija,16-24,moški,1-2,20
+2019,Francija,16-24,moški,3-5,28
+2019,Francija,16-24,moški,6 ali več,15
+2016,Francija,16-24,ženske,1-2,32
+2016,Francija,16-24,ženske,3-5,23
+2016,Francija,16-24,ženske,6 ali več,10
+2017,Francija,16-24,ženske,1-2,30
+2017,Francija,16-24,ženske,3-5,26
+2017,Francija,16-24,ženske,6 ali več,7
+2018,Francija,16-24,ženske,1-2,32
+2018,Francija,16-24,ženske,3-5,22
+2018,Francija,16-24,ženske,6 ali več,15
+2019,Francija,16-24,ženske,1-2,29
+2019,Francija,16-24,ženske,3-5,24
+2019,Francija,16-24,ženske,6 ali več,14
+2016,Francija,25-54,moški,1-2,23
+2016,Francija,25-54,moški,3-5,23
+2016,Francija,25-54,moški,6 ali več,14
+2017,Francija,25-54,moški,1-2,24
+2017,Francija,25-54,moški,3-5,21
+2017,Francija,25-54,moški,6 ali več,15
+2018,Francija,25-54,moški,1-2,25
+2018,Francija,25-54,moški,3-5,23
+2018,Francija,25-54,moški,6 ali več,15
+2019,Francija,25-54,moški,1-2,24
+2019,Francija,25-54,moški,3-5,23
+2019,Francija,25-54,moški,6 ali več,17
+2016,Francija,25-54,ženske,1-2,24
+2016,Francija,25-54,ženske,3-5,25
+2016,Francija,25-54,ženske,6 ali več,13
+2017,Francija,25-54,ženske,1-2,27
+2017,Francija,25-54,ženske,3-5,23
+2017,Francija,25-54,ženske,6 ali več,15
+2018,Francija,25-54,ženske,1-2,24
+2018,Francija,25-54,ženske,3-5,24
+2018,Francija,25-54,ženske,6 ali več,17
+2019,Francija,25-54,ženske,1-2,28
+2019,Francija,25-54,ženske,3-5,26
+2019,Francija,25-54,ženske,6 ali več,17
+2016,Francija,55-74,moški,1-2,15
+2016,Francija,55-74,moški,3-5,13
+2016,Francija,55-74,moški,6 ali več,6
+2017,Francija,55-74,moški,1-2,19
+2017,Francija,55-74,moški,3-5,12
+2017,Francija,55-74,moški,6 ali več,6
+2018,Francija,55-74,moški,1-2,19
+2018,Francija,55-74,moški,3-5,14
+2018,Francija,55-74,moški,6 ali več,7
+2019,Francija,55-74,moški,1-2,19
+2019,Francija,55-74,moški,3-5,16
+2019,Francija,55-74,moški,6 ali več,8
+2016,Francija,55-74,ženske,1-2,16
+2016,Francija,55-74,ženske,3-5,11
+2016,Francija,55-74,ženske,6 ali več,5
+2017,Francija,55-74,ženske,1-2,16
+2017,Francija,55-74,ženske,3-5,11
+2017,Francija,55-74,ženske,6 ali več,5
+2018,Francija,55-74,ženske,1-2,17
+2018,Francija,55-74,ženske,3-5,12
+2018,Francija,55-74,ženske,6 ali več,5
+2019,Francija,55-74,ženske,1-2,18
+2019,Francija,55-74,ženske,3-5,14
+2019,Francija,55-74,ženske,6 ali več,6
+2016,Hrvaška,skupaj,skupaj,1-2,12
+2016,Hrvaška,skupaj,skupaj,3-5,7
+2016,Hrvaška,skupaj,skupaj,6 ali več,6
+2017,Hrvaška,skupaj,skupaj,1-2,8
+2017,Hrvaška,skupaj,skupaj,3-5,7
+2017,Hrvaška,skupaj,skupaj,6 ali več,4
+2018,Hrvaška,skupaj,skupaj,1-2,10
+2018,Hrvaška,skupaj,skupaj,3-5,11
+2018,Hrvaška,skupaj,skupaj,6 ali več,6
+2019,Hrvaška,skupaj,skupaj,1-2,12
+2019,Hrvaška,skupaj,skupaj,3-5,14
+2019,Hrvaška,skupaj,skupaj,6 ali več,8
+2016,Hrvaška,16-24,skupaj,1-2,19
+2016,Hrvaška,16-24,skupaj,3-5,15
+2016,Hrvaška,16-24,skupaj,6 ali več,11
+2017,Hrvaška,16-24,skupaj,1-2,15
+2017,Hrvaška,16-24,skupaj,3-5,16
+2017,Hrvaška,16-24,skupaj,6 ali več,9
+2018,Hrvaška,16-24,skupaj,1-2,20
+2018,Hrvaška,16-24,skupaj,3-5,16
+2018,Hrvaška,16-24,skupaj,6 ali več,10
+2019,Hrvaška,16-24,skupaj,1-2,19
+2019,Hrvaška,16-24,skupaj,3-5,24
+2019,Hrvaška,16-24,skupaj,6 ali več,15
+2016,Hrvaška,25-54,skupaj,1-2,16
+2016,Hrvaška,25-54,skupaj,3-5,9
+2016,Hrvaška,25-54,skupaj,6 ali več,7
+2017,Hrvaška,25-54,skupaj,1-2,10
+2017,Hrvaška,25-54,skupaj,3-5,10
+2017,Hrvaška,25-54,skupaj,6 ali več,6
+2018,Hrvaška,25-54,skupaj,1-2,12
+2018,Hrvaška,25-54,skupaj,3-5,15
+2018,Hrvaška,25-54,skupaj,6 ali več,9
+2019,Hrvaška,25-54,skupaj,1-2,14
+2019,Hrvaška,25-54,skupaj,3-5,17
+2019,Hrvaška,25-54,skupaj,6 ali več,10
+2016,Hrvaška,55-74,skupaj,1-2,2
+2016,Hrvaška,55-74,skupaj,3-5,1
+2016,Hrvaška,55-74,skupaj,6 ali več,1
+2017,Hrvaška,55-74,skupaj,1-2,3
+2017,Hrvaška,55-74,skupaj,3-5,2
+2017,Hrvaška,55-74,skupaj,6 ali več,1
+2018,Hrvaška,55-74,skupaj,1-2,4
+2018,Hrvaška,55-74,skupaj,3-5,3
+2018,Hrvaška,55-74,skupaj,6 ali več,1
+2019,Hrvaška,55-74,skupaj,1-2,7
+2019,Hrvaška,55-74,skupaj,3-5,5
+2019,Hrvaška,55-74,skupaj,6 ali več,2
+2016,Hrvaška,16-24,moški,1-2,21
+2016,Hrvaška,16-24,moški,3-5,12
+2016,Hrvaška,16-24,moški,6 ali več,15
+2017,Hrvaška,16-24,moški,1-2,20
+2017,Hrvaška,16-24,moški,3-5,19
+2017,Hrvaška,16-24,moški,6 ali več,13
+2018,Hrvaška,16-24,moški,1-2,27
+2018,Hrvaška,16-24,moški,3-5,20
+2018,Hrvaška,16-24,moški,6 ali več,5
+2019,Hrvaška,16-24,moški,1-2,20
+2019,Hrvaška,16-24,moški,3-5,21
+2019,Hrvaška,16-24,moški,6 ali več,10
+2016,Hrvaška,16-24,ženske,1-2,16
+2016,Hrvaška,16-24,ženske,3-5,17
+2016,Hrvaška,16-24,ženske,6 ali več,6
+2017,Hrvaška,16-24,ženske,1-2,8
+2017,Hrvaška,16-24,ženske,3-5,14
+2017,Hrvaška,16-24,ženske,6 ali več,5
+2018,Hrvaška,16-24,ženske,1-2,14
+2018,Hrvaška,16-24,ženske,3-5,13
+2018,Hrvaška,16-24,ženske,6 ali več,15
+2019,Hrvaška,16-24,ženske,1-2,17
+2019,Hrvaška,16-24,ženske,3-5,27
+2019,Hrvaška,16-24,ženske,6 ali več,19
+2016,Hrvaška,25-54,moški,1-2,14
+2016,Hrvaška,25-54,moški,3-5,10
+2016,Hrvaška,25-54,moški,6 ali več,9
+2017,Hrvaška,25-54,moški,1-2,9
+2017,Hrvaška,25-54,moški,3-5,12
+2017,Hrvaška,25-54,moški,6 ali več,8
+2018,Hrvaška,25-54,moški,1-2,11
+2018,Hrvaška,25-54,moški,3-5,15
+2018,Hrvaška,25-54,moški,6 ali več,10
+2019,Hrvaška,25-54,moški,1-2,15
+2019,Hrvaška,25-54,moški,3-5,19
+2019,Hrvaška,25-54,moški,6 ali več,10
+2016,Hrvaška,25-54,ženske,1-2,17
+2016,Hrvaška,25-54,ženske,3-5,9
+2016,Hrvaška,25-54,ženske,6 ali več,6
+2017,Hrvaška,25-54,ženske,1-2,10
+2017,Hrvaška,25-54,ženske,3-5,8
+2017,Hrvaška,25-54,ženske,6 ali več,4
+2018,Hrvaška,25-54,ženske,1-2,13
+2018,Hrvaška,25-54,ženske,3-5,14
+2018,Hrvaška,25-54,ženske,6 ali več,8
+2019,Hrvaška,25-54,ženske,1-2,13
+2019,Hrvaška,25-54,ženske,3-5,14
+2019,Hrvaška,25-54,ženske,6 ali več,10
+2016,Hrvaška,55-74,moški,1-2,2
+2016,Hrvaška,55-74,moški,3-5,2
+2016,Hrvaška,55-74,moški,6 ali več,2
+2017,Hrvaška,55-74,moški,1-2,4
+2017,Hrvaška,55-74,moški,3-5,3
+2017,Hrvaška,55-74,moški,6 ali več,2
+2018,Hrvaška,55-74,moški,1-2,6
+2018,Hrvaška,55-74,moški,3-5,4
+2018,Hrvaška,55-74,moški,6 ali več,2
+2019,Hrvaška,55-74,moški,1-2,9
+2019,Hrvaška,55-74,moški,3-5,6
+2019,Hrvaška,55-74,moški,6 ali več,2
+2016,Hrvaška,55-74,ženske,1-2,2
+2016,Hrvaška,55-74,ženske,3-5,1
+2016,Hrvaška,55-74,ženske,6 ali več,0
+2017,Hrvaška,55-74,ženske,1-2,2
+2017,Hrvaška,55-74,ženske,3-5,1
+2017,Hrvaška,55-74,ženske,6 ali več,0
+2018,Hrvaška,55-74,ženske,1-2,2
+2018,Hrvaška,55-74,ženske,3-5,2
+2018,Hrvaška,55-74,ženske,6 ali več,1
+2019,Hrvaška,55-74,ženske,1-2,5
+2019,Hrvaška,55-74,ženske,3-5,4
+2019,Hrvaška,55-74,ženske,6 ali več,1
+2016,Italija,skupaj,skupaj,1-2,9
+2016,Italija,skupaj,skupaj,3-5,6
+2016,Italija,skupaj,skupaj,6 ali več,4
+2017,Italija,skupaj,skupaj,1-2,10
+2017,Italija,skupaj,skupaj,3-5,8
+2017,Italija,skupaj,skupaj,6 ali več,5
+2018,Italija,skupaj,skupaj,1-2,13
+2018,Italija,skupaj,skupaj,3-5,8
+2018,Italija,skupaj,skupaj,6 ali več,4
+2019,Italija,skupaj,skupaj,1-2,13
+2019,Italija,skupaj,skupaj,3-5,8
+2019,Italija,skupaj,skupaj,6 ali več,5
+2016,Italija,16-24,skupaj,1-2,14
+2016,Italija,16-24,skupaj,3-5,9
+2016,Italija,16-24,skupaj,6 ali več,4
+2017,Italija,16-24,skupaj,1-2,15
+2017,Italija,16-24,skupaj,3-5,11
+2017,Italija,16-24,skupaj,6 ali več,6
+2018,Italija,16-24,skupaj,1-2,18
+2018,Italija,16-24,skupaj,3-5,11
+2018,Italija,16-24,skupaj,6 ali več,5
+2019,Italija,16-24,skupaj,1-2,20
+2019,Italija,16-24,skupaj,3-5,11
+2019,Italija,16-24,skupaj,6 ali več,5
+2016,Italija,25-54,skupaj,1-2,11
+2016,Italija,25-54,skupaj,3-5,8
+2016,Italija,25-54,skupaj,6 ali več,5
+2017,Italija,25-54,skupaj,1-2,11
+2017,Italija,25-54,skupaj,3-5,10
+2017,Italija,25-54,skupaj,6 ali več,6
+2018,Italija,25-54,skupaj,1-2,15
+2018,Italija,25-54,skupaj,3-5,10
+2018,Italija,25-54,skupaj,6 ali več,6
+2019,Italija,25-54,skupaj,1-2,16
+2019,Italija,25-54,skupaj,3-5,10
+2019,Italija,25-54,skupaj,6 ali več,6
+2016,Italija,55-74,skupaj,1-2,5
+2016,Italija,55-74,skupaj,3-5,2
+2016,Italija,55-74,skupaj,6 ali več,1
+2017,Italija,55-74,skupaj,1-2,5
+2017,Italija,55-74,skupaj,3-5,3
+2017,Italija,55-74,skupaj,6 ali več,2
+2018,Italija,55-74,skupaj,1-2,6
+2018,Italija,55-74,skupaj,3-5,3
+2018,Italija,55-74,skupaj,6 ali več,1
+2019,Italija,55-74,skupaj,1-2,8
+2019,Italija,55-74,skupaj,3-5,4
+2019,Italija,55-74,skupaj,6 ali več,2
+2016,Italija,16-24,moški,1-2,14
+2016,Italija,16-24,moški,3-5,9
+2016,Italija,16-24,moški,6 ali več,5
+2017,Italija,16-24,moški,1-2,15
+2017,Italija,16-24,moški,3-5,11
+2017,Italija,16-24,moški,6 ali več,7
+2018,Italija,16-24,moški,1-2,18
+2018,Italija,16-24,moški,3-5,12
+2018,Italija,16-24,moški,6 ali več,6
+2019,Italija,16-24,moški,1-2,20
+2019,Italija,16-24,moški,3-5,12
+2019,Italija,16-24,moški,6 ali več,5
+2016,Italija,16-24,ženske,1-2,15
+2016,Italija,16-24,ženske,3-5,8
+2016,Italija,16-24,ženske,6 ali več,4
+2017,Italija,16-24,ženske,1-2,15
+2017,Italija,16-24,ženske,3-5,11
+2017,Italija,16-24,ženske,6 ali več,5
+2018,Italija,16-24,ženske,1-2,19
+2018,Italija,16-24,ženske,3-5,11
+2018,Italija,16-24,ženske,6 ali več,4
+2019,Italija,16-24,ženske,1-2,20
+2019,Italija,16-24,ženske,3-5,11
+2019,Italija,16-24,ženske,6 ali več,5
+2016,Italija,25-54,moški,1-2,11
+2016,Italija,25-54,moški,3-5,9
+2016,Italija,25-54,moški,6 ali več,7
+2017,Italija,25-54,moški,1-2,12
+2017,Italija,25-54,moški,3-5,11
+2017,Italija,25-54,moški,6 ali več,7
+2018,Italija,25-54,moški,1-2,15
+2018,Italija,25-54,moški,3-5,11
+2018,Italija,25-54,moški,6 ali več,6
+2019,Italija,25-54,moški,1-2,16
+2019,Italija,25-54,moški,3-5,11
+2019,Italija,25-54,moški,6 ali več,7
+2016,Italija,25-54,ženske,1-2,10
+2016,Italija,25-54,ženske,3-5,7
+2016,Italija,25-54,ženske,6 ali več,4
+2017,Italija,25-54,ženske,1-2,11
+2017,Italija,25-54,ženske,3-5,9
+2017,Italija,25-54,ženske,6 ali več,4
+2018,Italija,25-54,ženske,1-2,15
+2018,Italija,25-54,ženske,3-5,8
+2018,Italija,25-54,ženske,6 ali več,5
+2019,Italija,25-54,ženske,1-2,16
+2019,Italija,25-54,ženske,3-5,10
+2019,Italija,25-54,ženske,6 ali več,5
+2016,Italija,55-74,moški,1-2,6
+2016,Italija,55-74,moški,3-5,4
+2016,Italija,55-74,moški,6 ali več,2
+2017,Italija,55-74,moški,1-2,7
+2017,Italija,55-74,moški,3-5,4
+2017,Italija,55-74,moški,6 ali več,2
+2018,Italija,55-74,moški,1-2,8
+2018,Italija,55-74,moški,3-5,4
+2018,Italija,55-74,moški,6 ali več,2
+2019,Italija,55-74,moški,1-2,9
+2019,Italija,55-74,moški,3-5,5
+2019,Italija,55-74,moški,6 ali več,3
+2016,Italija,55-74,ženske,1-2,3
+2016,Italija,55-74,ženske,3-5,1
+2016,Italija,55-74,ženske,6 ali več,1
+2017,Italija,55-74,ženske,1-2,3
+2017,Italija,55-74,ženske,3-5,3
+2017,Italija,55-74,ženske,6 ali več,1
+2018,Italija,55-74,ženske,1-2,5
+2018,Italija,55-74,ženske,3-5,2
+2018,Italija,55-74,ženske,6 ali več,1
+2019,Italija,55-74,ženske,1-2,6
+2019,Italija,55-74,ženske,3-5,2
+2019,Italija,55-74,ženske,6 ali več,1
+2016,Ciper,skupaj,skupaj,1-2,11
+2016,Ciper,skupaj,skupaj,3-5,8
+2016,Ciper,skupaj,skupaj,6 ali več,4
+2017,Ciper,skupaj,skupaj,1-2,13
+2017,Ciper,skupaj,skupaj,3-5,9
+2017,Ciper,skupaj,skupaj,6 ali več,3
+2018,Ciper,skupaj,skupaj,1-2,9
+2018,Ciper,skupaj,skupaj,3-5,7
+2018,Ciper,skupaj,skupaj,6 ali več,3
+2019,Ciper,skupaj,skupaj,1-2,11
+2019,Ciper,skupaj,skupaj,3-5,14
+2019,Ciper,skupaj,skupaj,6 ali več,6
+2016,Ciper,16-24,skupaj,1-2,16
+2016,Ciper,16-24,skupaj,3-5,8
+2016,Ciper,16-24,skupaj,6 ali več,3
+2017,Ciper,16-24,skupaj,1-2,18
+2017,Ciper,16-24,skupaj,3-5,10
+2017,Ciper,16-24,skupaj,6 ali več,3
+2018,Ciper,16-24,skupaj,1-2,14
+2018,Ciper,16-24,skupaj,3-5,10
+2018,Ciper,16-24,skupaj,6 ali več,4
+2019,Ciper,16-24,skupaj,1-2,19
+2019,Ciper,16-24,skupaj,3-5,16
+2019,Ciper,16-24,skupaj,6 ali več,6
+2016,Ciper,25-54,skupaj,1-2,12
+2016,Ciper,25-54,skupaj,3-5,10
+2016,Ciper,25-54,skupaj,6 ali več,5
+2017,Ciper,25-54,skupaj,1-2,15
+2017,Ciper,25-54,skupaj,3-5,11
+2017,Ciper,25-54,skupaj,6 ali več,4
+2018,Ciper,25-54,skupaj,1-2,11
+2018,Ciper,25-54,skupaj,3-5,9
+2018,Ciper,25-54,skupaj,6 ali več,4
+2019,Ciper,25-54,skupaj,1-2,13
+2019,Ciper,25-54,skupaj,3-5,18
+2019,Ciper,25-54,skupaj,6 ali več,8
+2016,Ciper,55-74,skupaj,1-2,4
+2016,Ciper,55-74,skupaj,3-5,2
+2016,Ciper,55-74,skupaj,6 ali več,1
+2017,Ciper,55-74,skupaj,1-2,5
+2017,Ciper,55-74,skupaj,3-5,3
+2017,Ciper,55-74,skupaj,6 ali več,1
+2018,Ciper,55-74,skupaj,1-2,4
+2018,Ciper,55-74,skupaj,3-5,2
+2018,Ciper,55-74,skupaj,6 ali več,1
+2019,Ciper,55-74,skupaj,1-2,4
+2019,Ciper,55-74,skupaj,3-5,4
+2019,Ciper,55-74,skupaj,6 ali več,2
+2016,Ciper,16-24,moški,1-2,17
+2016,Ciper,16-24,moški,3-5,8
+2016,Ciper,16-24,moški,6 ali več,3
+2017,Ciper,16-24,moški,1-2,17
+2017,Ciper,16-24,moški,3-5,10
+2017,Ciper,16-24,moški,6 ali več,2
+2018,Ciper,16-24,moški,1-2,14
+2018,Ciper,16-24,moški,3-5,7
+2018,Ciper,16-24,moški,6 ali več,5
+2019,Ciper,16-24,moški,1-2,20
+2019,Ciper,16-24,moški,3-5,13
+2019,Ciper,16-24,moški,6 ali več,5
+2016,Ciper,16-24,ženske,1-2,16
+2016,Ciper,16-24,ženske,3-5,9
+2016,Ciper,16-24,ženske,6 ali več,3
+2017,Ciper,16-24,ženske,1-2,19
+2017,Ciper,16-24,ženske,3-5,10
+2017,Ciper,16-24,ženske,6 ali več,4
+2018,Ciper,16-24,ženske,1-2,14
+2018,Ciper,16-24,ženske,3-5,13
+2018,Ciper,16-24,ženske,6 ali več,4
+2019,Ciper,16-24,ženske,1-2,18
+2019,Ciper,16-24,ženske,3-5,19
+2019,Ciper,16-24,ženske,6 ali več,6
+2016,Ciper,25-54,moški,1-2,14
+2016,Ciper,25-54,moški,3-5,9
+2016,Ciper,25-54,moški,6 ali več,6
+2017,Ciper,25-54,moški,1-2,15
+2017,Ciper,25-54,moški,3-5,12
+2017,Ciper,25-54,moški,6 ali več,5
+2018,Ciper,25-54,moški,1-2,11
+2018,Ciper,25-54,moški,3-5,11
+2018,Ciper,25-54,moški,6 ali več,5
+2019,Ciper,25-54,moški,1-2,12
+2019,Ciper,25-54,moški,3-5,18
+2019,Ciper,25-54,moški,6 ali več,9
+2016,Ciper,25-54,ženske,1-2,12
+2016,Ciper,25-54,ženske,3-5,11
+2016,Ciper,25-54,ženske,6 ali več,4
+2017,Ciper,25-54,ženske,1-2,15
+2017,Ciper,25-54,ženske,3-5,10
+2017,Ciper,25-54,ženske,6 ali več,3
+2018,Ciper,25-54,ženske,1-2,10
+2018,Ciper,25-54,ženske,3-5,8
+2018,Ciper,25-54,ženske,6 ali več,3
+2019,Ciper,25-54,ženske,1-2,13
+2019,Ciper,25-54,ženske,3-5,18
+2019,Ciper,25-54,ženske,6 ali več,8
+2016,Ciper,55-74,moški,1-2,4
+2016,Ciper,55-74,moški,3-5,2
+2016,Ciper,55-74,moški,6 ali več,2
+2017,Ciper,55-74,moški,1-2,6
+2017,Ciper,55-74,moški,3-5,3
+2017,Ciper,55-74,moški,6 ali več,2
+2018,Ciper,55-74,moški,1-2,5
+2018,Ciper,55-74,moški,3-5,2
+2018,Ciper,55-74,moški,6 ali več,1
+2019,Ciper,55-74,moški,1-2,5
+2019,Ciper,55-74,moški,3-5,4
+2019,Ciper,55-74,moški,6 ali več,3
+2016,Ciper,55-74,ženske,1-2,3
+2016,Ciper,55-74,ženske,3-5,2
+2016,Ciper,55-74,ženske,6 ali več,1
+2017,Ciper,55-74,ženske,1-2,3
+2017,Ciper,55-74,ženske,3-5,3
+2017,Ciper,55-74,ženske,6 ali več,1
+2018,Ciper,55-74,ženske,1-2,3
+2018,Ciper,55-74,ženske,3-5,2
+2018,Ciper,55-74,ženske,6 ali več,1
+2019,Ciper,55-74,ženske,1-2,4
+2019,Ciper,55-74,ženske,3-5,3
+2019,Ciper,55-74,ženske,6 ali več,1
+2016,Latvija,skupaj,skupaj,1-2,14
+2016,Latvija,skupaj,skupaj,3-5,11
+2016,Latvija,skupaj,skupaj,6 ali več,7
+2017,Latvija,skupaj,skupaj,1-2,16
+2017,Latvija,skupaj,skupaj,3-5,11
+2017,Latvija,skupaj,skupaj,6 ali več,6
+2018,Latvija,skupaj,skupaj,1-2,18
+2018,Latvija,skupaj,skupaj,3-5,11
+2018,Latvija,skupaj,skupaj,6 ali več,5
+2019,Latvija,skupaj,skupaj,1-2,19
+2019,Latvija,skupaj,skupaj,3-5,10
+2019,Latvija,skupaj,skupaj,6 ali več,5
+2016,Latvija,16-24,skupaj,1-2,19
+2016,Latvija,16-24,skupaj,3-5,16
+2016,Latvija,16-24,skupaj,6 ali več,10
+2017,Latvija,16-24,skupaj,1-2,21
+2017,Latvija,16-24,skupaj,3-5,15
+2017,Latvija,16-24,skupaj,6 ali več,11
+2018,Latvija,16-24,skupaj,1-2,26
+2018,Latvija,16-24,skupaj,3-5,13
+2018,Latvija,16-24,skupaj,6 ali več,6
+2019,Latvija,16-24,skupaj,1-2,27
+2019,Latvija,16-24,skupaj,3-5,15
+2019,Latvija,16-24,skupaj,6 ali več,5
+2016,Latvija,25-54,skupaj,1-2,17
+2016,Latvija,25-54,skupaj,3-5,14
+2016,Latvija,25-54,skupaj,6 ali več,9
+2017,Latvija,25-54,skupaj,1-2,21
+2017,Latvija,25-54,skupaj,3-5,14
+2017,Latvija,25-54,skupaj,6 ali več,8
+2018,Latvija,25-54,skupaj,1-2,22
+2018,Latvija,25-54,skupaj,3-5,15
+2018,Latvija,25-54,skupaj,6 ali več,7
+2019,Latvija,25-54,skupaj,1-2,23
+2019,Latvija,25-54,skupaj,3-5,14
+2019,Latvija,25-54,skupaj,6 ali več,7
+2016,Latvija,55-74,skupaj,1-2,6
+2016,Latvija,55-74,skupaj,3-5,2
+2016,Latvija,55-74,skupaj,6 ali več,1
+2017,Latvija,55-74,skupaj,1-2,7
+2017,Latvija,55-74,skupaj,3-5,3
+2017,Latvija,55-74,skupaj,6 ali več,1
+2018,Latvija,55-74,skupaj,1-2,7
+2018,Latvija,55-74,skupaj,3-5,3
+2018,Latvija,55-74,skupaj,6 ali več,1
+2019,Latvija,55-74,skupaj,1-2,8
+2019,Latvija,55-74,skupaj,3-5,3
+2019,Latvija,55-74,skupaj,6 ali več,1
+2016,Latvija,16-24,moški,1-2,17
+2016,Latvija,16-24,moški,3-5,12
+2016,Latvija,16-24,moški,6 ali več,11
+2017,Latvija,16-24,moški,1-2,21
+2017,Latvija,16-24,moški,3-5,14
+2017,Latvija,16-24,moški,6 ali več,6
+2018,Latvija,16-24,moški,1-2,28
+2018,Latvija,16-24,moški,3-5,11
+2018,Latvija,16-24,moški,6 ali več,4
+2019,Latvija,16-24,moški,1-2,27
+2019,Latvija,16-24,moški,3-5,13
+2019,Latvija,16-24,moški,6 ali več,4
+2016,Latvija,16-24,ženske,1-2,21
+2016,Latvija,16-24,ženske,3-5,19
+2016,Latvija,16-24,ženske,6 ali več,9
+2017,Latvija,16-24,ženske,1-2,21
+2017,Latvija,16-24,ženske,3-5,15
+2017,Latvija,16-24,ženske,6 ali več,16
+2018,Latvija,16-24,ženske,1-2,25
+2018,Latvija,16-24,ženske,3-5,15
+2018,Latvija,16-24,ženske,6 ali več,7
+2019,Latvija,16-24,ženske,1-2,27
+2019,Latvija,16-24,ženske,3-5,17
+2019,Latvija,16-24,ženske,6 ali več,6
+2016,Latvija,25-54,moški,1-2,16
+2016,Latvija,25-54,moški,3-5,12
+2016,Latvija,25-54,moški,6 ali več,8
+2017,Latvija,25-54,moški,1-2,19
+2017,Latvija,25-54,moški,3-5,13
+2017,Latvija,25-54,moški,6 ali več,7
+2018,Latvija,25-54,moški,1-2,22
+2018,Latvija,25-54,moški,3-5,11
+2018,Latvija,25-54,moški,6 ali več,6
+2019,Latvija,25-54,moški,1-2,24
+2019,Latvija,25-54,moški,3-5,12
+2019,Latvija,25-54,moški,6 ali več,6
+2016,Latvija,25-54,ženske,1-2,19
+2016,Latvija,25-54,ženske,3-5,17
+2016,Latvija,25-54,ženske,6 ali več,10
+2017,Latvija,25-54,ženske,1-2,23
+2017,Latvija,25-54,ženske,3-5,16
+2017,Latvija,25-54,ženske,6 ali več,9
+2018,Latvija,25-54,ženske,1-2,23
+2018,Latvija,25-54,ženske,3-5,18
+2018,Latvija,25-54,ženske,6 ali več,7
+2019,Latvija,25-54,ženske,1-2,22
+2019,Latvija,25-54,ženske,3-5,16
+2019,Latvija,25-54,ženske,6 ali več,8
+2016,Latvija,55-74,moški,1-2,6
+2016,Latvija,55-74,moški,3-5,3
+2016,Latvija,55-74,moški,6 ali več,2
+2017,Latvija,55-74,moški,1-2,6
+2017,Latvija,55-74,moški,3-5,3
+2017,Latvija,55-74,moški,6 ali več,1
+2018,Latvija,55-74,moški,1-2,7
+2018,Latvija,55-74,moški,3-5,3
+2018,Latvija,55-74,moški,6 ali več,1
+2019,Latvija,55-74,moški,1-2,9
+2019,Latvija,55-74,moški,3-5,3
+2019,Latvija,55-74,moški,6 ali več,2
+2016,Latvija,55-74,ženske,1-2,5
+2016,Latvija,55-74,ženske,3-5,2
+2016,Latvija,55-74,ženske,6 ali več,1
+2017,Latvija,55-74,ženske,1-2,7
+2017,Latvija,55-74,ženske,3-5,3
+2017,Latvija,55-74,ženske,6 ali več,1
+2018,Latvija,55-74,ženske,1-2,7
+2018,Latvija,55-74,ženske,3-5,3
+2018,Latvija,55-74,ženske,6 ali več,1
+2019,Latvija,55-74,ženske,1-2,7
+2019,Latvija,55-74,ženske,3-5,3
+2019,Latvija,55-74,ženske,6 ali več,1
+2016,Litva,skupaj,skupaj,1-2,12
+2016,Litva,skupaj,skupaj,3-5,9
+2016,Litva,skupaj,skupaj,6 ali več,3
+2017,Litva,skupaj,skupaj,1-2,15
+2017,Litva,skupaj,skupaj,3-5,10
+2017,Litva,skupaj,skupaj,6 ali več,5
+2018,Litva,skupaj,skupaj,1-2,16
+2018,Litva,skupaj,skupaj,3-5,12
+2018,Litva,skupaj,skupaj,6 ali več,6
+2019,Litva,skupaj,skupaj,1-2,17
+2019,Litva,skupaj,skupaj,3-5,15
+2019,Litva,skupaj,skupaj,6 ali več,6
+2016,Litva,16-24,skupaj,1-2,20
+2016,Litva,16-24,skupaj,3-5,13
+2016,Litva,16-24,skupaj,6 ali več,3
+2017,Litva,16-24,skupaj,1-2,24
+2017,Litva,16-24,skupaj,3-5,13
+2017,Litva,16-24,skupaj,6 ali več,7
+2018,Litva,16-24,skupaj,1-2,26
+2018,Litva,16-24,skupaj,3-5,16
+2018,Litva,16-24,skupaj,6 ali več,8
+2019,Litva,16-24,skupaj,1-2,28
+2019,Litva,16-24,skupaj,3-5,21
+2019,Litva,16-24,skupaj,6 ali več,6
+2016,Litva,25-54,skupaj,1-2,15
+2016,Litva,25-54,skupaj,3-5,11
+2016,Litva,25-54,skupaj,6 ali več,5
+2017,Litva,25-54,skupaj,1-2,18
+2017,Litva,25-54,skupaj,3-5,13
+2017,Litva,25-54,skupaj,6 ali več,7
+2018,Litva,25-54,skupaj,1-2,19
+2018,Litva,25-54,skupaj,3-5,17
+2018,Litva,25-54,skupaj,6 ali več,9
+2019,Litva,25-54,skupaj,1-2,19
+2019,Litva,25-54,skupaj,3-5,20
+2019,Litva,25-54,skupaj,6 ali več,10
+2016,Litva,55-74,skupaj,1-2,4
+2016,Litva,55-74,skupaj,3-5,1
+2016,Litva,55-74,skupaj,6 ali več,0
+2017,Litva,55-74,skupaj,1-2,5
+2017,Litva,55-74,skupaj,3-5,2
+2017,Litva,55-74,skupaj,6 ali več,0
+2018,Litva,55-74,skupaj,1-2,6
+2018,Litva,55-74,skupaj,3-5,3
+2018,Litva,55-74,skupaj,6 ali več,1
+2019,Litva,55-74,skupaj,1-2,8
+2019,Litva,55-74,skupaj,3-5,4
+2019,Litva,55-74,skupaj,6 ali več,1
+2016,Litva,16-24,moški,1-2,19
+2016,Litva,16-24,moški,3-5,14
+2016,Litva,16-24,moški,6 ali več,3
+2017,Litva,16-24,moški,1-2,22
+2017,Litva,16-24,moški,3-5,12
+2017,Litva,16-24,moški,6 ali več,5
+2018,Litva,16-24,moški,1-2,26
+2018,Litva,16-24,moški,3-5,13
+2018,Litva,16-24,moški,6 ali več,5
+2019,Litva,16-24,moški,1-2,30
+2019,Litva,16-24,moški,3-5,17
+2019,Litva,16-24,moški,6 ali več,7
+2016,Litva,16-24,ženske,1-2,21
+2016,Litva,16-24,ženske,3-5,12
+2016,Litva,16-24,ženske,6 ali več,2
+2017,Litva,16-24,ženske,1-2,26
+2017,Litva,16-24,ženske,3-5,14
+2017,Litva,16-24,ženske,6 ali več,8
+2018,Litva,16-24,ženske,1-2,26
+2018,Litva,16-24,ženske,3-5,18
+2018,Litva,16-24,ženske,6 ali več,11
+2019,Litva,16-24,ženske,1-2,26
+2019,Litva,16-24,ženske,3-5,26
+2019,Litva,16-24,ženske,6 ali več,5
+2016,Litva,25-54,moški,1-2,13
+2016,Litva,25-54,moški,3-5,10
+2016,Litva,25-54,moški,6 ali več,5
+2017,Litva,25-54,moški,1-2,15
+2017,Litva,25-54,moški,3-5,12
+2017,Litva,25-54,moški,6 ali več,8
+2018,Litva,25-54,moški,1-2,18
+2018,Litva,25-54,moški,3-5,15
+2018,Litva,25-54,moški,6 ali več,8
+2019,Litva,25-54,moški,1-2,18
+2019,Litva,25-54,moški,3-5,19
+2019,Litva,25-54,moški,6 ali več,9
+2016,Litva,25-54,ženske,1-2,17
+2016,Litva,25-54,ženske,3-5,13
+2016,Litva,25-54,ženske,6 ali več,5
+2017,Litva,25-54,ženske,1-2,21
+2017,Litva,25-54,ženske,3-5,14
+2017,Litva,25-54,ženske,6 ali več,7
+2018,Litva,25-54,ženske,1-2,20
+2018,Litva,25-54,ženske,3-5,19
+2018,Litva,25-54,ženske,6 ali več,9
+2019,Litva,25-54,ženske,1-2,20
+2019,Litva,25-54,ženske,3-5,22
+2019,Litva,25-54,ženske,6 ali več,11
+2016,Litva,55-74,moški,1-2,4
+2016,Litva,55-74,moški,3-5,1
+2016,Litva,55-74,moški,6 ali več,0
+2017,Litva,55-74,moški,1-2,4
+2017,Litva,55-74,moški,3-5,1
+2017,Litva,55-74,moški,6 ali več,1
+2018,Litva,55-74,moški,1-2,6
+2018,Litva,55-74,moški,3-5,3
+2018,Litva,55-74,moški,6 ali več,1
+2019,Litva,55-74,moški,1-2,8
+2019,Litva,55-74,moški,3-5,4
+2019,Litva,55-74,moški,6 ali več,0
+2016,Litva,55-74,ženske,1-2,5
+2016,Litva,55-74,ženske,3-5,1
+2016,Litva,55-74,ženske,6 ali več,0
+2017,Litva,55-74,ženske,1-2,6
+2017,Litva,55-74,ženske,3-5,2
+2017,Litva,55-74,ženske,6 ali več,0
+2018,Litva,55-74,ženske,1-2,7
+2018,Litva,55-74,ženske,3-5,3
+2018,Litva,55-74,ženske,6 ali več,1
+2019,Litva,55-74,ženske,1-2,9
+2019,Litva,55-74,ženske,3-5,4
+2019,Litva,55-74,ženske,6 ali več,1
+2016,Luksemburg,skupaj,skupaj,1-2,13
+2016,Luksemburg,skupaj,skupaj,3-5,25
+2016,Luksemburg,skupaj,skupaj,6 ali več,30
+2017,Luksemburg,skupaj,skupaj,1-2,13
+2017,Luksemburg,skupaj,skupaj,3-5,25
+2017,Luksemburg,skupaj,skupaj,6 ali več,30
+2018,Luksemburg,skupaj,skupaj,1-2,15
+2018,Luksemburg,skupaj,skupaj,3-5,22
+2018,Luksemburg,skupaj,skupaj,6 ali več,23
+2019,Luksemburg,skupaj,skupaj,1-2,15
+2019,Luksemburg,skupaj,skupaj,3-5,24
+2019,Luksemburg,skupaj,skupaj,6 ali več,24
+2016,Luksemburg,16-24,skupaj,1-2,18
+2016,Luksemburg,16-24,skupaj,3-5,25
+2016,Luksemburg,16-24,skupaj,6 ali več,16
+2017,Luksemburg,16-24,skupaj,1-2,18
+2017,Luksemburg,16-24,skupaj,3-5,31
+2017,Luksemburg,16-24,skupaj,6 ali več,16
+2018,Luksemburg,16-24,skupaj,1-2,16
+2018,Luksemburg,16-24,skupaj,3-5,26
+2018,Luksemburg,16-24,skupaj,6 ali več,16
+2019,Luksemburg,16-24,skupaj,1-2,19
+2019,Luksemburg,16-24,skupaj,3-5,23
+2019,Luksemburg,16-24,skupaj,6 ali več,17
+2016,Luksemburg,25-54,skupaj,1-2,12
+2016,Luksemburg,25-54,skupaj,3-5,27
+2016,Luksemburg,25-54,skupaj,6 ali več,36
+2017,Luksemburg,25-54,skupaj,1-2,11
+2017,Luksemburg,25-54,skupaj,3-5,27
+2017,Luksemburg,25-54,skupaj,6 ali več,36
+2018,Luksemburg,25-54,skupaj,1-2,16
+2018,Luksemburg,25-54,skupaj,3-5,24
+2018,Luksemburg,25-54,skupaj,6 ali več,28
+2019,Luksemburg,25-54,skupaj,1-2,15
+2019,Luksemburg,25-54,skupaj,3-5,26
+2019,Luksemburg,25-54,skupaj,6 ali več,31
+2016,Luksemburg,55-74,skupaj,1-2,15
+2016,Luksemburg,55-74,skupaj,3-5,21
+2016,Luksemburg,55-74,skupaj,6 ali več,22
+2017,Luksemburg,55-74,skupaj,1-2,12
+2017,Luksemburg,55-74,skupaj,3-5,18
+2017,Luksemburg,55-74,skupaj,6 ali več,25
+2018,Luksemburg,55-74,skupaj,1-2,11
+2018,Luksemburg,55-74,skupaj,3-5,17
+2018,Luksemburg,55-74,skupaj,6 ali več,13
+2019,Luksemburg,55-74,skupaj,1-2,14
+2019,Luksemburg,55-74,skupaj,3-5,19
+2019,Luksemburg,55-74,skupaj,6 ali več,12
+2016,Luksemburg,16-24,moški,1-2,19
+2016,Luksemburg,16-24,moški,3-5,21
+2016,Luksemburg,16-24,moški,6 ali več,21
+2017,Luksemburg,16-24,moški,1-2,23
+2017,Luksemburg,16-24,moški,3-5,31
+2017,Luksemburg,16-24,moški,6 ali več,14
+2018,Luksemburg,16-24,moški,1-2,18
+2018,Luksemburg,16-24,moški,3-5,26
+2018,Luksemburg,16-24,moški,6 ali več,19
+2019,Luksemburg,16-24,moški,1-2,17
+2019,Luksemburg,16-24,moški,3-5,19
+2019,Luksemburg,16-24,moški,6 ali več,18
+2016,Luksemburg,16-24,ženske,1-2,17
+2016,Luksemburg,16-24,ženske,3-5,30
+2016,Luksemburg,16-24,ženske,6 ali več,11
+2017,Luksemburg,16-24,ženske,1-2,14
+2017,Luksemburg,16-24,ženske,3-5,30
+2017,Luksemburg,16-24,ženske,6 ali več,17
+2018,Luksemburg,16-24,ženske,1-2,14
+2018,Luksemburg,16-24,ženske,3-5,25
+2018,Luksemburg,16-24,ženske,6 ali več,12
+2019,Luksemburg,16-24,ženske,1-2,20
+2019,Luksemburg,16-24,ženske,3-5,26
+2019,Luksemburg,16-24,ženske,6 ali več,15
+2016,Luksemburg,25-54,moški,1-2,11
+2016,Luksemburg,25-54,moški,3-5,23
+2016,Luksemburg,25-54,moški,6 ali več,40
+2017,Luksemburg,25-54,moški,1-2,11
+2017,Luksemburg,25-54,moški,3-5,27
+2017,Luksemburg,25-54,moški,6 ali več,39
+2018,Luksemburg,25-54,moški,1-2,16
+2018,Luksemburg,25-54,moški,3-5,24
+2018,Luksemburg,25-54,moški,6 ali več,31
+2019,Luksemburg,25-54,moški,1-2,16
+2019,Luksemburg,25-54,moški,3-5,29
+2019,Luksemburg,25-54,moški,6 ali več,30
+2016,Luksemburg,25-54,ženske,1-2,12
+2016,Luksemburg,25-54,ženske,3-5,30
+2016,Luksemburg,25-54,ženske,6 ali več,31
+2017,Luksemburg,25-54,ženske,1-2,11
+2017,Luksemburg,25-54,ženske,3-5,27
+2017,Luksemburg,25-54,ženske,6 ali več,33
+2018,Luksemburg,25-54,ženske,1-2,16
+2018,Luksemburg,25-54,ženske,3-5,24
+2018,Luksemburg,25-54,ženske,6 ali več,26
+2019,Luksemburg,25-54,ženske,1-2,14
+2019,Luksemburg,25-54,ženske,3-5,23
+2019,Luksemburg,25-54,ženske,6 ali več,31
+2016,Luksemburg,55-74,moški,1-2,16
+2016,Luksemburg,55-74,moški,3-5,24
+2016,Luksemburg,55-74,moški,6 ali več,28
+2017,Luksemburg,55-74,moški,1-2,11
+2017,Luksemburg,55-74,moški,3-5,22
+2017,Luksemburg,55-74,moški,6 ali več,30
+2018,Luksemburg,55-74,moški,1-2,11
+2018,Luksemburg,55-74,moški,3-5,21
+2018,Luksemburg,55-74,moški,6 ali več,15
+2019,Luksemburg,55-74,moški,1-2,15
+2019,Luksemburg,55-74,moški,3-5,22
+2019,Luksemburg,55-74,moški,6 ali več,14
+2016,Luksemburg,55-74,ženske,1-2,14
+2016,Luksemburg,55-74,ženske,3-5,17
+2016,Luksemburg,55-74,ženske,6 ali več,17
+2017,Luksemburg,55-74,ženske,1-2,14
+2017,Luksemburg,55-74,ženske,3-5,14
+2017,Luksemburg,55-74,ženske,6 ali več,20
+2018,Luksemburg,55-74,ženske,1-2,11
+2018,Luksemburg,55-74,ženske,3-5,12
+2018,Luksemburg,55-74,ženske,6 ali več,11
+2019,Luksemburg,55-74,ženske,1-2,13
+2019,Luksemburg,55-74,ženske,3-5,16
+2019,Luksemburg,55-74,ženske,6 ali več,10
+2016,Madžarska,skupaj,skupaj,1-2,14
+2016,Madžarska,skupaj,skupaj,3-5,9
+2016,Madžarska,skupaj,skupaj,6 ali več,4
+2017,Madžarska,skupaj,skupaj,1-2,13
+2017,Madžarska,skupaj,skupaj,3-5,9
+2017,Madžarska,skupaj,skupaj,6 ali več,5
+2018,Madžarska,skupaj,skupaj,1-2,13
+2018,Madžarska,skupaj,skupaj,3-5,11
+2018,Madžarska,skupaj,skupaj,6 ali več,5
+2019,Madžarska,skupaj,skupaj,1-2,15
+2019,Madžarska,skupaj,skupaj,3-5,13
+2019,Madžarska,skupaj,skupaj,6 ali več,7
+2016,Madžarska,16-24,skupaj,1-2,23
+2016,Madžarska,16-24,skupaj,3-5,10
+2016,Madžarska,16-24,skupaj,6 ali več,3
+2017,Madžarska,16-24,skupaj,1-2,21
+2017,Madžarska,16-24,skupaj,3-5,11
+2017,Madžarska,16-24,skupaj,6 ali več,5
+2018,Madžarska,16-24,skupaj,1-2,18
+2018,Madžarska,16-24,skupaj,3-5,14
+2018,Madžarska,16-24,skupaj,6 ali več,6
+2019,Madžarska,16-24,skupaj,1-2,18
+2019,Madžarska,16-24,skupaj,3-5,18
+2019,Madžarska,16-24,skupaj,6 ali več,6
+2016,Madžarska,25-54,skupaj,1-2,16
+2016,Madžarska,25-54,skupaj,3-5,12
+2016,Madžarska,25-54,skupaj,6 ali več,5
+2017,Madžarska,25-54,skupaj,1-2,16
+2017,Madžarska,25-54,skupaj,3-5,11
+2017,Madžarska,25-54,skupaj,6 ali več,7
+2018,Madžarska,25-54,skupaj,1-2,16
+2018,Madžarska,25-54,skupaj,3-5,14
+2018,Madžarska,25-54,skupaj,6 ali več,7
+2019,Madžarska,25-54,skupaj,1-2,19
+2019,Madžarska,25-54,skupaj,3-5,16
+2019,Madžarska,25-54,skupaj,6 ali več,10
+2016,Madžarska,55-74,skupaj,1-2,7
+2016,Madžarska,55-74,skupaj,3-5,4
+2016,Madžarska,55-74,skupaj,6 ali več,1
+2017,Madžarska,55-74,skupaj,1-2,4
+2017,Madžarska,55-74,skupaj,3-5,3
+2017,Madžarska,55-74,skupaj,6 ali več,1
+2018,Madžarska,55-74,skupaj,1-2,5
+2018,Madžarska,55-74,skupaj,3-5,3
+2018,Madžarska,55-74,skupaj,6 ali več,1
+2019,Madžarska,55-74,skupaj,1-2,7
+2019,Madžarska,55-74,skupaj,3-5,5
+2019,Madžarska,55-74,skupaj,6 ali več,2
+2016,Madžarska,16-24,moški,1-2,29
+2016,Madžarska,16-24,moški,3-5,11
+2016,Madžarska,16-24,moški,6 ali več,5
+2017,Madžarska,16-24,moški,1-2,22
+2017,Madžarska,16-24,moški,3-5,14
+2017,Madžarska,16-24,moški,6 ali več,5
+2018,Madžarska,16-24,moški,1-2,20
+2018,Madžarska,16-24,moški,3-5,16
+2018,Madžarska,16-24,moški,6 ali več,6
+2019,Madžarska,16-24,moški,1-2,20
+2019,Madžarska,16-24,moški,3-5,18
+2019,Madžarska,16-24,moški,6 ali več,6
+2016,Madžarska,16-24,ženske,1-2,16
+2016,Madžarska,16-24,ženske,3-5,9
+2016,Madžarska,16-24,ženske,6 ali več,1
+2017,Madžarska,16-24,ženske,1-2,20
+2017,Madžarska,16-24,ženske,3-5,9
+2017,Madžarska,16-24,ženske,6 ali več,6
+2018,Madžarska,16-24,ženske,1-2,16
+2018,Madžarska,16-24,ženske,3-5,12
+2018,Madžarska,16-24,ženske,6 ali več,7
+2019,Madžarska,16-24,ženske,1-2,15
+2019,Madžarska,16-24,ženske,3-5,18
+2019,Madžarska,16-24,ženske,6 ali več,5
+2016,Madžarska,25-54,moški,1-2,16
+2016,Madžarska,25-54,moški,3-5,13
+2016,Madžarska,25-54,moški,6 ali več,5
+2017,Madžarska,25-54,moški,1-2,16
+2017,Madžarska,25-54,moški,3-5,10
+2017,Madžarska,25-54,moški,6 ali več,8
+2018,Madžarska,25-54,moški,1-2,16
+2018,Madžarska,25-54,moški,3-5,14
+2018,Madžarska,25-54,moški,6 ali več,8
+2019,Madžarska,25-54,moški,1-2,19
+2019,Madžarska,25-54,moški,3-5,16
+2019,Madžarska,25-54,moški,6 ali več,10
+2016,Madžarska,25-54,ženske,1-2,16
+2016,Madžarska,25-54,ženske,3-5,11
+2016,Madžarska,25-54,ženske,6 ali več,5
+2017,Madžarska,25-54,ženske,1-2,16
+2017,Madžarska,25-54,ženske,3-5,12
+2017,Madžarska,25-54,ženske,6 ali več,6
+2018,Madžarska,25-54,ženske,1-2,16
+2018,Madžarska,25-54,ženske,3-5,14
+2018,Madžarska,25-54,ženske,6 ali več,6
+2019,Madžarska,25-54,ženske,1-2,19
+2019,Madžarska,25-54,ženske,3-5,17
+2019,Madžarska,25-54,ženske,6 ali več,9
+2016,Madžarska,55-74,moški,1-2,7
+2016,Madžarska,55-74,moški,3-5,5
+2016,Madžarska,55-74,moški,6 ali več,1
+2017,Madžarska,55-74,moški,1-2,5
+2017,Madžarska,55-74,moški,3-5,3
+2017,Madžarska,55-74,moški,6 ali več,2
+2018,Madžarska,55-74,moški,1-2,6
+2018,Madžarska,55-74,moški,3-5,4
+2018,Madžarska,55-74,moški,6 ali več,2
+2019,Madžarska,55-74,moški,1-2,7
+2019,Madžarska,55-74,moški,3-5,6
+2019,Madžarska,55-74,moški,6 ali več,3
+2016,Madžarska,55-74,ženske,1-2,6
+2016,Madžarska,55-74,ženske,3-5,3
+2016,Madžarska,55-74,ženske,6 ali več,1
+2017,Madžarska,55-74,ženske,1-2,4
+2017,Madžarska,55-74,ženske,3-5,2
+2017,Madžarska,55-74,ženske,6 ali več,1
+2018,Madžarska,55-74,ženske,1-2,4
+2018,Madžarska,55-74,ženske,3-5,3
+2018,Madžarska,55-74,ženske,6 ali več,1
+2019,Madžarska,55-74,ženske,1-2,8
+2019,Madžarska,55-74,ženske,3-5,4
+2019,Madžarska,55-74,ženske,6 ali več,2
+2016,Malta,skupaj,skupaj,1-2,16
+2016,Malta,skupaj,skupaj,3-5,15
+2016,Malta,skupaj,skupaj,6 ali več,11
+2017,Malta,skupaj,skupaj,1-2,14
+2017,Malta,skupaj,skupaj,3-5,17
+2017,Malta,skupaj,skupaj,6 ali več,12
+2018,Malta,skupaj,skupaj,1-2,13
+2018,Malta,skupaj,skupaj,3-5,17
+2018,Malta,skupaj,skupaj,6 ali več,16
+2019,Malta,skupaj,skupaj,1-2,14
+2019,Malta,skupaj,skupaj,3-5,18
+2019,Malta,skupaj,skupaj,6 ali več,17
+2016,Malta,16-24,skupaj,1-2,21
+2016,Malta,16-24,skupaj,3-5,24
+2016,Malta,16-24,skupaj,6 ali več,18
+2017,Malta,16-24,skupaj,1-2,17
+2017,Malta,16-24,skupaj,3-5,30
+2017,Malta,16-24,skupaj,6 ali več,21
+2018,Malta,16-24,skupaj,1-2,20
+2018,Malta,16-24,skupaj,3-5,25
+2018,Malta,16-24,skupaj,6 ali več,30
+2019,Malta,16-24,skupaj,1-2,21
+2019,Malta,16-24,skupaj,3-5,30
+2019,Malta,16-24,skupaj,6 ali več,21
+2016,Malta,25-54,skupaj,1-2,20
+2016,Malta,25-54,skupaj,3-5,19
+2016,Malta,25-54,skupaj,6 ali več,14
+2017,Malta,25-54,skupaj,1-2,16
+2017,Malta,25-54,skupaj,3-5,22
+2017,Malta,25-54,skupaj,6 ali več,16
+2018,Malta,25-54,skupaj,1-2,15
+2018,Malta,25-54,skupaj,3-5,21
+2018,Malta,25-54,skupaj,6 ali več,21
+2019,Malta,25-54,skupaj,1-2,17
+2019,Malta,25-54,skupaj,3-5,21
+2019,Malta,25-54,skupaj,6 ali več,24
+2016,Malta,55-74,skupaj,1-2,7
+2016,Malta,55-74,skupaj,3-5,4
+2016,Malta,55-74,skupaj,6 ali več,4
+2017,Malta,55-74,skupaj,1-2,7
+2017,Malta,55-74,skupaj,3-5,5
+2017,Malta,55-74,skupaj,6 ali več,3
+2018,Malta,55-74,skupaj,1-2,6
+2018,Malta,55-74,skupaj,3-5,5
+2018,Malta,55-74,skupaj,6 ali več,2
+2019,Malta,55-74,skupaj,1-2,7
+2019,Malta,55-74,skupaj,3-5,7
+2019,Malta,55-74,skupaj,6 ali več,4
+2016,Malta,16-24,moški,1-2,20
+2016,Malta,16-24,moški,3-5,27
+2016,Malta,16-24,moški,6 ali več,13
+2017,Malta,16-24,moški,1-2,17
+2017,Malta,16-24,moški,3-5,32
+2017,Malta,16-24,moški,6 ali več,15
+2018,Malta,16-24,moški,1-2,13
+2018,Malta,16-24,moški,3-5,33
+2018,Malta,16-24,moški,6 ali več,21
+2019,Malta,16-24,moški,1-2,22
+2019,Malta,16-24,moški,3-5,27
+2019,Malta,16-24,moški,6 ali več,22
+2016,Malta,16-24,ženske,1-2,22
+2016,Malta,16-24,ženske,3-5,22
+2016,Malta,16-24,ženske,6 ali več,24
+2017,Malta,16-24,ženske,1-2,16
+2017,Malta,16-24,ženske,3-5,29
+2017,Malta,16-24,ženske,6 ali več,28
+2018,Malta,16-24,ženske,1-2,27
+2018,Malta,16-24,ženske,3-5,17
+2018,Malta,16-24,ženske,6 ali več,40
+2019,Malta,16-24,ženske,1-2,20
+2019,Malta,16-24,ženske,3-5,34
+2019,Malta,16-24,ženske,6 ali več,20
+2016,Malta,25-54,moški,1-2,19
+2016,Malta,25-54,moški,3-5,18
+2016,Malta,25-54,moški,6 ali več,15
+2017,Malta,25-54,moški,1-2,14
+2017,Malta,25-54,moški,3-5,22
+2017,Malta,25-54,moški,6 ali več,16
+2018,Malta,25-54,moški,1-2,14
+2018,Malta,25-54,moški,3-5,21
+2018,Malta,25-54,moški,6 ali več,21
+2019,Malta,25-54,moški,1-2,15
+2019,Malta,25-54,moški,3-5,19
+2019,Malta,25-54,moški,6 ali več,23
+2016,Malta,25-54,ženske,1-2,20
+2016,Malta,25-54,ženske,3-5,19
+2016,Malta,25-54,ženske,6 ali več,12
+2017,Malta,25-54,ženske,1-2,19
+2017,Malta,25-54,ženske,3-5,22
+2017,Malta,25-54,ženske,6 ali več,16
+2018,Malta,25-54,ženske,1-2,16
+2018,Malta,25-54,ženske,3-5,21
+2018,Malta,25-54,ženske,6 ali več,21
+2019,Malta,25-54,ženske,1-2,18
+2019,Malta,25-54,ženske,3-5,23
+2019,Malta,25-54,ženske,6 ali več,24
+2016,Malta,55-74,moški,1-2,9
+2016,Malta,55-74,moški,3-5,5
+2016,Malta,55-74,moški,6 ali več,8
+2017,Malta,55-74,moški,1-2,9
+2017,Malta,55-74,moški,3-5,7
+2017,Malta,55-74,moški,6 ali več,5
+2018,Malta,55-74,moški,1-2,7
+2018,Malta,55-74,moški,3-5,7
+2018,Malta,55-74,moški,6 ali več,2
+2019,Malta,55-74,moški,1-2,7
+2019,Malta,55-74,moški,3-5,11
+2019,Malta,55-74,moški,6 ali več,5
+2016,Malta,55-74,ženske,1-2,6
+2016,Malta,55-74,ženske,3-5,2
+2016,Malta,55-74,ženske,6 ali več,1
+2017,Malta,55-74,ženske,1-2,6
+2017,Malta,55-74,ženske,3-5,2
+2017,Malta,55-74,ženske,6 ali več,1
+2018,Malta,55-74,ženske,1-2,5
+2018,Malta,55-74,ženske,3-5,3
+2018,Malta,55-74,ženske,6 ali več,1
+2019,Malta,55-74,ženske,1-2,7
+2019,Malta,55-74,ženske,3-5,3
+2019,Malta,55-74,ženske,6 ali več,3
+2016,Nizozemska,skupaj,skupaj,1-2,24
+2016,Nizozemska,skupaj,skupaj,3-5,23
+2016,Nizozemska,skupaj,skupaj,6 ali več,16
+2017,Nizozemska,skupaj,skupaj,1-2,24
+2017,Nizozemska,skupaj,skupaj,3-5,26
+2017,Nizozemska,skupaj,skupaj,6 ali več,19
+2018,Nizozemska,skupaj,skupaj,1-2,21
+2018,Nizozemska,skupaj,skupaj,3-5,27
+2018,Nizozemska,skupaj,skupaj,6 ali več,22
+2019,Nizozemska,skupaj,skupaj,1-2,22
+2019,Nizozemska,skupaj,skupaj,3-5,26
+2019,Nizozemska,skupaj,skupaj,6 ali več,22
+2016,Nizozemska,16-24,skupaj,1-2,32
+2016,Nizozemska,16-24,skupaj,3-5,25
+2016,Nizozemska,16-24,skupaj,6 ali več,13
+2017,Nizozemska,16-24,skupaj,1-2,26
+2017,Nizozemska,16-24,skupaj,3-5,30
+2017,Nizozemska,16-24,skupaj,6 ali več,19
+2018,Nizozemska,16-24,skupaj,1-2,24
+2018,Nizozemska,16-24,skupaj,3-5,32
+2018,Nizozemska,16-24,skupaj,6 ali več,23
+2019,Nizozemska,16-24,skupaj,1-2,24
+2019,Nizozemska,16-24,skupaj,3-5,29
+2019,Nizozemska,16-24,skupaj,6 ali več,23
+2016,Nizozemska,25-54,skupaj,1-2,23
+2016,Nizozemska,25-54,skupaj,3-5,26
+2016,Nizozemska,25-54,skupaj,6 ali več,22
+2017,Nizozemska,25-54,skupaj,1-2,24
+2017,Nizozemska,25-54,skupaj,3-5,29
+2017,Nizozemska,25-54,skupaj,6 ali več,25
+2018,Nizozemska,25-54,skupaj,1-2,20
+2018,Nizozemska,25-54,skupaj,3-5,31
+2018,Nizozemska,25-54,skupaj,6 ali več,29
+2019,Nizozemska,25-54,skupaj,1-2,19
+2019,Nizozemska,25-54,skupaj,3-5,29
+2019,Nizozemska,25-54,skupaj,6 ali več,30
+2016,Nizozemska,55-74,skupaj,1-2,21
+2016,Nizozemska,55-74,skupaj,3-5,16
+2016,Nizozemska,55-74,skupaj,6 ali več,7
+2017,Nizozemska,55-74,skupaj,1-2,22
+2017,Nizozemska,55-74,skupaj,3-5,19
+2017,Nizozemska,55-74,skupaj,6 ali več,8
+2018,Nizozemska,55-74,skupaj,1-2,21
+2018,Nizozemska,55-74,skupaj,3-5,19
+2018,Nizozemska,55-74,skupaj,6 ali več,10
+2019,Nizozemska,55-74,skupaj,1-2,26
+2019,Nizozemska,55-74,skupaj,3-5,20
+2019,Nizozemska,55-74,skupaj,6 ali več,9
+2016,Nizozemska,16-24,moški,1-2,31
+2016,Nizozemska,16-24,moški,3-5,22
+2016,Nizozemska,16-24,moški,6 ali več,13
+2017,Nizozemska,16-24,moški,1-2,29
+2017,Nizozemska,16-24,moški,3-5,28
+2017,Nizozemska,16-24,moški,6 ali več,20
+2018,Nizozemska,16-24,moški,1-2,25
+2018,Nizozemska,16-24,moški,3-5,30
+2018,Nizozemska,16-24,moški,6 ali več,23
+2019,Nizozemska,16-24,moški,1-2,21
+2019,Nizozemska,16-24,moški,3-5,31
+2019,Nizozemska,16-24,moški,6 ali več,24
+2016,Nizozemska,16-24,ženske,1-2,32
+2016,Nizozemska,16-24,ženske,3-5,28
+2016,Nizozemska,16-24,ženske,6 ali več,13
+2017,Nizozemska,16-24,ženske,1-2,23
+2017,Nizozemska,16-24,ženske,3-5,32
+2017,Nizozemska,16-24,ženske,6 ali več,18
+2018,Nizozemska,16-24,ženske,1-2,22
+2018,Nizozemska,16-24,ženske,3-5,33
+2018,Nizozemska,16-24,ženske,6 ali več,23
+2019,Nizozemska,16-24,ženske,1-2,28
+2019,Nizozemska,16-24,ženske,3-5,26
+2019,Nizozemska,16-24,ženske,6 ali več,22
+2016,Nizozemska,25-54,moški,1-2,21
+2016,Nizozemska,25-54,moški,3-5,26
+2016,Nizozemska,25-54,moški,6 ali več,22
+2017,Nizozemska,25-54,moški,1-2,22
+2017,Nizozemska,25-54,moški,3-5,29
+2017,Nizozemska,25-54,moški,6 ali več,25
+2018,Nizozemska,25-54,moški,1-2,20
+2018,Nizozemska,25-54,moški,3-5,30
+2018,Nizozemska,25-54,moški,6 ali več,29
+2019,Nizozemska,25-54,moški,1-2,18
+2019,Nizozemska,25-54,moški,3-5,29
+2019,Nizozemska,25-54,moški,6 ali več,30
+2016,Nizozemska,25-54,ženske,1-2,25
+2016,Nizozemska,25-54,ženske,3-5,26
+2016,Nizozemska,25-54,ženske,6 ali več,22
+2017,Nizozemska,25-54,ženske,1-2,25
+2017,Nizozemska,25-54,ženske,3-5,29
+2017,Nizozemska,25-54,ženske,6 ali več,25
+2018,Nizozemska,25-54,ženske,1-2,20
+2018,Nizozemska,25-54,ženske,3-5,32
+2018,Nizozemska,25-54,ženske,6 ali več,28
+2019,Nizozemska,25-54,ženske,1-2,19
+2019,Nizozemska,25-54,ženske,3-5,28
+2019,Nizozemska,25-54,ženske,6 ali več,31
+2016,Nizozemska,55-74,moški,1-2,22
+2016,Nizozemska,55-74,moški,3-5,17
+2016,Nizozemska,55-74,moški,6 ali več,9
+2017,Nizozemska,55-74,moški,1-2,23
+2017,Nizozemska,55-74,moški,3-5,21
+2017,Nizozemska,55-74,moški,6 ali več,10
+2018,Nizozemska,55-74,moški,1-2,20
+2018,Nizozemska,55-74,moški,3-5,22
+2018,Nizozemska,55-74,moški,6 ali več,12
+2019,Nizozemska,55-74,moški,1-2,26
+2019,Nizozemska,55-74,moški,3-5,22
+2019,Nizozemska,55-74,moški,6 ali več,11
+2016,Nizozemska,55-74,ženske,1-2,20
+2016,Nizozemska,55-74,ženske,3-5,14
+2016,Nizozemska,55-74,ženske,6 ali več,5
+2017,Nizozemska,55-74,ženske,1-2,21
+2017,Nizozemska,55-74,ženske,3-5,16
+2017,Nizozemska,55-74,ženske,6 ali več,5
+2018,Nizozemska,55-74,ženske,1-2,23
+2018,Nizozemska,55-74,ženske,3-5,16
+2018,Nizozemska,55-74,ženske,6 ali več,7
+2019,Nizozemska,55-74,ženske,1-2,26
+2019,Nizozemska,55-74,ženske,3-5,18
+2019,Nizozemska,55-74,ženske,6 ali več,6
+2016,Avstrija,skupaj,skupaj,1-2,14
+2016,Avstrija,skupaj,skupaj,3-5,21
+2016,Avstrija,skupaj,skupaj,6 ali več,13
+2017,Avstrija,skupaj,skupaj,1-2,17
+2017,Avstrija,skupaj,skupaj,3-5,21
+2017,Avstrija,skupaj,skupaj,6 ali več,15
+2018,Avstrija,skupaj,skupaj,1-2,14
+2018,Avstrija,skupaj,skupaj,3-5,23
+2018,Avstrija,skupaj,skupaj,6 ali več,16
+2019,Avstrija,skupaj,skupaj,1-2,13
+2019,Avstrija,skupaj,skupaj,3-5,22
+2019,Avstrija,skupaj,skupaj,6 ali več,20
+2016,Avstrija,16-24,skupaj,1-2,25
+2016,Avstrija,16-24,skupaj,3-5,26
+2016,Avstrija,16-24,skupaj,6 ali več,11
+2017,Avstrija,16-24,skupaj,1-2,25
+2017,Avstrija,16-24,skupaj,3-5,24
+2017,Avstrija,16-24,skupaj,6 ali več,23
+2018,Avstrija,16-24,skupaj,1-2,21
+2018,Avstrija,16-24,skupaj,3-5,30
+2018,Avstrija,16-24,skupaj,6 ali več,16
+2019,Avstrija,16-24,skupaj,1-2,15
+2019,Avstrija,16-24,skupaj,3-5,35
+2019,Avstrija,16-24,skupaj,6 ali več,23
+2016,Avstrija,25-54,skupaj,1-2,14
+2016,Avstrija,25-54,skupaj,3-5,25
+2016,Avstrija,25-54,skupaj,6 ali več,18
+2017,Avstrija,25-54,skupaj,1-2,18
+2017,Avstrija,25-54,skupaj,3-5,26
+2017,Avstrija,25-54,skupaj,6 ali več,19
+2018,Avstrija,25-54,skupaj,1-2,15
+2018,Avstrija,25-54,skupaj,3-5,27
+2018,Avstrija,25-54,skupaj,6 ali več,21
+2019,Avstrija,25-54,skupaj,1-2,13
+2019,Avstrija,25-54,skupaj,3-5,25
+2019,Avstrija,25-54,skupaj,6 ali več,26
+2016,Avstrija,55-74,skupaj,1-2,9
+2016,Avstrija,55-74,skupaj,3-5,9
+2016,Avstrija,55-74,skupaj,6 ali več,4
+2017,Avstrija,55-74,skupaj,1-2,11
+2017,Avstrija,55-74,skupaj,3-5,10
+2017,Avstrija,55-74,skupaj,6 ali več,5
+2018,Avstrija,55-74,skupaj,1-2,10
+2018,Avstrija,55-74,skupaj,3-5,12
+2018,Avstrija,55-74,skupaj,6 ali več,6
+2019,Avstrija,55-74,skupaj,1-2,10
+2019,Avstrija,55-74,skupaj,3-5,12
+2019,Avstrija,55-74,skupaj,6 ali več,6
+2016,Avstrija,16-24,moški,1-2,29
+2016,Avstrija,16-24,moški,3-5,22
+2016,Avstrija,16-24,moški,6 ali več,14
+2017,Avstrija,16-24,moški,1-2,23
+2017,Avstrija,16-24,moški,3-5,29
+2017,Avstrija,16-24,moški,6 ali več,22
+2018,Avstrija,16-24,moški,1-2,20
+2018,Avstrija,16-24,moški,3-5,33
+2018,Avstrija,16-24,moški,6 ali več,20
+2019,Avstrija,16-24,moški,1-2,14
+2019,Avstrija,16-24,moški,3-5,27
+2019,Avstrija,16-24,moški,6 ali več,26
+2016,Avstrija,16-24,ženske,1-2,21
+2016,Avstrija,16-24,ženske,3-5,30
+2016,Avstrija,16-24,ženske,6 ali več,8
+2017,Avstrija,16-24,ženske,1-2,27
+2017,Avstrija,16-24,ženske,3-5,19
+2017,Avstrija,16-24,ženske,6 ali več,24
+2018,Avstrija,16-24,ženske,1-2,22
+2018,Avstrija,16-24,ženske,3-5,26
+2018,Avstrija,16-24,ženske,6 ali več,12
+2019,Avstrija,16-24,ženske,1-2,15
+2019,Avstrija,16-24,ženske,3-5,42
+2019,Avstrija,16-24,ženske,6 ali več,20
+2016,Avstrija,25-54,moški,1-2,13
+2016,Avstrija,25-54,moški,3-5,27
+2016,Avstrija,25-54,moški,6 ali več,19
+2017,Avstrija,25-54,moški,1-2,18
+2017,Avstrija,25-54,moški,3-5,26
+2017,Avstrija,25-54,moški,6 ali več,22
+2018,Avstrija,25-54,moški,1-2,14
+2018,Avstrija,25-54,moški,3-5,26
+2018,Avstrija,25-54,moški,6 ali več,24
+2019,Avstrija,25-54,moški,1-2,14
+2019,Avstrija,25-54,moški,3-5,23
+2019,Avstrija,25-54,moški,6 ali več,29
+2016,Avstrija,25-54,ženske,1-2,16
+2016,Avstrija,25-54,ženske,3-5,23
+2016,Avstrija,25-54,ženske,6 ali več,16
+2017,Avstrija,25-54,ženske,1-2,18
+2017,Avstrija,25-54,ženske,3-5,26
+2017,Avstrija,25-54,ženske,6 ali več,16
+2018,Avstrija,25-54,ženske,1-2,16
+2018,Avstrija,25-54,ženske,3-5,28
+2018,Avstrija,25-54,ženske,6 ali več,17
+2019,Avstrija,25-54,ženske,1-2,13
+2019,Avstrija,25-54,ženske,3-5,27
+2019,Avstrija,25-54,ženske,6 ali več,23
+2016,Avstrija,55-74,moški,1-2,11
+2016,Avstrija,55-74,moški,3-5,13
+2016,Avstrija,55-74,moški,6 ali več,6
+2017,Avstrija,55-74,moški,1-2,14
+2017,Avstrija,55-74,moški,3-5,14
+2017,Avstrija,55-74,moški,6 ali več,7
+2018,Avstrija,55-74,moški,1-2,13
+2018,Avstrija,55-74,moški,3-5,15
+2018,Avstrija,55-74,moški,6 ali več,7
+2019,Avstrija,55-74,moški,1-2,12
+2019,Avstrija,55-74,moški,3-5,15
+2019,Avstrija,55-74,moški,6 ali več,8
+2016,Avstrija,55-74,ženske,1-2,8
+2016,Avstrija,55-74,ženske,3-5,6
+2016,Avstrija,55-74,ženske,6 ali več,3
+2017,Avstrija,55-74,ženske,1-2,8
+2017,Avstrija,55-74,ženske,3-5,7
+2017,Avstrija,55-74,ženske,6 ali več,3
+2018,Avstrija,55-74,ženske,1-2,7
+2018,Avstrija,55-74,ženske,3-5,9
+2018,Avstrija,55-74,ženske,6 ali več,5
+2019,Avstrija,55-74,ženske,1-2,9
+2019,Avstrija,55-74,ženske,3-5,9
+2019,Avstrija,55-74,ženske,6 ali več,4
+2016,Poljska,skupaj,skupaj,1-2,13
+2016,Poljska,skupaj,skupaj,3-5,11
+2016,Poljska,skupaj,skupaj,6 ali več,6
+2017,Poljska,skupaj,skupaj,1-2,14
+2017,Poljska,skupaj,skupaj,3-5,12
+2017,Poljska,skupaj,skupaj,6 ali več,7
+2018,Poljska,skupaj,skupaj,1-2,14
+2018,Poljska,skupaj,skupaj,3-5,14
+2018,Poljska,skupaj,skupaj,6 ali več,9
+2019,Poljska,skupaj,skupaj,1-2,16
+2019,Poljska,skupaj,skupaj,3-5,16
+2019,Poljska,skupaj,skupaj,6 ali več,10
+2016,Poljska,16-24,skupaj,1-2,19
+2016,Poljska,16-24,skupaj,3-5,16
+2016,Poljska,16-24,skupaj,6 ali več,6
+2017,Poljska,16-24,skupaj,1-2,23
+2017,Poljska,16-24,skupaj,3-5,16
+2017,Poljska,16-24,skupaj,6 ali več,6
+2018,Poljska,16-24,skupaj,1-2,21
+2018,Poljska,16-24,skupaj,3-5,18
+2018,Poljska,16-24,skupaj,6 ali več,8
+2019,Poljska,16-24,skupaj,1-2,27
+2019,Poljska,16-24,skupaj,3-5,20
+2019,Poljska,16-24,skupaj,6 ali več,9
+2016,Poljska,25-54,skupaj,1-2,15
+2016,Poljska,25-54,skupaj,3-5,15
+2016,Poljska,25-54,skupaj,6 ali več,9
+2017,Poljska,25-54,skupaj,1-2,17
+2017,Poljska,25-54,skupaj,3-5,16
+2017,Poljska,25-54,skupaj,6 ali več,10
+2018,Poljska,25-54,skupaj,1-2,17
+2018,Poljska,25-54,skupaj,3-5,18
+2018,Poljska,25-54,skupaj,6 ali več,13
+2019,Poljska,25-54,skupaj,1-2,18
+2019,Poljska,25-54,skupaj,3-5,21
+2019,Poljska,25-54,skupaj,6 ali več,14
+2016,Poljska,55-74,skupaj,1-2,5
+2016,Poljska,55-74,skupaj,3-5,3
+2016,Poljska,55-74,skupaj,6 ali več,1
+2017,Poljska,55-74,skupaj,1-2,5
+2017,Poljska,55-74,skupaj,3-5,4
+2017,Poljska,55-74,skupaj,6 ali več,1
+2018,Poljska,55-74,skupaj,1-2,6
+2018,Poljska,55-74,skupaj,3-5,5
+2018,Poljska,55-74,skupaj,6 ali več,2
+2019,Poljska,55-74,skupaj,1-2,7
+2019,Poljska,55-74,skupaj,3-5,6
+2019,Poljska,55-74,skupaj,6 ali več,2
+2016,Poljska,16-24,moški,1-2,20
+2016,Poljska,16-24,moški,3-5,16
+2016,Poljska,16-24,moški,6 ali več,6
+2017,Poljska,16-24,moški,1-2,24
+2017,Poljska,16-24,moški,3-5,16
+2017,Poljska,16-24,moški,6 ali več,6
+2018,Poljska,16-24,moški,1-2,21
+2018,Poljska,16-24,moški,3-5,16
+2018,Poljska,16-24,moški,6 ali več,7
+2019,Poljska,16-24,moški,1-2,25
+2019,Poljska,16-24,moški,3-5,20
+2019,Poljska,16-24,moški,6 ali več,9
+2016,Poljska,16-24,ženske,1-2,19
+2016,Poljska,16-24,ženske,3-5,16
+2016,Poljska,16-24,ženske,6 ali več,5
+2017,Poljska,16-24,ženske,1-2,23
+2017,Poljska,16-24,ženske,3-5,15
+2017,Poljska,16-24,ženske,6 ali več,6
+2018,Poljska,16-24,ženske,1-2,22
+2018,Poljska,16-24,ženske,3-5,20
+2018,Poljska,16-24,ženske,6 ali več,9
+2019,Poljska,16-24,ženske,1-2,29
+2019,Poljska,16-24,ženske,3-5,21
+2019,Poljska,16-24,ženske,6 ali več,9
+2016,Poljska,25-54,moški,1-2,16
+2016,Poljska,25-54,moški,3-5,14
+2016,Poljska,25-54,moški,6 ali več,9
+2017,Poljska,25-54,moški,1-2,16
+2017,Poljska,25-54,moški,3-5,15
+2017,Poljska,25-54,moški,6 ali več,9
+2018,Poljska,25-54,moški,1-2,17
+2018,Poljska,25-54,moški,3-5,18
+2018,Poljska,25-54,moški,6 ali več,12
+2019,Poljska,25-54,moški,1-2,18
+2019,Poljska,25-54,moški,3-5,19
+2019,Poljska,25-54,moški,6 ali več,14
+2016,Poljska,25-54,ženske,1-2,15
+2016,Poljska,25-54,ženske,3-5,16
+2016,Poljska,25-54,ženske,6 ali več,10
+2017,Poljska,25-54,ženske,1-2,17
+2017,Poljska,25-54,ženske,3-5,16
+2017,Poljska,25-54,ženske,6 ali več,11
+2018,Poljska,25-54,ženske,1-2,18
+2018,Poljska,25-54,ženske,3-5,19
+2018,Poljska,25-54,ženske,6 ali več,14
+2019,Poljska,25-54,ženske,1-2,19
+2019,Poljska,25-54,ženske,3-5,23
+2019,Poljska,25-54,ženske,6 ali več,14
+2016,Poljska,55-74,moški,1-2,5
+2016,Poljska,55-74,moški,3-5,4
+2016,Poljska,55-74,moški,6 ali več,2
+2017,Poljska,55-74,moški,1-2,6
+2017,Poljska,55-74,moški,3-5,4
+2017,Poljska,55-74,moški,6 ali več,2
+2018,Poljska,55-74,moški,1-2,6
+2018,Poljska,55-74,moški,3-5,6
+2018,Poljska,55-74,moški,6 ali več,2
+2019,Poljska,55-74,moški,1-2,7
+2019,Poljska,55-74,moški,3-5,6
+2019,Poljska,55-74,moški,6 ali več,2
+2016,Poljska,55-74,ženske,1-2,5
+2016,Poljska,55-74,ženske,3-5,2
+2016,Poljska,55-74,ženske,6 ali več,1
+2017,Poljska,55-74,ženske,1-2,4
+2017,Poljska,55-74,ženske,3-5,3
+2017,Poljska,55-74,ženske,6 ali več,1
+2018,Poljska,55-74,ženske,1-2,5
+2018,Poljska,55-74,ženske,3-5,4
+2018,Poljska,55-74,ženske,6 ali več,1
+2019,Poljska,55-74,ženske,1-2,6
+2019,Poljska,55-74,ženske,3-5,5
+2019,Poljska,55-74,ženske,6 ali več,2
+2016,Portugalska,skupaj,skupaj,1-2,10
+2016,Portugalska,skupaj,skupaj,3-5,9
+2016,Portugalska,skupaj,skupaj,6 ali več,4
+2017,Portugalska,skupaj,skupaj,1-2,11
+2017,Portugalska,skupaj,skupaj,3-5,9
+2017,Portugalska,skupaj,skupaj,6 ali več,6
+2018,Portugalska,skupaj,skupaj,1-2,16
+2018,Portugalska,skupaj,skupaj,3-5,8
+2018,Portugalska,skupaj,skupaj,6 ali več,3
+2019,Portugalska,skupaj,skupaj,1-2,14
+2019,Portugalska,skupaj,skupaj,3-5,9
+2019,Portugalska,skupaj,skupaj,6 ali več,5
+2016,Portugalska,16-24,skupaj,1-2,16
+2016,Portugalska,16-24,skupaj,3-5,16
+2016,Portugalska,16-24,skupaj,6 ali več,8
+2017,Portugalska,16-24,skupaj,1-2,22
+2017,Portugalska,16-24,skupaj,3-5,11
+2017,Portugalska,16-24,skupaj,6 ali več,7
+2018,Portugalska,16-24,skupaj,1-2,27
+2018,Portugalska,16-24,skupaj,3-5,13
+2018,Portugalska,16-24,skupaj,6 ali več,5
+2019,Portugalska,16-24,skupaj,1-2,23
+2019,Portugalska,16-24,skupaj,3-5,17
+2019,Portugalska,16-24,skupaj,6 ali več,7
+2016,Portugalska,25-54,skupaj,1-2,13
+2016,Portugalska,25-54,skupaj,3-5,11
+2016,Portugalska,25-54,skupaj,6 ali več,5
+2017,Portugalska,25-54,skupaj,1-2,12
+2017,Portugalska,25-54,skupaj,3-5,12
+2017,Portugalska,25-54,skupaj,6 ali več,9
+2018,Portugalska,25-54,skupaj,1-2,19
+2018,Portugalska,25-54,skupaj,3-5,10
+2018,Portugalska,25-54,skupaj,6 ali več,5
+2019,Portugalska,25-54,skupaj,1-2,18
+2019,Portugalska,25-54,skupaj,3-5,12
+2019,Portugalska,25-54,skupaj,6 ali več,6
+2016,Portugalska,55-74,skupaj,1-2,3
+2016,Portugalska,55-74,skupaj,3-5,1
+2016,Portugalska,55-74,skupaj,6 ali več,1
+2017,Portugalska,55-74,skupaj,1-2,4
+2017,Portugalska,55-74,skupaj,3-5,3
+2017,Portugalska,55-74,skupaj,6 ali več,1
+2018,Portugalska,55-74,skupaj,1-2,6
+2018,Portugalska,55-74,skupaj,3-5,2
+2018,Portugalska,55-74,skupaj,6 ali več,1
+2019,Portugalska,55-74,skupaj,1-2,5
+2019,Portugalska,55-74,skupaj,3-5,2
+2019,Portugalska,55-74,skupaj,6 ali več,1
+2016,Portugalska,16-24,moški,1-2,15
+2016,Portugalska,16-24,moški,3-5,16
+2016,Portugalska,16-24,moški,6 ali več,9
+2017,Portugalska,16-24,moški,1-2,19
+2017,Portugalska,16-24,moški,3-5,8
+2017,Portugalska,16-24,moški,6 ali več,10
+2018,Portugalska,16-24,moški,1-2,31
+2018,Portugalska,16-24,moški,3-5,13
+2018,Portugalska,16-24,moški,6 ali več,7
+2019,Portugalska,16-24,moški,1-2,26
+2019,Portugalska,16-24,moški,3-5,15
+2019,Portugalska,16-24,moški,6 ali več,11
+2016,Portugalska,16-24,ženske,1-2,17
+2016,Portugalska,16-24,ženske,3-5,17
+2016,Portugalska,16-24,ženske,6 ali več,8
+2017,Portugalska,16-24,ženske,1-2,26
+2017,Portugalska,16-24,ženske,3-5,14
+2017,Portugalska,16-24,ženske,6 ali več,4
+2018,Portugalska,16-24,ženske,1-2,23
+2018,Portugalska,16-24,ženske,3-5,12
+2018,Portugalska,16-24,ženske,6 ali več,4
+2019,Portugalska,16-24,ženske,1-2,21
+2019,Portugalska,16-24,ženske,3-5,18
+2019,Portugalska,16-24,ženske,6 ali več,3
+2016,Portugalska,25-54,moški,1-2,13
+2016,Portugalska,25-54,moški,3-5,11
+2016,Portugalska,25-54,moški,6 ali več,7
+2017,Portugalska,25-54,moški,1-2,12
+2017,Portugalska,25-54,moški,3-5,12
+2017,Portugalska,25-54,moški,6 ali več,10
+2018,Portugalska,25-54,moški,1-2,17
+2018,Portugalska,25-54,moški,3-5,12
+2018,Portugalska,25-54,moški,6 ali več,5
+2019,Portugalska,25-54,moški,1-2,19
+2019,Portugalska,25-54,moški,3-5,10
+2019,Portugalska,25-54,moški,6 ali več,8
+2016,Portugalska,25-54,ženske,1-2,13
+2016,Portugalska,25-54,ženske,3-5,11
+2016,Portugalska,25-54,ženske,6 ali več,4
+2017,Portugalska,25-54,ženske,1-2,12
+2017,Portugalska,25-54,ženske,3-5,11
+2017,Portugalska,25-54,ženske,6 ali več,7
+2018,Portugalska,25-54,ženske,1-2,20
+2018,Portugalska,25-54,ženske,3-5,9
+2018,Portugalska,25-54,ženske,6 ali več,4
+2019,Portugalska,25-54,ženske,1-2,18
+2019,Portugalska,25-54,ženske,3-5,13
+2019,Portugalska,25-54,ženske,6 ali več,4
+2016,Portugalska,55-74,moški,1-2,5
+2016,Portugalska,55-74,moški,3-5,2
+2016,Portugalska,55-74,moški,6 ali več,1
+2017,Portugalska,55-74,moški,1-2,6
+2017,Portugalska,55-74,moški,3-5,3
+2017,Portugalska,55-74,moški,6 ali več,2
+2018,Portugalska,55-74,moški,1-2,6
+2018,Portugalska,55-74,moški,3-5,2
+2018,Portugalska,55-74,moški,6 ali več,1
+2019,Portugalska,55-74,moški,1-2,5
+2019,Portugalska,55-74,moški,3-5,3
+2019,Portugalska,55-74,moški,6 ali več,2
+2016,Portugalska,55-74,ženske,1-2,2
+2016,Portugalska,55-74,ženske,3-5,1
+2016,Portugalska,55-74,ženske,6 ali več,1
+2017,Portugalska,55-74,ženske,1-2,2
+2017,Portugalska,55-74,ženske,3-5,3
+2017,Portugalska,55-74,ženske,6 ali več,1
+2018,Portugalska,55-74,ženske,1-2,5
+2018,Portugalska,55-74,ženske,3-5,2
+2018,Portugalska,55-74,ženske,6 ali več,0
+2019,Portugalska,55-74,ženske,1-2,4
+2019,Portugalska,55-74,ženske,3-5,1
+2019,Portugalska,55-74,ženske,6 ali več,0
+2016,Romunija,skupaj,skupaj,1-2,5
+2016,Romunija,skupaj,skupaj,3-5,2
+2016,Romunija,skupaj,skupaj,6 ali več,0
+2017,Romunija,skupaj,skupaj,1-2,8
+2017,Romunija,skupaj,skupaj,3-5,3
+2017,Romunija,skupaj,skupaj,6 ali več,0
+2018,Romunija,skupaj,skupaj,1-2,9
+2018,Romunija,skupaj,skupaj,3-5,4
+2018,Romunija,skupaj,skupaj,6 ali več,1
+2019,Romunija,skupaj,skupaj,1-2,10
+2019,Romunija,skupaj,skupaj,3-5,4
+2019,Romunija,skupaj,skupaj,6 ali več,1
+2016,Romunija,16-24,skupaj,1-2,9
+2016,Romunija,16-24,skupaj,3-5,3
+2016,Romunija,16-24,skupaj,6 ali več,1
+2017,Romunija,16-24,skupaj,1-2,14
+2017,Romunija,16-24,skupaj,3-5,3
+2017,Romunija,16-24,skupaj,6 ali več,1
+2018,Romunija,16-24,skupaj,1-2,13
+2018,Romunija,16-24,skupaj,3-5,6
+2018,Romunija,16-24,skupaj,6 ali več,1
+2019,Romunija,16-24,skupaj,1-2,18
+2019,Romunija,16-24,skupaj,3-5,5
+2019,Romunija,16-24,skupaj,6 ali več,1
+2016,Romunija,25-54,skupaj,1-2,6
+2016,Romunija,25-54,skupaj,3-5,3
+2016,Romunija,25-54,skupaj,6 ali več,1
+2017,Romunija,25-54,skupaj,1-2,10
+2017,Romunija,25-54,skupaj,3-5,4
+2017,Romunija,25-54,skupaj,6 ali več,1
+2018,Romunija,25-54,skupaj,1-2,11
+2018,Romunija,25-54,skupaj,3-5,5
+2018,Romunija,25-54,skupaj,6 ali več,1
+2019,Romunija,25-54,skupaj,1-2,11
+2019,Romunija,25-54,skupaj,3-5,6
+2019,Romunija,25-54,skupaj,6 ali več,1
+2016,Romunija,55-74,skupaj,1-2,1
+2016,Romunija,55-74,skupaj,3-5,0
+2016,Romunija,55-74,skupaj,6 ali več,0
+2017,Romunija,55-74,skupaj,1-2,2
+2017,Romunija,55-74,skupaj,3-5,1
+2017,Romunija,55-74,skupaj,6 ali več,0
+2018,Romunija,55-74,skupaj,1-2,2
+2018,Romunija,55-74,skupaj,3-5,1
+2018,Romunija,55-74,skupaj,6 ali več,0
+2019,Romunija,55-74,skupaj,1-2,3
+2019,Romunija,55-74,skupaj,3-5,1
+2019,Romunija,55-74,skupaj,6 ali več,0
+2016,Romunija,16-24,moški,1-2,8
+2016,Romunija,16-24,moški,3-5,3
+2016,Romunija,16-24,moški,6 ali več,0
+2017,Romunija,16-24,moški,1-2,13
+2017,Romunija,16-24,moški,3-5,3
+2017,Romunija,16-24,moški,6 ali več,1
+2018,Romunija,16-24,moški,1-2,14
+2018,Romunija,16-24,moški,3-5,5
+2018,Romunija,16-24,moški,6 ali več,1
+2019,Romunija,16-24,moški,1-2,19
+2019,Romunija,16-24,moški,3-5,5
+2019,Romunija,16-24,moški,6 ali več,1
+2016,Romunija,16-24,ženske,1-2,9
+2016,Romunija,16-24,ženske,3-5,3
+2016,Romunija,16-24,ženske,6 ali več,1
+2017,Romunija,16-24,ženske,1-2,14
+2017,Romunija,16-24,ženske,3-5,3
+2017,Romunija,16-24,ženske,6 ali več,1
+2018,Romunija,16-24,ženske,1-2,12
+2018,Romunija,16-24,ženske,3-5,7
+2018,Romunija,16-24,ženske,6 ali več,1
+2019,Romunija,16-24,ženske,1-2,17
+2019,Romunija,16-24,ženske,3-5,6
+2019,Romunija,16-24,ženske,6 ali več,1
+2016,Romunija,25-54,moški,1-2,7
+2016,Romunija,25-54,moški,3-5,3
+2016,Romunija,25-54,moški,6 ali več,1
+2017,Romunija,25-54,moški,1-2,10
+2017,Romunija,25-54,moški,3-5,4
+2017,Romunija,25-54,moški,6 ali več,1
+2018,Romunija,25-54,moški,1-2,11
+2018,Romunija,25-54,moški,3-5,5
+2018,Romunija,25-54,moški,6 ali več,1
+2019,Romunija,25-54,moški,1-2,11
+2019,Romunija,25-54,moški,3-5,6
+2019,Romunija,25-54,moški,6 ali več,1
+2016,Romunija,25-54,ženske,1-2,6
+2016,Romunija,25-54,ženske,3-5,3
+2016,Romunija,25-54,ženske,6 ali več,1
+2017,Romunija,25-54,ženske,1-2,10
+2017,Romunija,25-54,ženske,3-5,4
+2017,Romunija,25-54,ženske,6 ali več,1
+2018,Romunija,25-54,ženske,1-2,12
+2018,Romunija,25-54,ženske,3-5,6
+2018,Romunija,25-54,ženske,6 ali več,1
+2019,Romunija,25-54,ženske,1-2,12
+2019,Romunija,25-54,ženske,3-5,6
+2019,Romunija,25-54,ženske,6 ali več,1
+2016,Romunija,55-74,moški,1-2,1
+2016,Romunija,55-74,moški,3-5,0
+2016,Romunija,55-74,moški,6 ali več,0
+2017,Romunija,55-74,moški,1-2,2
+2017,Romunija,55-74,moški,3-5,1
+2017,Romunija,55-74,moški,6 ali več,0
+2018,Romunija,55-74,moški,1-2,3
+2018,Romunija,55-74,moški,3-5,1
+2018,Romunija,55-74,moški,6 ali več,0
+2019,Romunija,55-74,moški,1-2,3
+2019,Romunija,55-74,moški,3-5,1
+2019,Romunija,55-74,moški,6 ali več,0
+2016,Romunija,55-74,ženske,1-2,1
+2016,Romunija,55-74,ženske,3-5,0
+2016,Romunija,55-74,ženske,6 ali več,0
+2017,Romunija,55-74,ženske,1-2,2
+2017,Romunija,55-74,ženske,3-5,1
+2017,Romunija,55-74,ženske,6 ali več,0
+2018,Romunija,55-74,ženske,1-2,2
+2018,Romunija,55-74,ženske,3-5,0
+2018,Romunija,55-74,ženske,6 ali več,0
+2019,Romunija,55-74,ženske,1-2,3
+2019,Romunija,55-74,ženske,3-5,1
+2019,Romunija,55-74,ženske,6 ali več,0
+2016,Slovenija,skupaj,skupaj,1-2,13
+2016,Slovenija,skupaj,skupaj,3-5,11
+2016,Slovenija,skupaj,skupaj,6 ali več,5
+2017,Slovenija,skupaj,skupaj,1-2,16
+2017,Slovenija,skupaj,skupaj,3-5,12
+2017,Slovenija,skupaj,skupaj,6 ali več,6
+2018,Slovenija,skupaj,skupaj,1-2,20
+2018,Slovenija,skupaj,skupaj,3-5,13
+2018,Slovenija,skupaj,skupaj,6 ali več,6
+2019,Slovenija,skupaj,skupaj,1-2,23
+2019,Slovenija,skupaj,skupaj,3-5,15
+2019,Slovenija,skupaj,skupaj,6 ali več,7
+2016,Slovenija,16-24,skupaj,1-2,24
+2016,Slovenija,16-24,skupaj,3-5,12
+2016,Slovenija,16-24,skupaj,6 ali več,6
+2017,Slovenija,16-24,skupaj,1-2,27
+2017,Slovenija,16-24,skupaj,3-5,18
+2017,Slovenija,16-24,skupaj,6 ali več,9
+2018,Slovenija,16-24,skupaj,1-2,30
+2018,Slovenija,16-24,skupaj,3-5,19
+2018,Slovenija,16-24,skupaj,6 ali več,4
+2019,Slovenija,16-24,skupaj,1-2,35
+2019,Slovenija,16-24,skupaj,3-5,15
+2019,Slovenija,16-24,skupaj,6 ali več,8
+2016,Slovenija,25-54,skupaj,1-2,16
+2016,Slovenija,25-54,skupaj,3-5,16
+2016,Slovenija,25-54,skupaj,6 ali več,7
+2017,Slovenija,25-54,skupaj,1-2,21
+2017,Slovenija,25-54,skupaj,3-5,16
+2017,Slovenija,25-54,skupaj,6 ali več,9
+2018,Slovenija,25-54,skupaj,1-2,24
+2018,Slovenija,25-54,skupaj,3-5,17
+2018,Slovenija,25-54,skupaj,6 ali več,9
+2019,Slovenija,25-54,skupaj,1-2,26
+2019,Slovenija,25-54,skupaj,3-5,21
+2019,Slovenija,25-54,skupaj,6 ali več,9
+2016,Slovenija,55-74,skupaj,1-2,4
+2016,Slovenija,55-74,skupaj,3-5,2
+2016,Slovenija,55-74,skupaj,6 ali več,1
+2017,Slovenija,55-74,skupaj,1-2,5
+2017,Slovenija,55-74,skupaj,3-5,5
+2017,Slovenija,55-74,skupaj,6 ali več,0
+2018,Slovenija,55-74,skupaj,1-2,9
+2018,Slovenija,55-74,skupaj,3-5,4
+2018,Slovenija,55-74,skupaj,6 ali več,2
+2019,Slovenija,55-74,skupaj,1-2,13
+2019,Slovenija,55-74,skupaj,3-5,5
+2019,Slovenija,55-74,skupaj,6 ali več,2
+2016,Slovenija,16-24,moški,1-2,25
+2016,Slovenija,16-24,moški,3-5,12
+2016,Slovenija,16-24,moški,6 ali več,5
+2017,Slovenija,16-24,moški,1-2,26
+2017,Slovenija,16-24,moški,3-5,17
+2017,Slovenija,16-24,moški,6 ali več,9
+2018,Slovenija,16-24,moški,1-2,31
+2018,Slovenija,16-24,moški,3-5,19
+2018,Slovenija,16-24,moški,6 ali več,2
+2019,Slovenija,16-24,moški,1-2,34
+2019,Slovenija,16-24,moški,3-5,13
+2019,Slovenija,16-24,moški,6 ali več,8
+2016,Slovenija,16-24,ženske,1-2,24
+2016,Slovenija,16-24,ženske,3-5,12
+2016,Slovenija,16-24,ženske,6 ali več,7
+2017,Slovenija,16-24,ženske,1-2,28
+2017,Slovenija,16-24,ženske,3-5,19
+2017,Slovenija,16-24,ženske,6 ali več,10
+2018,Slovenija,16-24,ženske,1-2,28
+2018,Slovenija,16-24,ženske,3-5,19
+2018,Slovenija,16-24,ženske,6 ali več,7
+2019,Slovenija,16-24,ženske,1-2,36
+2019,Slovenija,16-24,ženske,3-5,17
+2019,Slovenija,16-24,ženske,6 ali več,9
+2016,Slovenija,25-54,moški,1-2,15
+2016,Slovenija,25-54,moški,3-5,16
+2016,Slovenija,25-54,moški,6 ali več,9
+2017,Slovenija,25-54,moški,1-2,18
+2017,Slovenija,25-54,moški,3-5,16
+2017,Slovenija,25-54,moški,6 ali več,8
+2018,Slovenija,25-54,moški,1-2,24
+2018,Slovenija,25-54,moški,3-5,19
+2018,Slovenija,25-54,moški,6 ali več,9
+2019,Slovenija,25-54,moški,1-2,24
+2019,Slovenija,25-54,moški,3-5,21
+2019,Slovenija,25-54,moški,6 ali več,11
+2016,Slovenija,25-54,ženske,1-2,17
+2016,Slovenija,25-54,ženske,3-5,15
+2016,Slovenija,25-54,ženske,6 ali več,6
+2017,Slovenija,25-54,ženske,1-2,23
+2017,Slovenija,25-54,ženske,3-5,15
+2017,Slovenija,25-54,ženske,6 ali več,9
+2018,Slovenija,25-54,ženske,1-2,25
+2018,Slovenija,25-54,ženske,3-5,15
+2018,Slovenija,25-54,ženske,6 ali več,8
+2019,Slovenija,25-54,ženske,1-2,29
+2019,Slovenija,25-54,ženske,3-5,21
+2019,Slovenija,25-54,ženske,6 ali več,8
+2016,Slovenija,55-74,moški,1-2,6
+2016,Slovenija,55-74,moški,3-5,3
+2016,Slovenija,55-74,moški,6 ali več,2
+2017,Slovenija,55-74,moški,1-2,5
+2017,Slovenija,55-74,moški,3-5,6
+2017,Slovenija,55-74,moški,6 ali več,0
+2018,Slovenija,55-74,moški,1-2,10
+2018,Slovenija,55-74,moški,3-5,4
+2018,Slovenija,55-74,moški,6 ali več,3
+2019,Slovenija,55-74,moški,1-2,14
+2019,Slovenija,55-74,moški,3-5,6
+2019,Slovenija,55-74,moški,6 ali več,3
+2016,Slovenija,55-74,ženske,1-2,2
+2016,Slovenija,55-74,ženske,3-5,2
+2016,Slovenija,55-74,ženske,6 ali več,0
+2017,Slovenija,55-74,ženske,1-2,5
+2017,Slovenija,55-74,ženske,3-5,4
+2017,Slovenija,55-74,ženske,6 ali več,0
+2018,Slovenija,55-74,ženske,1-2,8
+2018,Slovenija,55-74,ženske,3-5,3
+2018,Slovenija,55-74,ženske,6 ali več,1
+2019,Slovenija,55-74,ženske,1-2,12
+2019,Slovenija,55-74,ženske,3-5,4
+2019,Slovenija,55-74,ženske,6 ali več,1
+2016,Slovaška,skupaj,skupaj,1-2,19
+2016,Slovaška,skupaj,skupaj,3-5,16
+2016,Slovaška,skupaj,skupaj,6 ali več,6
+2017,Slovaška,skupaj,skupaj,1-2,22
+2017,Slovaška,skupaj,skupaj,3-5,17
+2017,Slovaška,skupaj,skupaj,6 ali več,7
+2018,Slovaška,skupaj,skupaj,1-2,17
+2018,Slovaška,skupaj,skupaj,3-5,19
+2018,Slovaška,skupaj,skupaj,6 ali več,8
+2019,Slovaška,skupaj,skupaj,1-2,19
+2019,Slovaška,skupaj,skupaj,3-5,19
+2019,Slovaška,skupaj,skupaj,6 ali več,8
+2016,Slovaška,16-24,skupaj,1-2,24
+2016,Slovaška,16-24,skupaj,3-5,26
+2016,Slovaška,16-24,skupaj,6 ali več,9
+2017,Slovaška,16-24,skupaj,1-2,31
+2017,Slovaška,16-24,skupaj,3-5,22
+2017,Slovaška,16-24,skupaj,6 ali več,10
+2018,Slovaška,16-24,skupaj,1-2,31
+2018,Slovaška,16-24,skupaj,3-5,26
+2018,Slovaška,16-24,skupaj,6 ali več,10
+2019,Slovaška,16-24,skupaj,1-2,25
+2019,Slovaška,16-24,skupaj,3-5,30
+2019,Slovaška,16-24,skupaj,6 ali več,13
+2016,Slovaška,25-54,skupaj,1-2,22
+2016,Slovaška,25-54,skupaj,3-5,19
+2016,Slovaška,25-54,skupaj,6 ali več,8
+2017,Slovaška,25-54,skupaj,1-2,25
+2017,Slovaška,25-54,skupaj,3-5,21
+2017,Slovaška,25-54,skupaj,6 ali več,9
+2018,Slovaška,25-54,skupaj,1-2,19
+2018,Slovaška,25-54,skupaj,3-5,24
+2018,Slovaška,25-54,skupaj,6 ali več,10
+2019,Slovaška,25-54,skupaj,1-2,22
+2019,Slovaška,25-54,skupaj,3-5,23
+2019,Slovaška,25-54,skupaj,6 ali več,11
+2016,Slovaška,55-74,skupaj,1-2,8
+2016,Slovaška,55-74,skupaj,3-5,6
+2016,Slovaška,55-74,skupaj,6 ali več,1
+2017,Slovaška,55-74,skupaj,1-2,12
+2017,Slovaška,55-74,skupaj,3-5,6
+2017,Slovaška,55-74,skupaj,6 ali več,2
+2018,Slovaška,55-74,skupaj,1-2,9
+2018,Slovaška,55-74,skupaj,3-5,6
+2018,Slovaška,55-74,skupaj,6 ali več,2
+2019,Slovaška,55-74,skupaj,1-2,10
+2019,Slovaška,55-74,skupaj,3-5,7
+2019,Slovaška,55-74,skupaj,6 ali več,2
+2016,Slovaška,16-24,moški,1-2,23
+2016,Slovaška,16-24,moški,3-5,26
+2016,Slovaška,16-24,moški,6 ali več,8
+2017,Slovaška,16-24,moški,1-2,33
+2017,Slovaška,16-24,moški,3-5,23
+2017,Slovaška,16-24,moški,6 ali več,10
+2018,Slovaška,16-24,moški,1-2,38
+2018,Slovaška,16-24,moški,3-5,23
+2018,Slovaška,16-24,moški,6 ali več,8
+2019,Slovaška,16-24,moški,1-2,24
+2019,Slovaška,16-24,moški,3-5,36
+2019,Slovaška,16-24,moški,6 ali več,11
+2016,Slovaška,16-24,ženske,1-2,25
+2016,Slovaška,16-24,ženske,3-5,26
+2016,Slovaška,16-24,ženske,6 ali več,10
+2017,Slovaška,16-24,ženske,1-2,28
+2017,Slovaška,16-24,ženske,3-5,21
+2017,Slovaška,16-24,ženske,6 ali več,11
+2018,Slovaška,16-24,ženske,1-2,24
+2018,Slovaška,16-24,ženske,3-5,29
+2018,Slovaška,16-24,ženske,6 ali več,11
+2019,Slovaška,16-24,ženske,1-2,26
+2019,Slovaška,16-24,ženske,3-5,24
+2019,Slovaška,16-24,ženske,6 ali več,14
+2016,Slovaška,25-54,moški,1-2,23
+2016,Slovaška,25-54,moški,3-5,18
+2016,Slovaška,25-54,moški,6 ali več,8
+2017,Slovaška,25-54,moški,1-2,25
+2017,Slovaška,25-54,moški,3-5,20
+2017,Slovaška,25-54,moški,6 ali več,10
+2018,Slovaška,25-54,moški,1-2,19
+2018,Slovaška,25-54,moški,3-5,23
+2018,Slovaška,25-54,moški,6 ali več,11
+2019,Slovaška,25-54,moški,1-2,23
+2019,Slovaška,25-54,moški,3-5,23
+2019,Slovaška,25-54,moški,6 ali več,10
+2016,Slovaška,25-54,ženske,1-2,21
+2016,Slovaška,25-54,ženske,3-5,20
+2016,Slovaška,25-54,ženske,6 ali več,8
+2017,Slovaška,25-54,ženske,1-2,26
+2017,Slovaška,25-54,ženske,3-5,22
+2017,Slovaška,25-54,ženske,6 ali več,9
+2018,Slovaška,25-54,ženske,1-2,18
+2018,Slovaška,25-54,ženske,3-5,26
+2018,Slovaška,25-54,ženske,6 ali več,9
+2019,Slovaška,25-54,ženske,1-2,22
+2019,Slovaška,25-54,ženske,3-5,24
+2019,Slovaška,25-54,ženske,6 ali več,11
+2016,Slovaška,55-74,moški,1-2,10
+2016,Slovaška,55-74,moški,3-5,4
+2016,Slovaška,55-74,moški,6 ali več,1
+2017,Slovaška,55-74,moški,1-2,14
+2017,Slovaška,55-74,moški,3-5,6
+2017,Slovaška,55-74,moški,6 ali več,4
+2018,Slovaška,55-74,moški,1-2,8
+2018,Slovaška,55-74,moški,3-5,6
+2018,Slovaška,55-74,moški,6 ali več,3
+2019,Slovaška,55-74,moški,1-2,13
+2019,Slovaška,55-74,moški,3-5,7
+2019,Slovaška,55-74,moški,6 ali več,2
+2016,Slovaška,55-74,ženske,1-2,7
+2016,Slovaška,55-74,ženske,3-5,7
+2016,Slovaška,55-74,ženske,6 ali več,2
+2017,Slovaška,55-74,ženske,1-2,10
+2017,Slovaška,55-74,ženske,3-5,7
+2017,Slovaška,55-74,ženske,6 ali več,1
+2018,Slovaška,55-74,ženske,1-2,10
+2018,Slovaška,55-74,ženske,3-5,5
+2018,Slovaška,55-74,ženske,6 ali več,1
+2019,Slovaška,55-74,ženske,1-2,9
+2019,Slovaška,55-74,ženske,3-5,7
+2019,Slovaška,55-74,ženske,6 ali več,2
+2016,Finska,skupaj,skupaj,1-2,15
+2016,Finska,skupaj,skupaj,3-5,19
+2016,Finska,skupaj,skupaj,6 ali več,13
+2017,Finska,skupaj,skupaj,1-2,19
+2017,Finska,skupaj,skupaj,3-5,20
+2017,Finska,skupaj,skupaj,6 ali več,17
+2018,Finska,skupaj,skupaj,1-2,16
+2018,Finska,skupaj,skupaj,3-5,20
+2018,Finska,skupaj,skupaj,6 ali več,14
+2019,Finska,skupaj,skupaj,1-2,17
+2019,Finska,skupaj,skupaj,3-5,23
+2019,Finska,skupaj,skupaj,6 ali več,15
+2016,Finska,16-24,skupaj,1-2,18
+2016,Finska,16-24,skupaj,3-5,18
+2016,Finska,16-24,skupaj,6 ali več,15
+2017,Finska,16-24,skupaj,1-2,20
+2017,Finska,16-24,skupaj,3-5,24
+2017,Finska,16-24,skupaj,6 ali več,23
+2018,Finska,16-24,skupaj,1-2,17
+2018,Finska,16-24,skupaj,3-5,20
+2018,Finska,16-24,skupaj,6 ali več,17
+2019,Finska,16-24,skupaj,1-2,17
+2019,Finska,16-24,skupaj,3-5,27
+2019,Finska,16-24,skupaj,6 ali več,13
+2016,Finska,25-54,skupaj,1-2,18
+2016,Finska,25-54,skupaj,3-5,26
+2016,Finska,25-54,skupaj,6 ali več,19
+2017,Finska,25-54,skupaj,1-2,21
+2017,Finska,25-54,skupaj,3-5,25
+2017,Finska,25-54,skupaj,6 ali več,25
+2018,Finska,25-54,skupaj,1-2,18
+2018,Finska,25-54,skupaj,3-5,27
+2018,Finska,25-54,skupaj,6 ali več,22
+2019,Finska,25-54,skupaj,1-2,18
+2019,Finska,25-54,skupaj,3-5,28
+2019,Finska,25-54,skupaj,6 ali več,21
+2016,Finska,55-74,skupaj,1-2,11
+2016,Finska,55-74,skupaj,3-5,9
+2016,Finska,55-74,skupaj,6 ali več,4
+2017,Finska,55-74,skupaj,1-2,15
+2017,Finska,55-74,skupaj,3-5,11
+2017,Finska,55-74,skupaj,6 ali več,4
+2018,Finska,55-74,skupaj,1-2,13
+2018,Finska,55-74,skupaj,3-5,9
+2018,Finska,55-74,skupaj,6 ali več,3
+2019,Finska,55-74,skupaj,1-2,15
+2019,Finska,55-74,skupaj,3-5,13
+2019,Finska,55-74,skupaj,6 ali več,6
+2016,Finska,16-24,moški,1-2,18
+2016,Finska,16-24,moški,3-5,19
+2016,Finska,16-24,moški,6 ali več,17
+2017,Finska,16-24,moški,1-2,19
+2017,Finska,16-24,moški,3-5,27
+2017,Finska,16-24,moški,6 ali več,23
+2018,Finska,16-24,moški,1-2,18
+2018,Finska,16-24,moški,3-5,20
+2018,Finska,16-24,moški,6 ali več,18
+2019,Finska,16-24,moški,1-2,16
+2019,Finska,16-24,moški,3-5,30
+2019,Finska,16-24,moški,6 ali več,12
+2016,Finska,16-24,ženske,1-2,18
+2016,Finska,16-24,ženske,3-5,17
+2016,Finska,16-24,ženske,6 ali več,13
+2017,Finska,16-24,ženske,1-2,20
+2017,Finska,16-24,ženske,3-5,22
+2017,Finska,16-24,ženske,6 ali več,23
+2018,Finska,16-24,ženske,1-2,16
+2018,Finska,16-24,ženske,3-5,20
+2018,Finska,16-24,ženske,6 ali več,15
+2019,Finska,16-24,ženske,1-2,18
+2019,Finska,16-24,ženske,3-5,25
+2019,Finska,16-24,ženske,6 ali več,14
+2016,Finska,25-54,moški,1-2,16
+2016,Finska,25-54,moški,3-5,24
+2016,Finska,25-54,moški,6 ali več,21
+2017,Finska,25-54,moški,1-2,20
+2017,Finska,25-54,moški,3-5,25
+2017,Finska,25-54,moški,6 ali več,23
+2018,Finska,25-54,moški,1-2,18
+2018,Finska,25-54,moški,3-5,25
+2018,Finska,25-54,moški,6 ali več,22
+2019,Finska,25-54,moški,1-2,18
+2019,Finska,25-54,moški,3-5,27
+2019,Finska,25-54,moški,6 ali več,23
+2016,Finska,25-54,ženske,1-2,20
+2016,Finska,25-54,ženske,3-5,28
+2016,Finska,25-54,ženske,6 ali več,16
+2017,Finska,25-54,ženske,1-2,22
+2017,Finska,25-54,ženske,3-5,25
+2017,Finska,25-54,ženske,6 ali več,27
+2018,Finska,25-54,ženske,1-2,19
+2018,Finska,25-54,ženske,3-5,30
+2018,Finska,25-54,ženske,6 ali več,21
+2019,Finska,25-54,ženske,1-2,19
+2019,Finska,25-54,ženske,3-5,30
+2019,Finska,25-54,ženske,6 ali več,20
+2016,Finska,55-74,moški,1-2,10
+2016,Finska,55-74,moški,3-5,10
+2016,Finska,55-74,moški,6 ali več,4
+2017,Finska,55-74,moški,1-2,16
+2017,Finska,55-74,moški,3-5,9
+2017,Finska,55-74,moški,6 ali več,4
+2018,Finska,55-74,moški,1-2,12
+2018,Finska,55-74,moški,3-5,8
+2018,Finska,55-74,moški,6 ali več,4
+2019,Finska,55-74,moški,1-2,13
+2019,Finska,55-74,moški,3-5,14
+2019,Finska,55-74,moški,6 ali več,6
+2016,Finska,55-74,ženske,1-2,11
+2016,Finska,55-74,ženske,3-5,7
+2016,Finska,55-74,ženske,6 ali več,4
+2017,Finska,55-74,ženske,1-2,15
+2017,Finska,55-74,ženske,3-5,13
+2017,Finska,55-74,ženske,6 ali več,3
+2018,Finska,55-74,ženske,1-2,13
+2018,Finska,55-74,ženske,3-5,10
+2018,Finska,55-74,ženske,6 ali več,3
+2019,Finska,55-74,ženske,1-2,17
+2019,Finska,55-74,ženske,3-5,13
+2019,Finska,55-74,ženske,6 ali več,5
+2016,Švedska,skupaj,skupaj,1-2,22
+2016,Švedska,skupaj,skupaj,3-5,23
+2016,Švedska,skupaj,skupaj,6 ali več,17
+2017,Švedska,skupaj,skupaj,1-2,20
+2017,Švedska,skupaj,skupaj,3-5,24
+2017,Švedska,skupaj,skupaj,6 ali več,22
+2018,Švedska,skupaj,skupaj,1-2,18
+2018,Švedska,skupaj,skupaj,3-5,26
+2018,Švedska,skupaj,skupaj,6 ali več,19
+2019,Švedska,skupaj,skupaj,1-2,19
+2019,Švedska,skupaj,skupaj,3-5,27
+2019,Švedska,skupaj,skupaj,6 ali več,23
+2016,Švedska,16-24,skupaj,1-2,24
+2016,Švedska,16-24,skupaj,3-5,20
+2016,Švedska,16-24,skupaj,6 ali več,16
+2017,Švedska,16-24,skupaj,1-2,25
+2017,Švedska,16-24,skupaj,3-5,27
+2017,Švedska,16-24,skupaj,6 ali več,19
+2018,Švedska,16-24,skupaj,1-2,19
+2018,Švedska,16-24,skupaj,3-5,31
+2018,Švedska,16-24,skupaj,6 ali več,19
+2019,Švedska,16-24,skupaj,1-2,21
+2019,Švedska,16-24,skupaj,3-5,31
+2019,Švedska,16-24,skupaj,6 ali več,18
+2016,Švedska,25-54,skupaj,1-2,22
+2016,Švedska,25-54,skupaj,3-5,27
+2016,Švedska,25-54,skupaj,6 ali več,23
+2017,Švedska,25-54,skupaj,1-2,19
+2017,Švedska,25-54,skupaj,3-5,28
+2017,Švedska,25-54,skupaj,6 ali več,30
+2018,Švedska,25-54,skupaj,1-2,17
+2018,Švedska,25-54,skupaj,3-5,30
+2018,Švedska,25-54,skupaj,6 ali več,25
+2019,Švedska,25-54,skupaj,1-2,18
+2019,Švedska,25-54,skupaj,3-5,29
+2019,Švedska,25-54,skupaj,6 ali več,34
+2016,Švedska,55-74,skupaj,1-2,22
+2016,Švedska,55-74,skupaj,3-5,18
+2016,Švedska,55-74,skupaj,6 ali več,7
+2017,Švedska,55-74,skupaj,1-2,20
+2017,Švedska,55-74,skupaj,3-5,17
+2017,Švedska,55-74,skupaj,6 ali več,10
+2018,Švedska,55-74,skupaj,1-2,20
+2018,Švedska,55-74,skupaj,3-5,18
+2018,Švedska,55-74,skupaj,6 ali več,8
+2019,Švedska,55-74,skupaj,1-2,21
+2019,Švedska,55-74,skupaj,3-5,22
+2019,Švedska,55-74,skupaj,6 ali več,8
+2016,Švedska,16-24,moški,1-2,29
+2016,Švedska,16-24,moški,3-5,20
+2016,Švedska,16-24,moški,6 ali več,13
+2017,Švedska,16-24,moški,1-2,21
+2017,Švedska,16-24,moški,3-5,34
+2017,Švedska,16-24,moški,6 ali več,17
+2018,Švedska,16-24,moški,1-2,19
+2018,Švedska,16-24,moški,3-5,31
+2018,Švedska,16-24,moški,6 ali več,18
+2019,Švedska,16-24,moški,1-2,17
+2019,Švedska,16-24,moški,3-5,27
+2019,Švedska,16-24,moški,6 ali več,18
+2016,Švedska,16-24,ženske,1-2,18
+2016,Švedska,16-24,ženske,3-5,20
+2016,Švedska,16-24,ženske,6 ali več,19
+2017,Švedska,16-24,ženske,1-2,31
+2017,Švedska,16-24,ženske,3-5,21
+2017,Švedska,16-24,ženske,6 ali več,21
+2018,Švedska,16-24,ženske,1-2,19
+2018,Švedska,16-24,ženske,3-5,30
+2018,Švedska,16-24,ženske,6 ali več,21
+2019,Švedska,16-24,ženske,1-2,24
+2019,Švedska,16-24,ženske,3-5,35
+2019,Švedska,16-24,ženske,6 ali več,19
+2016,Švedska,25-54,moški,1-2,23
+2016,Švedska,25-54,moški,3-5,25
+2016,Švedska,25-54,moški,6 ali več,20
+2017,Švedska,25-54,moški,1-2,20
+2017,Švedska,25-54,moški,3-5,24
+2017,Švedska,25-54,moški,6 ali več,33
+2018,Švedska,25-54,moški,1-2,17
+2018,Švedska,25-54,moški,3-5,28
+2018,Švedska,25-54,moški,6 ali več,26
+2019,Švedska,25-54,moški,1-2,18
+2019,Švedska,25-54,moški,3-5,27
+2019,Švedska,25-54,moški,6 ali več,36
+2016,Švedska,25-54,ženske,1-2,20
+2016,Švedska,25-54,ženske,3-5,30
+2016,Švedska,25-54,ženske,6 ali več,26
+2017,Švedska,25-54,ženske,1-2,18
+2017,Švedska,25-54,ženske,3-5,31
+2017,Švedska,25-54,ženske,6 ali več,28
+2018,Švedska,25-54,ženske,1-2,16
+2018,Švedska,25-54,ženske,3-5,32
+2018,Švedska,25-54,ženske,6 ali več,23
+2019,Švedska,25-54,ženske,1-2,18
+2019,Švedska,25-54,ženske,3-5,32
+2019,Švedska,25-54,ženske,6 ali več,32
+2016,Švedska,55-74,moški,1-2,20
+2016,Švedska,55-74,moški,3-5,18
+2016,Švedska,55-74,moški,6 ali več,8
+2017,Švedska,55-74,moški,1-2,21
+2017,Švedska,55-74,moški,3-5,17
+2017,Švedska,55-74,moški,6 ali več,11
+2018,Švedska,55-74,moški,1-2,21
+2018,Švedska,55-74,moški,3-5,20
+2018,Švedska,55-74,moški,6 ali več,9
+2019,Švedska,55-74,moški,1-2,23
+2019,Švedska,55-74,moški,3-5,21
+2019,Švedska,55-74,moški,6 ali več,8
+2016,Švedska,55-74,ženske,1-2,23
+2016,Švedska,55-74,ženske,3-5,17
+2016,Švedska,55-74,ženske,6 ali več,7
+2017,Švedska,55-74,ženske,1-2,19
+2017,Švedska,55-74,ženske,3-5,16
+2017,Švedska,55-74,ženske,6 ali več,8
+2018,Švedska,55-74,ženske,1-2,19
+2018,Švedska,55-74,ženske,3-5,16
+2018,Švedska,55-74,ženske,6 ali več,8
+2019,Švedska,55-74,ženske,1-2,19
+2019,Švedska,55-74,ženske,3-5,23
+2019,Švedska,55-74,ženske,6 ali več,7
