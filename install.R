@@ -12,3 +12,8 @@
 #    "numDeriv",
 #    "rootSolve"
 #))
+
+
+install.packages(c(
+    "emojifont"
+))
