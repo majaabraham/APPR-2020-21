@@ -18,60 +18,27 @@ Večino podatkov sem pridobila iz spletne strani [Eurostat](https://ec.europa.eu
 Na spletni strani https://www.webretailer.com/b/online-marketplaces-europe/ se nahaja tabela o najbolj priljubljenih spletnih trgovinah v Evropi.
 
 
-**Predvidene tabele:**
+**Tabele:**
 1. tabela: Podatki o zadnjem spletnem nakupu za posamezno leto, v odstotkih populacije
-* leto
-* država
-* spol
-* starostna skupina
-* zadnji spletni nakup
-* odstotek
+* leto, država, spol, starostna skupina, zadnji spletni nakup, odstotek
 
-2. tabela: Pogostost nakupovanja po spletu glede na spol, obdobje 3. mesecev, v odstotkih populacije
-* leto
-* država
-* spol
-* pogostost nakupa
-* odstotek
+2. tabela: Pogostost nakupovanja po spletu, obdobje 3. mesecev, v odstotkih populacije
+* leto, država, spol, starostna skupina, pogostost nakupa, odstotek
 
-3. tabela: Pogostost nakupovanja po spletu glede na starost, obdobje 3. mesecev, v odstotkih populacije
-* leto
-* država
-* starostna skupina
-* pogostost nakupa
-* odstotek
+3. tabela: Podatki o vrstah blaga/storitve spletnih nakupov, v odstotkih kupcev
+* leto, država, starostna skupina, vrsta blaga/ storitve, odstotek
 
-4. tabela: Podatki o vrstah blaga/storitve spletnih nakupov, v odstotkih kupcev
-* leto
-* država
-* starostna skupina
-* vrsta blaga/ storitve
-* odstotek
+4. tabela: Vrednosti spletnih nakupov, v odstotkih kupcev
+* leto, država, spol, starostna skupina, vrednost, odstotek
 
-5. tabela: Vrednosti spletnih nakupov, v odstotkih kupcev
-* leto
-* država
-* starostna skupina
-* vrednost
-* odstotek
+5. tabela: Podatki o spletnih nakupih glede na izvor prodajalca, v odstotkih kupcev
+* leto, država, spol, starostna skupina, izvor prodajalca, odstotek
 
-6. tabela: Podatki o spletnih nakupih glede na izvor prodajalca, v odstotkih kupcev
-* leto
-* država
-* starostna skupina
-* izvor prodajalca
-* odstotek
-
-7. tabela: Pogostost težav, ki jih imajo kupci pri spletnem nakupovanju, v odstotkih kupcev
-* leto
-* država
-* težava
-* odstotek
+6. tabela: Pogostost težav, ki jih imajo kupci pri spletnem nakupovanju, v odstotkih kupcev
+* leto, država, težava, odstotek
 
 8. tabela: Najbolj priljubljene spletne trgovine v evropi
-* trgovina
-* vrsta izdelkov
-* št. obiskov/mesec
+* trgovina, regija/država, št. obiskov/mesec, enota
 
 ## Program
 

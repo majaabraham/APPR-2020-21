@@ -36,32 +36,87 @@ Nakupovanje v spletnih trgovinah postaja vedno bolj priljubljeno, zato sem se od
 source("uvoz/uvoz.r", encoding="UTF-8")
 ```
 
-Uvozili smo podatke o občinah v obliki CSV s statističnega urada ter v obliki HTML
-z Wikipedije. Podatke imamo v dveh razpredelnicah v obliki *tidy data*.
+Večino podatkov sem pridobila iz spletne strani [Eurostat](https://ec.europa.eu/eurostat). Podatki so dostopni v različnih formatih. Uvozila sem 6 tabel v formatih CSV, HTML in XLS.
+Poleg omenjenih podatkov sem uporabila še tabelo, v kateri se nahajajo podatki o najbolj priljubljenih spletnih trgovinah v Evropi. Tabela se nahaja na naslednji povezavi: https://www.webretailer.com/b/online-marketplaces-europe/
 
-1. `druzine` - podatki o družinah za vsako občino
-  - `obcina` - spremenljivka: ime občine (neurejen faktor),
-  - `velikost.druzine` - spremenljivka: število otrok v družini (število: 1, 2, 3 ali 4, kjer zadnja vrednost pomeni 4 ali več),
-  - `stevilo.druzin` - meritev: število družin z ustreznim številom otrok v ustrezni občini (število).
+Podatki shranjeni v formatu CSV so že skoraj v obliki *tidy data*, potrebno je le ločiti nekatere stolpce in prevesti vsebino podatkov, saj so vsi podatki v angleščini. Vse ostale podatke pa je potrebno še preoblikovati in prečistiti. 
 
-2. `obcine` - podatki o občinah
-  - `obcina` - spremenljivka: ime občine (neurejen faktor),
-  - `povrsina` - meritev: površina občine v km$^2$ (število),
-  - `prebivalci` - meritev: prebivalstvo občine (število),
-  - `gostota` - meritev: število prebivalcev na km$^2$ (število),
-  - `naselja` - meritev: število naselij v občini (število),
-  - `ustanovitev` - meritev: leto ustanovitve občine (število),
-  - `pokrajina` - meritev: pokrajina, ki ji občina pripada (neurejen faktor),
-  - `regija` - meritev: regija, ki ji občina pripada (neurejen faktor),
-  - `odcepitev` - meritev: podatki o občinah, od katerih se je občina odcepila (besedilo).
+1. `pogostost` - podatki o pogostosti spletnega nakupovanja po letih, državah, storostni skupini in spolu
+  - `leto` - spremenljivka: leta od 2016 do 2019 (število),
+  - `drzava` - spremenljivka:  imena držav članic EU in  EU28 (zajema EU povprečje, ki vključuje še Veliko Britanijo),
+  - `starostna skupina` - spremenljivka: podatek o starostni skupini, razdeljeno v kategorije (niz),
+  - `spol` - spremenljivka: podatek o spolu (moški, ženski in skupna vrednost),
+  - `pogostost` - spremenljivka: število spletnih nakupov v obdobju treh mesecev (niz),
+  - `odstotek` - meritev: odstotek populacije pri določenem številu spletnih nakupov, ki ustreza ostalim pogojem iz stolpcev (število).
 
-**Opomba**: da bi razpredelnica `obcine` res bila v obliki *tidy data*, bi morali odstraniti stolpec `gostota` (saj je izpeljan iz stolpcev `povrsina` in `prebivalci`), podatke o pokrajinah pa bi morali premakniti v drugo razpredelnico, saj nekatere občine pripadajo dvema pokrajinama. Podobno bi morali narediti tudi s stolpcem `odcepitev`.
+2. `zadnji.nakup` - podatki o preteklem času od zadnjega spletnega nakupa po letih, državah, storostni skupini in spolu
+  - `leto` - spremenljivka: leta od 2010 do 2019 (število),
+  - `drzava` - spremenljivka:  imena držav članic EU in  EU28 (zajema EU povprečje, ki vključuje še Veliko Britanijo),
+  - `starostna skupina` - spremenljivka: podatek o starostni skupini, razdeljeno v kategorije (niz),
+  - `spol` - spremenljivka: podatek o spolu (moški, ženski in skupna vrednost),
+  - `zadnji e-nakup` - spremenljivka: podatki o tem, kdaj je bil opravljen zadnji spletni nakup (niz),
+  - `odstotek` - meritev: odstotek populacije ki je svoj zadnji nakup opravil v določenem časovnem obdobju posameznega leta, ki ustreza ostalim pogojem iz stolpcev (število).
 
-Spodnji graf prikazuje porazdelitev števila naselij v občinah.
+3. `vrsta.blaga` - podatki o odstotku kupcev, ki so kupovali posamezno vrsto blaga ali storitve po letih, državah, storostni skupini in spolu
+  - `leto` - spremenljivka: leta od 2010 do 2019 (število),
+  - `drzava` - spremenljivka:  imena držav članic EU in  EU28 (zajema EU povprečje, ki vključuje še Veliko Britanijo),
+  - `starostna skupina` - spremenljivka: podatek o starostni skupini, razdeljeno v kategorije (niz),
+  - `spol` - spremenljivka: podatek o spolu (moški, ženski in skupna vrednost),
+  - `vrsta blaga` - spremenljivka: podatki o vrsah blaga/storitev,
+  - `odstotek` - meritev: odstotek kupcev ki so kupili določeno vrsto blaga/storitev pri ostalih pogojih iz stolpcev (število).
 
-```{r histogram, fig.align='center', fig.cap='Histogram števila naselij v občinah'}
-ggplot(obcine, aes(x=naselja)) + geom_histogram() +
-  ggtitle("Pogostost števila naselij") + xlab("Število naselij") + ylab("Število občin")
+4. `vrednosti` - podatki o vrednosti spletnih nakupov po letih, državah, storostni skupini in spolu
+  - `leto` - spremenljivka: leta od 2015 do 2019 (število),
+  - `drzava` - spremenljivka:  imena držav članic EU in  EU28 (zajema EU povprečje, ki vključuje še Veliko Britanijo),
+  - `starostna skupina` - spremenljivka: podatek o starostni skupini, razdeljeno v kategorije (niz),
+  - `spol` - spremenljivka: podatek o spolu (moški, ženski in skupna vrednost),
+  - `vrednost` - spremenljivka: vrednosti posameznih spletnih nakupov (vrednosti so razdeljene v kategorije, niz),
+  - `odstotek` - meritev: odstotek kupcev, ki so opravili nakup določene vrednosti pri ostalih pogojih iz stolpcev (število).
+
+5. `izvor` - podatki o odstotku kupcev, ki so kupovali od prodajalcev kategoriziranih po izvoru glede na leto, državo, storostno skupino in spol
+  - `leto` - spremenljivka: leta od 2010 do 2019 (število),
+  - `drzava` - spremenljivka:  imena držav članic EU in  EU28 (zajema EU povprečje, ki vključuje še Veliko Britanijo),
+  - `starostna skupina` - spremenljivka: podatek o starostni skupini, razdeljeno v kategorije (niz),
+  - `spol` - spremenljivka: podatek o spolu (moški, ženski in skupna vrednost),
+  - `prodajalec` - spremenljivka: podatki o regionalnem izvoru prodajalca (domač, iz EU ali iz drugih držav),
+  - `odstotek` - meritev: odstotek kupcev, ki so kupovali od prodajalcev kategoriziranih po izvoru ter  ustreza ostalim pogojem iz preostalih stolpcev (število).
+  
+6. `tezave` - podatki o težavah, s katerimi se srečujejo kupci pri spletnih nakupih po letih in državah
+  - `leto` - spremenljivka: leta 2009, 2015-2017, 2019 (število),
+  - `drzava` - spremenljivka:  imena držav članic EU in  EU28 (zajema EU povprečje, ki vključuje še Veliko Britanijo),
+  - `tezava` - spremenljivka: podatki o težavah, ki se pojavljajo pri spletnem nakupovanju,
+  - `odstotek` - meritev: odstotek kupcev, ki je navedel določeno težavo v posameznem letu in državi (število).
+  
+7. `top10` - podatki o najbolj obiskanih spletnih trgovinah s strani evropejcev
+  - `ime` - spremenljivka: ime spletne trgovine,
+  - `regija / drzava` - meritev:  regija oz. država iz katere spletna trgovina izvira,
+  - `obiski/mesec` - meritev: število obiskov, ki jih mesečno prejme spletna trgovina (število),
+  - `enota` - meritev: podatek o enoti merjenja obiskov (M pomeni milijon, B pa bilijon).
+
+Spodnji grafi prikazujejo odstotke prebivalstva posamezne države, ki so v posameznih letih spletno nakupovali po kategorijah pogostosti. Tako npr. rdeče črte prikazujejo odstotek posameznikov, ki so v obdobju treh mesecev opravili 1 ali 2 spletna nakupa...
+Opazimo, da se v večini držav odstotek prebivalstva, ki kupuje v spletnih trgovinah veča, vendar pa pri večini prednjačijo kupci, ki se le občasno odločijo za spletni nakup, torej 1 do 2 nakupa v treh mesecih. V nadaljni analizi bom pozorna, kako se deleži spletnih nakupov spreminjajo po spolu in starostni skupini. Omejila se bom na posamezne države. Opazovala bom tudi gibanje podatkov iz razpredelnice o času zadnjega spletnega nakupa, saj predvidevam, da bi bili podatki lahko povezani z pogostostjo nakupovanja. Predvidevam, da se bo pojavila tudi povezava z vrednostjo nakupov.
+
+```{r fig.align='center'}
+pogostost %>% 
+  filter(spol == "skupaj", `starostna skupina`=="skupaj") %>%
+  select(-spol, -`starostna skupina`) %>% 
+  ggplot(aes(x=leto, y=odstotek, col=pogostost)) +
+  geom_line() + 
+  facet_wrap(~drzava, ncol=7) + 
+  scale_x_log10() +
+  theme(axis.text.x = element_text(size = 7, angle = 90)) +
+  ggtitle("Pogostost spletnega nakupovanja po letih in državah")
+```
+Na spodnjem grafikonu vidimo odstotke kupcev, ki so v EU leta 2019 na spletu kupili posamezno vrsto blaga oz. storitve. Opazimo, da je največ kupcev kupio oblačila ali športno opremo. Sorazmerno velik delž kupcev je kupil tudi počitniške nastanitve ter filme, glasbo, knjige in programsko računalniško opremo. V nadaljni analizi bom primerjala še ostale deleže po letih, vendar pa predvidevam da se podatki bistveno ne bodo razlikovali. Primerjala bom tudi razmere v različnih državah in po spolu.
+```{r fig.align='center'}
+vrsta.blaga %>%
+  filter(`starostna skupina`=="skupaj", drzava == "EU28", leto==2019) %>%
+  select(-drzava, -`starostna skupina`) %>%
+  ggplot(aes(x=`vrsta blaga`, y=odstotek)) +
+  geom_bar(stat = "identity") + 
+  theme(axis.text.x = element_text(size = 8)) +
+  ggtitle("Odstotek kupcev, ki je v EU leta 2019 v spletnih trgovinah kupil posamezno vrsto blaga")+
+  ylab("odstotki") + xlab(NULL)
 ```
 
 ***
@@ -72,14 +127,6 @@ ggplot(obcine, aes(x=naselja)) + geom_histogram() +
 source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 
-Spodnji zemljevid prikazuje povprečno velikost družine za vsako občino.
-
-```{r zemljevid, fig.align='center', fig.cap='Zemljevid povprečnega števila otrok v družini'}
-tm_shape(merge(zemljevid, povprecja, by.x="OB_UIME", by.y="obcina")) +
-  tm_polygons("povprecje", title="Povprečje") +
-  tm_layout(title="Povprečno število otrok v družini")
-```
-
 ***
 
 # Napredna analiza podatkov
@@ -88,20 +135,8 @@ tm_shape(merge(zemljevid, povprecja, by.x="OB_UIME", by.y="obcina")) +
 source("analiza/analiza.r", encoding="UTF-8")
 ```
 
-Spodnji graf prikazuje povezavo med številom naselij in površino občine.
-
-```{r graf, fig.align='center', fig.cap='Povezava med številom naselij in površino občine'}
-ggplot(inner_join(obcine, data.frame(obcina=names(skupine),
-                                     skupina=factor(skupine)), by="obcina")
-, aes(x=povrsina, y=naselja, color=skupina, size=prebivalci/1000)) + geom_point() +
-  ggtitle("Število naselij glede na površino občine") +
-  xlab(expression("Površina (km"^2 * ")")) + ylab("Št. naselij") +
-  guides(color=guide_legend(title="Skupina"),
-         size=guide_legend(title="Prebivalci (* 1000)"))
-```
-
 ***
 
 ```{r shiny}
-shinyAppDir("shiny", options=list(width="100%", height=600))
+#shinyAppDir("shiny", options=list(width="100%", height=600))
 ```

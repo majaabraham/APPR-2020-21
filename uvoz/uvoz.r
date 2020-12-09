@@ -1,10 +1,10 @@
 # 2. faza: Uvoz podatkov
 
-source("lib/libraries.r", encoding="UTF-8")
+# source("lib/libraries.r", encoding="UTF-8")
 
 sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
-#vektor držav
+# vektor držav
 drzave <- c("European Union" = "EU28",
             "Belgium" = "Belgija",
             "Bulgaria" = "Bolgarija",
@@ -75,18 +75,18 @@ pogosto <- c("1 or 2 times" = "1-2",
 )
 
 # vektor vrst blaga
-vrsta <- c("Food/groceries" = "hrana / živila",
-           "clothes, sports goods" = "oblačila / športna oprema",
+vrsta <- c("Food/groceries" = "hrana/\nživila",
+           "clothes, sports goods" = "oblačila/\nšportna oprema",
            "household goods" = "oprema doma",
            "films/music or books/magazines/e-learning material or computer software" = 
-             "filmi / glasba / knjige / revije / gradiva za e-učenje / računalniška programska oprema",
-           "computer hardware" = "računalniška strojna oprema",
-           "electronic equipment" = "elektronska oprema",
-           "shares/insurance/other financial services" = "delnice / zavarovanje / druge finančne storitve",
-           "tickets for events" = "vstopnice za prireditve",
-           "travel and holiday accommodation" = "potovalne in počitniške nastanitve",
+             "filmi/glasba/\nknjige/revije/\ngradiva za e-učenje/\nračunalniška programska oprema",
+           "computer hardware" = "računalniška \nstrojna oprema",
+           "electronic equipment" = "elektronska \noprema",
+           "shares/insurance/other financial services" = "delnice/\nzavarovanje/\ndruge finančne storitve",
+           "tickets for events" = "vstopnice \nza prireditve",
+           "travel and holiday accommodation" = "potovalne in \npočitniške nastanitve",
            "medecine" = "zdravila",
-           "telecom services" = "telekomunikacijske storitve",
+           "telecom services" = "telekomunikacijske \nstoritve",
            "others" = "drugo"
            )
 
@@ -154,15 +154,15 @@ uvozi.pogostost <- function() {
                       skip = 10,
                       n_max = 337,
                       na = c(""," ", ":")) %>% 
-    rename(država=`,GEO`, x=`TIME,IND_TYPE/INDIC_IS`) %>%
-    pivot_longer(c(-država, -x),
+    rename(drzava=`,GEO`, x=`TIME,IND_TYPE/INDIC_IS`) %>%
+    pivot_longer(c(-drzava, -x),
                  names_to = "y",
                  values_to = "odstotek") %>%
     filter(!str_detect(x, "less$|more$")) %>%
     separate(y, into = c("leto", "pogostost"), sep = ",") %>% 
     mutate(
-      država=str_replace(država," \\([^)]*\\)$| \\-* .+",""),
-      država=drzave[država],
+      drzava=str_replace(drzava," \\([^)]*\\)$| \\-* .+",""),
+      drzava=drzave[drzava],
       spol=spol[x],
       `starostna skupina`=starost[x],
       leto=parse_integer(leto),
@@ -174,8 +174,8 @@ uvozi.pogostost <- function() {
   
 }
 
-# Shranimo razpredelnico o pogostosti spletnega nakupovanja v datoteko
-shrani.pogostost <- uvozi.pogostost() %>%
+# Zapišimo in shranimo podatke v razpredelnico pogostost
+pogostost <- uvozi.pogostost() %>%
   write_csv("podatki/pogostost.csv", na = "NA", append = FALSE, col_names = TRUE)
 
 # Funkcija, ki uvozi podatke o zadnjem spletnem nakupu
@@ -186,14 +186,14 @@ uvozi.zadnji.nakup <- function() {
              select(-UNIT, -`Flag and Footnotes`) %>% 
              rename(
                leto=TIME, 
-               država=GEO, 
+               drzava=GEO, 
                `zadnji e-nakup`=INDIC_IS, 
                odstotek=Value) %>%
              filter(!str_detect(IND_TYPE, "less$|more$")) %>%
              mutate(
                `zadnji e-nakup`=str_replace(`zadnji e-nakup`,".+: ",""),
-               država=str_replace(država," \\([^)]*\\)$| \\-* .+",""),
-               država=drzave[država],
+               drzava=str_replace(drzava," \\([^)]*\\)$| \\-* .+",""),
+               drzava=drzave[drzava],
                `zadnji e-nakup`=zadnji[`zadnji e-nakup`],
                spol=spol[IND_TYPE],
                `starostna skupina`=starost[IND_TYPE]
@@ -202,8 +202,8 @@ uvozi.zadnji.nakup <- function() {
   podatki <- podatki[c(1,3,6,5,2,4)]
 }
 
-# Shranimo razpredelnico o zadnjem spletnem nakupu
-shrani.zadnji.nakup <- uvozi.zadnji.nakup() %>%
+# Zapišimo in shranimo podatke v razpredelnico zadnji.nakup
+zadnji.nakup <- uvozi.zadnji.nakup() %>%
   write_csv("podatki/zadnji.csv", na = "NA", append = FALSE, col_names = TRUE)
 
 # Funkcija, ki uvozi podatke o e-nakupih po vrsti blaga
@@ -231,15 +231,15 @@ uvozi.vrsta.blaga <- function() {
                       skip = 354,
                       n_max = 337,
                       na = c(""," ", ":")) %>% 
-    rename(država=`;GEO`, x=`TIME;IND_TYPE/INDIC_IS`) %>% 
-    pivot_longer(c(-država, -x),
+    rename(drzava=`;GEO`, x=`TIME;IND_TYPE/INDIC_IS`) %>% 
+    pivot_longer(c(-drzava, -x),
                  names_to = "y",
                  values_to = "odstotek") %>% 
     filter(!str_detect(x, "less$|more$")) %>%
     separate(y, into = c("leto", "vrsta blaga"), sep = ";") %>% 
     mutate(
-      država=str_replace(država," \\([^)]*\\)$| \\-* .+",""),
-      država=drzave[država],
+      drzava=str_replace(drzava," \\([^)]*\\)$| \\-* .+",""),
+      drzava=drzave[drzava],
       spol=spol[x],
       `starostna skupina`=starost[x],
       leto=parse_integer(leto),
@@ -250,8 +250,8 @@ uvozi.vrsta.blaga <- function() {
   podatki <- podatki[c(2,1,6,5,3,4)]
 }
 
-# Shranimo razpredelnico o vrstah blaga
-shrani.vrsta.blaga <- uvozi.vrsta.blaga() %>%
+# Zapišimo in shranimo podatke v razpredelnico vrsta.blaga
+vrsta.blaga <- uvozi.vrsta.blaga() %>%
   write_csv("podatki/vrsta.csv", na = "NA", append = FALSE, col_names = TRUE)
 
 # Funkcija, ki uvozi podatke o vrednosti spletnih nakupov
@@ -274,15 +274,15 @@ uvozi.vrednosti <- function() {
     select(-UNIT, -`Flag and Footnotes`) %>%
     rename(
       leto=TIME, 
-      država=GEO, 
+      drzava=GEO, 
       vrednost=INDIC_IS,
       odstotek=Value
     ) %>% 
     mutate(
       vrednost=str_replace(vrednost,"Online purchases in the last 3 months for ",""),
       vrednost=str_replace(vrednost, "(\\(.+\\))", ""),
-      država=str_replace(država," \\([^)]*\\)$| \\-* .+",""),
-      država=drzave[država],
+      drzava=str_replace(drzava," \\([^)]*\\)$| \\-* .+",""),
+      drzava=drzave[drzava],
       vrednost=vrednosti[vrednost],
       spol=spol[IND_TYPE],
       `starostna skupina`=starost[IND_TYPE]
@@ -291,8 +291,8 @@ uvozi.vrednosti <- function() {
   podatki <- podatki[c(1,3,6,5,2,4)]
 }
 
-# Shranimo razpredelnico o vrednosti spletnih nakupov
-shrani.vrednosti <- uvozi.vrednosti() %>%
+# Zapišimo in shranimo podatke v razpredelnico vrednosti
+vrednosti <- uvozi.vrednosti() %>%
   write_csv("podatki/vrednosti.csv", na = "NA", append = FALSE, col_names = TRUE)
 
 # Funkcija, ki uvozi podatke o težavah, ki se pojavljajo pri spletnem nakupovanju
@@ -303,20 +303,20 @@ uvozi.tezave <- function() {
     select(-UNIT, -`Flag and Footnotes`, -IND_TYPE) %>%
     rename(
       leto=TIME, 
-      država=GEO, 
-      težava=INDIC_IS,
+      drzava=GEO, 
+      tezava=INDIC_IS,
       odstotek=Value
     ) %>% 
     mutate(
-      težava=str_remove(težava,".+: "),
-      država=str_replace(država," \\([^)]*\\)$| \\-* .+",""),
-      država=drzave[država],
-      težava=tezave[težava],
+      tezava=str_remove(tezava,".+: "),
+      drzava=str_replace(drzava," \\([^)]*\\)$| \\-* .+",""),
+      drzava=drzave[drzava],
+      tezava=tezave[tezava],
     )
 }
 
-# Shranimo razpredelnico o težavah pri spletnem nakupovanju
-shrani.tezave <- uvozi.tezave() %>%
+# Zapišimo in shranimo podatke v razpredelnico tezave
+tezave <- uvozi.tezave() %>%
   write_csv("podatki/tezave.csv", na = "NA", append = FALSE, col_names = TRUE)
 
 # Funkcija, ki uvozi podatke o izvoru prodajalca izdelkov
@@ -328,7 +328,7 @@ uvozi.izvor <- function() {
   
   imena <- stran %>%
     filter(X1 == "TIMEINDIC_ISGEOIND_TYPE") %>% 
-    mutate(X1 = str_replace(X1,"TIMEINDIC_ISGEOIND_TYPE","država")) %>% 
+    mutate(X1 = str_replace(X1,"TIMEINDIC_ISGEOIND_TYPE","drzava")) %>% 
     pivot_longer(everything(), names_to = "x", values_to = "y") %>%
     select(y) %>% 
     mutate(y = str_replace(y, "(^20..)", "\\1;")) %>%
@@ -341,12 +341,12 @@ uvozi.izvor <- function() {
     filter(!X1 == "TIMEINDIC_ISGEOIND_TYPE") %>% 
     rename_at(vars(imena1), ~ imena) %>% 
     rename(x=TIMEINDIC_ISGEOIND_TYPE) %>% 
-    pivot_longer(c(-država,-x), names_to="y", values_to="odstotek") %>%
+    pivot_longer(c(-drzava,-x), names_to="y", values_to="odstotek") %>%
     filter(!str_detect(x, "less$|more$")) %>%
     separate(y, into = c("leto","prodajalec"), sep = ";") %>%
     mutate(
-      država=str_replace(država," \\([^)]*\\)$| \\-* .+",""),
-      država=drzave[država],
+      drzava=str_replace(drzava," \\([^)]*\\)$| \\-* .+",""),
+      drzava=drzave[drzava],
       spol=spol[x],
       `starostna skupina`=starost[x],
       prodajalec=str_remove(prodajalec,"Online purchases: "),
@@ -359,8 +359,8 @@ uvozi.izvor <- function() {
   podatki <- podatki[c(2,1,6,5,3,4)]
 }
 
-# Shranimo razpredelnico o izvoru prodajalcev na spletu
-shrani.izvor <- uvozi.izvor() %>%
+# Zapišimo in shranimo podatke v reazpredelnico izvor
+izvor <- uvozi.izvor() %>%
   write_csv("podatki/izvor.csv", na = "NA", append = FALSE, col_names = TRUE)
 
 # Funkcija, ki uvozi tabelo desetih najbolj obiskanih spletnih trgovin s strani evropejcev
@@ -372,19 +372,19 @@ uvozi.top10 <- function() {
     select(-1, -2, -5) %>%
     rename(
       ime = Name,
-      `regija / država`=`Region/Country`,
+      `regija / drzava`=`Region/Country`,
       `obiski/mesec`=`European Visits/month`
     ) %>%
     mutate(
-      `regija / država` = regije[`regija / država`],
+      `regija / drzava` = regije[`regija / drzava`],
       `obiski/mesec`=str_replace(`obiski/mesec`,"([:upper:])",";\\1")
     ) %>%
     separate(`obiski/mesec`, into = c("obiski/mesec", "enota"), sep = ";") %>%
     mutate(`obiski/mesec` = parse_number(`obiski/mesec`))
 }
 
-# Shranimo razpredelnico o najbolj obiskanih spletnih trgovinah
-shrani.top10 <- uvozi.top10() %>%
+# Zapišimo in shranimo podatke v razpredelnico top10
+top10 <- uvozi.top10() %>%
   write_csv("podatki/top10.csv", na = "NA", append = FALSE, col_names = TRUE)
 
 
