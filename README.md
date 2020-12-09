@@ -37,7 +37,7 @@ Na spletni strani https://www.webretailer.com/b/online-marketplaces-europe/ se n
 6. tabela: Pogostost težav, ki jih imajo kupci pri spletnem nakupovanju, v odstotkih kupcev
 * leto, država, težava, odstotek
 
-8. tabela: Najbolj priljubljene spletne trgovine v evropi
+7. tabela: Najbolj priljubljene spletne trgovine v evropi
 * trgovina, regija/država, št. obiskov/mesec, enota
 
 ## Program
