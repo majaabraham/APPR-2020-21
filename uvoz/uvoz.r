@@ -1,7 +1,5 @@
 # 2. faza: Uvoz podatkov
 
-# source("lib/libraries.r", encoding="UTF-8")
-
 sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
 # vektor držav
@@ -37,7 +35,7 @@ drzave <- c("European Union" = "EU28",
 
 # vektor zadnjih spletnih nakupov
 zadnji <- c("in the last 3 months" = "v zadnjih 3. mesecih",
-            "between 3 and 12 months ago" = "med 3. in 7. meseci",
+            "between 3 and 12 months ago" = "med 3. in 12. meseci",
             "in the 12 months" = "v zadnjih 12. mesecih",
             "more than a year ago or never" = "pred več kot letom ali nikoli"
             )
@@ -198,7 +196,8 @@ uvozi.zadnji.nakup <- function() {
                spol=spol[IND_TYPE],
                `starostna skupina`=starost[IND_TYPE]
                ) %>%
-             select(-IND_TYPE)
+             select(-IND_TYPE) %>%
+             filter(`zadnji e-nakup` != "v zadnjih 12. mesecih")
   podatki <- podatki[c(1,3,6,5,2,4)]
 }
 
