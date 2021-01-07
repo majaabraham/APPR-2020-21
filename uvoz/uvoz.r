@@ -103,11 +103,11 @@ tezave <- c("Difficulties concerning guarantees" = "težave s garancijami",
 )
 
 # vektor vrednosti spletnih nakupov
-vrednosti <- c("less than 50 euro " = "manj kot 50 EUR",
-               "between 50 and 99 euro " = "med 50 in 99 EUR",
-               "between 100 and 499 euro " = "med 100 in 499 EUR",
-               "between 500 and 999 euro " = "med 500 in 999 EUR",
-               "1000 euro or more " = "1000 EUR ali več"
+vrednosti <- c("less than 50 euro " = "49 ali manj",
+               "between 50 and 99 euro " = "50 - 99",
+               "between 100 and 499 euro " = "100 - 499 ",
+               "between 500 and 999 euro " = "500 - 999",
+               "1000 euro or more " = "1000 ali več"
 )
 
 # vektor prodajalcev na spletu

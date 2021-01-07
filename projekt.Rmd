@@ -70,8 +70,8 @@ Podatki shranjeni v formatu CSV so že skoraj v obliki *tidy data*, potrebno je 
   - `drzava` - spremenljivka:  imena držav članic EU in  EU28 (zajema EU povprečje, ki vključuje še Veliko Britanijo),
   - `starostna skupina` - spremenljivka: podatek o starostni skupini, razdeljeno v kategorije (niz),
   - `spol` - spremenljivka: podatek o spolu (moški, ženski in skupna vrednost),
-  - `vrednost` - spremenljivka: vrednosti posameznih spletnih nakupov (vrednosti so razdeljene v kategorije, niz),
-  - `odstotek` - meritev: odstotek kupcev, ki so opravili nakup določene vrednosti pri ostalih pogojih iz stolpcev (število).
+  - `vrednost` - spremenljivka: skupne vrednosti spletnih nakupov za obdobje treh mesecev (vrednosti so razdeljene v kategorije, v EUR, niz),
+  - `odstotek` - meritev: odstotek kupcev, ki so v treh mesecih v spletnih trgovinah porabili sredstva v vrednosti kategorije pri ostalih pogojih iz stolpcev (število).
 
 5. `izvor` - podatki o odstotku kupcev, ki so kupovali od prodajalcev kategoriziranih po izvoru glede na leto, državo, storostno skupino in spol
   - `leto` - spremenljivka: leta od 2010 do 2019 (število),
@@ -126,6 +126,31 @@ vrsta.blaga %>%
 ```{r vizualizacija, results='hide'}
 source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
+Analizo sem pričela s pregledom pogostosti nakupovanja, da bi dobila boljšo predstavo o tem, koliko prebivalcev uporablja spletno nakupovanje in kako pogosto. Podatki se v posameznih državah zelo razlikujejo, vendar pa sem našla nekaj povezav in skupnih točk.
+
+```{r, figures-side, fig.show="hold", out.width="50%"}
+pogostost %>% 
+  filter(spol == "skupaj", drzava == "Italija"| drzava == "EU28" | drzava == "Nizozemska") %>%
+  ggplot(aes(x=leto, y=odstotek, fill=pogostost)) +
+    geom_col() +
+  facet_grid(drzava~`starostna skupina`) +
+  geom_text(aes(label=odstotek), position = "stack" , size = 3) +
+  theme(axis.text.x = element_text(angle = 45)) +
+  scale_fill_brewer(palette = "Oranges") +
+  labs(title = "Pogostost spletnega nakupovanja po starostnih skupinah")
+
+zadnji.nakup %>% 
+  filter(spol == "skupaj", drzava == "Italija"| drzava == "EU28" | drzava == "Nizozemska") %>%
+  ggplot(aes(x=leto, y=odstotek, fill=`zadnji e-nakup`)) +
+  geom_col() +
+  facet_grid(drzava~`starostna skupina`) +
+  theme(axis.text.x = element_text(angle = 45)) +
+  labs(title = "Podatki o zadnjem spletnem nakupu po starostnih skupinah") 
+
+```
+Pri analizi pogostosti spletnega nakupovanja v državah EU bi lahko države grobo razdelili na 3 skupine. Zgornja slika prikazuje grafe držav, ki bi jih lahko uvrstili v omenjene skupine. Grafi kažejo odstotek prebivalstva države po letih, glede na starostno skupino, ki so v obdobju treh mesecev opravili  določeno število spletnih nakupov. V prvo skupino sem uvrstila države, ki imajo podobno sliko, kot povprečje EU, v drugo skupino spadajo države z izjemno nizkim deležem prebivalstva, ki kupuje na spletu in v tretjo skupino države, katerih se delež kupcev na spletu skupno giba okrog 70% prebivalstva ali več. Takoj opazimo, da je vsem državam EU skupen nižji delež kupcev v starostni skupini od 55 do 74 let. Povsod je tudi razvidno, da skupni deleži vseh kupcev po letih rahlo naraščajo. Vendar pa se zdi, da se rast v državah z velikim deležem spletnih kupcev kot so Nizozemska, Nemčija, Švedska, zaustavlja in ponekod tudi že pada. K rasti večinoma prispeva povečanje deležea tistih, ki v treh mesecih opravijo vsaj 6 nakupov, vendar pa velika večina prebivalcev EU opravi največ 5 spletnih nakupov v treh mesecih. Večina opazovanih držav sodi v povprečje EU, kjer so deleži pogostosti relativno izenačeni. v državah z zelo majhnim deležem kupcev, kamor poleg Italije sodijo tudi Romunija, Bolgarija, Ciper, pa je tudi pogostost omenjenega načina nakupovanja manjša.
+
+Če pogledamo še grafe, ki prikazujejo deleže prebivalstva razdeljene po tem, kdaj so opravili zadnji spletni nakup po letih. Hitro lahko opazuimo, da bi se morali deleži načeloma sešteti v 100, kar bi predstavljalo vso prebivalstvo, saj so tudi kategorije tako razdeljene, vendar pa predvidevam da je moralo priti do nekakšne napake pri zbiranju podatkov. Najverjetneje je problem pri kategoriji zadnji nakup pred več kot enim letom ali nikoli. Zdi se, da v tej kategoriji niso bili zabeleženi vsi podatki. Vendar pa kljub nejasnostim grafi dovolj dobro prikazujejo stanje, da opazimo povezavo s grafi o pogostosti. Odstotki prebivalcev, ki so nakupovali v zadnjih treh mesecih so ustrezno visoki/nizki glede na skupni delež kupcev v grafih o pogostosti spletnega nakupovanja, saj so tam zajeti prav deleži kupcev za obdobje treh mesecev. Nova zanimivost, ki jo opazimo pa je konstantno nizek delež kupcev ki so svoj zadnji spletni nakup opravili med 3. in 12. meseci. Tako lahko sklepamo da večina prebivalstva ali kupuje redno, bolj pogosto, ali pa le občasno/nikoli, vmesne kategorije skoraj ni.
 
 ***
 
