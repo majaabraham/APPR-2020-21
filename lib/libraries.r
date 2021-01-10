@@ -8,10 +8,11 @@ library(ggplot2)
 library(scales)
 library(emojifont)
 library(knitr)
-
-library(openxlsx)
-library(gsubfn)
+library(spdplyr)
 library(tmap)
+
+library(rgdal)
+library(gsubfn) 
 library(shiny)
 
 options(gsubfn.engine="R")

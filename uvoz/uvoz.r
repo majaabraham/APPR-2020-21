@@ -73,18 +73,18 @@ pogosto <- c("1 or 2 times" = "1-2",
 )
 
 # vektor vrst blaga
-vrsta <- c("Food/groceries" = "hrana/\nživila",
-           "clothes, sports goods" = "oblačila/\nšportna oprema",
+vrsta <- c("Food/groceries" = "hrana / živila",
+           "clothes, sports goods" = "oblačila / športna oprema",
            "household goods" = "oprema doma",
            "films/music or books/magazines/e-learning material or computer software" = 
-             "filmi/glasba/\nknjige/revije/\ngradiva za e-učenje/\nračunalniška programska oprema",
-           "computer hardware" = "računalniška \nstrojna oprema",
-           "electronic equipment" = "elektronska \noprema",
-           "shares/insurance/other financial services" = "delnice/\nzavarovanje/\ndruge finančne storitve",
-           "tickets for events" = "vstopnice \nza prireditve",
-           "travel and holiday accommodation" = "potovalne in \npočitniške nastanitve",
+             "filmi / glasba / knjige / revije / gradiva za e-učenje / računalniška programska oprema",
+           "computer hardware" = "računalniška strojna oprema",
+           "electronic equipment" = "elektronska oprema",
+           "shares/insurance/other financial services" = "delnice / zavarovanje / druge finančne storitve",
+           "tickets for events" = "vstopnice za prireditve",
+           "travel and holiday accommodation" = "potovanja in počitniške nastanitve",
            "medecine" = "zdravila",
-           "telecom services" = "telekomunikacijske \nstoritve",
+           "telecom services" = "telekomunikacijske storitve",
            "others" = "drugo"
            )
 
