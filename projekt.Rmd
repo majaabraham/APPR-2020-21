@@ -100,7 +100,8 @@ tabela <- top10 %>%
     `obiski/mesec` = case_when(enota == "B" ~ `obiski/mesec`*1e6,
                                enota == "M" ~ `obiski/mesec`)
   ) %>%
-  rename(`obiski/mesec (v mio)` = `obiski/mesec`) %>%
+  rename(`obiski/mesec (v mio)` = `obiski/mesec`,
+         `regija / država` = `regija / drzava`) %>%
   select(-enota)
 
 kable(tabela, caption = "Najbolj obiskane trgovine v Evropi")
@@ -117,7 +118,7 @@ source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 Analizo sem pričela s pregledom pogostosti nakupovanja, da bi dobila boljšo predstavo o tem, koliko prebivalcev uporablja spletno nakupovanje in kako pogosto. Podatki se v posameznih državah zelo razlikujejo, vendar pa sem našla nekaj povezav in skupnih točk.
 
-```{r, fig.show="hold", out.width="50%", fig.cap='Pogostost spletnega nakupovanja'}
+```{r, fig.show="hold", out.width="50%"}
 pogostost %>% 
   filter(spol == "skupaj", drzava == "Italija"| drzava == "EU28" | drzava == "Nizozemska") %>%
   ggplot(aes(x=leto, y=odstotek, fill=pogostost)) +
@@ -164,7 +165,7 @@ EU %>%
 ```
 
 V nadaljevanju si oglejmo katere vrste blaga oz. storitev prebivalci v EU najpogosteje kupujejo na spletu. Doslej analize po spolu ni bilo smiselno delati, saj podatki bistvene razlike v pogostosti spletnega nakupovanja med spoloma niso kazali. V nakupovalnih navadah glede na vrste blaga pa se pojavijo nekatere razlike. Tudi med starostnimi skupinami se pričakovano pojavijo razlike.
-```{r, fig.align='center', fig.cap='Podatki o vrstah blaga / storitev'}
+```{r, fig.align='center'}
 vrsta.blaga %>%  filter(spol != "skupaj", drzava != "EU28") %>%
   ggplot(aes(y=odstotek, col=`vrsta blaga`)) +
   geom_boxplot() +
@@ -180,7 +181,7 @@ Opazimo, da delež žensk, ki kupujejo oblačila in športno opremo večji od de
 
 Zanimalo me je tudi, koliko ljudje običajno porabijo v spletnih trgovinah in ali so ti podatki povezani s vrstami blaga/storitev, ki prevladujejo med kupci na spletu ter ali obstaja povezava s pogostostjo nakupovanja.
 
-```{r, out.width="50%", fig.cap='Vrednosti skupnih spletnih nakupov'}
+```{r, out.width="50%"}
 urejene_vrednosti %>% 
   filter(spol == "skupaj", drzava == "Avstrija" | drzava == "Poljska" | drzava == "Bolgarija", leto == 2019) %>% 
   ggplot(aes(x=`starostna skupina`, y=odstotek, fill=vrednost)) +
@@ -229,7 +230,7 @@ EU %>%
 Iz zemljevida je razvidno, da v večini držav članic EU prebivalci najpogosteje naročajo blago/storitve od domačih prodajalcev. v nekaterih državah je večji tudi delež tistih, ki naročajo iz drugih držav EU. Najmanj je tistih, ki naročajo iz ostalih držav. Pri Malti, Luksemburgu in Cipru močno prevladuje spletno nakupovanje iz ostalih držav EU. Vsem državam je tudi skupna njihova majhnost, zato predvidevam, da je majhnost države povezana s tem, ali prebivalstvo na spletu več kupuje od domačih ali tujih ponudnikov. 
 
 Iz predhodne analize in vizualizacij je že razvidnih večina lastnosti spletnega nakupovanja v EU. Pomemben del, ki še manjka so težave, ki se pojavljajo pri tovrstni obliki nakupovanja. Analiza teh podatkov je pokazala, da se večina držav srečuje z enakimi težavami.
-```{r , fig.align='center', fig.cap= 'Težave pri spletnem nakupovanju'}
+```{r , fig.align='center'}
 tezave %>%
   filter(drzava=="Nizozemska" | drzava=="Italija" | drzava=="EU28") %>%
   ggplot(aes(x=leto, y=odstotek, col=tezava)) + 
