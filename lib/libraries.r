@@ -10,8 +10,10 @@ library(emojifont)
 library(knitr)
 library(spdplyr)
 library(tmap)
+library(rmapshaper)
+library(tmaptools)
+library(sf)
 
-library(rgdal)
 library(gsubfn) 
 library(shiny)
 

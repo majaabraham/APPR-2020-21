@@ -92,6 +92,21 @@ Podatki shranjeni v formatu CSV so že skoraj v obliki *tidy data*, potrebno je 
   - `regija / drzava` - meritev:  regija oz. država iz katere spletna trgovina izvira,
   - `obiski/mesec` - meritev: število obiskov, ki jih mesečno prejme spletna trgovina (število),
   - `enota` - meritev: podatek o enoti merjenja obiskov (M pomeni milijon, B pa bilijon).
+  
+Kot zanimivost spodnja tabela prikazuje 10 najbolj obiskanih spletnih trgovin s strani evropejcev. Zanimiv je predvsem podatek, kako zelo Amazon prednjači pred ostalimi spletnimi trgovinami.
+```{r Najpogosteje obiskane trgovine, fig.align='center'}
+tabela <- top10 %>% 
+  mutate( 
+    `obiski/mesec` = case_when(enota == "B" ~ `obiski/mesec`*1e6,
+                               enota == "M" ~ `obiski/mesec`)
+  ) %>%
+  rename(`obiski/mesec (v mio)` = `obiski/mesec`) %>%
+  select(-enota)
+
+kable(tabela, caption = "Najbolj obiskane trgovine v Evropi")
+
+```
+
 
 ***
 
@@ -102,7 +117,7 @@ source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 Analizo sem pričela s pregledom pogostosti nakupovanja, da bi dobila boljšo predstavo o tem, koliko prebivalcev uporablja spletno nakupovanje in kako pogosto. Podatki se v posameznih državah zelo razlikujejo, vendar pa sem našla nekaj povezav in skupnih točk.
 
-```{r, fig.show="hold", out.width="50%"}
+```{r, fig.show="hold", out.width="50%", fig.cap=`Pogostost spletnega nakupovanja`}
 pogostost %>% 
   filter(spol == "skupaj", drzava == "Italija"| drzava == "EU28" | drzava == "Nizozemska") %>%
   ggplot(aes(x=leto, y=odstotek, fill=pogostost)) +
@@ -122,12 +137,34 @@ zadnji.nakup %>%
   labs(title = "Podatki o zadnjem spletnem nakupu po starostnih skupinah") 
 
 ```
-Pri analizi pogostosti spletnega nakupovanja v državah EU bi lahko države grobo razdelili na 3 skupine. Zgornja slika prikazuje grafe držav, ki bi jih lahko uvrstili v omenjene skupine. Grafi kažejo odstotek prebivalstva države po letih, glede na starostno skupino, ki so v obdobju treh mesecev opravili  določeno število spletnih nakupov. V prvo skupino sem uvrstila države, ki imajo podobno sliko, kot povprečje EU, v drugo skupino spadajo države z izjemno nizkim deležem prebivalstva, ki kupuje na spletu in v tretjo skupino države, katerih se delež kupcev na spletu skupno giba okrog 70% prebivalstva ali več. Takoj opazimo, da je vsem državam EU skupen nižji delež kupcev v starostni skupini od 55 do 74 let. Povsod je tudi razvidno, da skupni deleži vseh kupcev po letih rahlo naraščajo. Vendar pa se zdi, da se rast v državah z velikim deležem spletnih kupcev kot so Nizozemska, Nemčija, Švedska, zaustavlja in ponekod tudi že pada. K rasti večinoma prispeva povečanje deležea tistih, ki v treh mesecih opravijo vsaj 6 nakupov, vendar pa velika večina prebivalcev EU opravi največ 5 spletnih nakupov v treh mesecih. Večina opazovanih držav sodi v povprečje EU, kjer so deleži pogostosti relativno izenačeni. v državah z zelo majhnim deležem kupcev, kamor poleg Italije sodijo tudi Romunija, Bolgarija, Ciper, pa je tudi pogostost omenjenega načina nakupovanja manjša.
+Pri analizi pogostosti spletnega nakupovanja v državah EU bi lahko države grobo razdelili na 3 skupine. Zgornja slika prikazuje grafe držav, ki bi jih lahko uvrstili v omenjene skupine. Grafi kažejo odstotek prebivalstva države po letih, glede na starostno skupino, ki so v obdobju treh mesecev opravili  določeno število spletnih nakupov. V prvo skupino sem uvrstila države, ki imajo podobno sliko, kot povprečje EU, v drugo skupino spadajo države z izjemno nizkim deležem prebivalstva, ki kupuje na spletu in v tretjo skupino države, katerih se delež kupcev na spletu skupno giba okrog 70% prebivalstva ali več. Takoj opazimo, da je vsem državam EU skupen nižji delež kupcev v starostni skupini od 55 do 74 let. Povsod je tudi razvidno, da skupni deleži vseh kupcev po letih rahlo naraščajo. Vendar pa se zdi, da se rast v državah z velikim deležem spletnih kupcev kot so Nizozemska, Nemčija, Švedska, zaustavlja in ponekod tudi že pada. K rasti večinoma prispeva povečanje deležea tistih, ki v treh mesecih opravijo vsaj 6 nakupov, vendar pa velika večina prebivalcev EU opravi največ 5 spletnih nakupov v treh mesecih. Večina opazovanih držav sodi v povprečje EU, kjer so deleži pogostosti relativno izenačeni. V državah z zelo majhnim deležem kupcev, kamor poleg Italije sodijo tudi Romunija, Bolgarija, Ciper, pa je tudi pogostost omenjenega načina nakupovanja manjša.
 
 Če pogledamo še grafe, ki prikazujejo deleže prebivalstva razdeljene po tem, kdaj so opravili zadnji spletni nakup po letih. Hitro lahko opazuimo, da bi se morali deleži načeloma sešteti v 100, kar bi predstavljalo vso prebivalstvo, saj so tudi kategorije tako razdeljene, vendar pa predvidevam da je moralo priti do nekakšne napake pri zbiranju podatkov. Najverjetneje je problem pri kategoriji zadnji nakup pred več kot enim letom ali nikoli. Zdi se, da v tej kategoriji niso bili zabeleženi vsi podatki. Vendar pa kljub nejasnostim grafi dovolj dobro prikazujejo stanje, da opazimo povezavo s grafi o pogostosti. Odstotki prebivalcev, ki so nakupovali v zadnjih treh mesecih so ustrezno visoki/nizki glede na skupni delež kupcev v grafih o pogostosti spletnega nakupovanja, saj so tam zajeti prav deleži kupcev za obdobje treh mesecev. Nova zanimivost, ki jo opazimo pa je konstantno nizek delež kupcev ki so svoj zadnji spletni nakup opravili med 3. in 12. meseci. Tako lahko sklepamo da večina prebivalstva ali kupuje redno, bolj pogosto, ali pa le občasno/nikoli, vmesne kategorije skoraj ni.
 
-V nadaljevanju si oglejmo katere vrste blaga oz. storitev prebivalci v EU najpogosteje kupujejo na spletu. Doslej analize po spolu ni bilo smiselno delati, saj podatki bistvene razlike v pogostosti spletnega nakupovanja med spoloma niso kazali. v nakupovalnih navadah glede na vrste blaga pa se pojavijo nekatere razlike. Tudi med starostnimi skupinami se pričakovano pojavijo razlike.
-```{r, fig.align='center'}
+Za jasnejšo predstavo, v katerih državah prebivalci uporabljajo spletno trgovino bolj pogosto, je spodnji graf, ki za leto 2019 prikazuje skupni delež tistih ki so v obdobju 3. mesecev opravili vsaj kakšen spletni nakup.
+
+```{r zemljevid 1, fig.align='center', fig.cap='Zemljevid deležev kupcev na spletu'}
+tmap_mode("view")
+EU %>% 
+  filter(NAME %in% eu) %>%
+  mutate(slo_ime=drzave[NAME]) %>%
+  merge(nakupi, by.x="slo_ime", by.y="drzava") %>% 
+  tm_shape() +
+  tm_polygons(
+    col="delitev", palette=paleta1,
+    id="slo_ime",
+    alpha=0.5,
+    labels = legenda,
+    title="Skupaj % kupcev (obdobje 3. mesecev)"
+  ) +
+  tm_view(set.view = c(20,55,3)) +
+  tm_layout(title="Delež kupcev na spletu v obdobju 3. mesecev") +
+  tm_shape(mestaSP) +
+    tm_dots(col = "blue", clustering=TRUE)
+```
+
+V nadaljevanju si oglejmo katere vrste blaga oz. storitev prebivalci v EU najpogosteje kupujejo na spletu. Doslej analize po spolu ni bilo smiselno delati, saj podatki bistvene razlike v pogostosti spletnega nakupovanja med spoloma niso kazali. V nakupovalnih navadah glede na vrste blaga pa se pojavijo nekatere razlike. Tudi med starostnimi skupinami se pričakovano pojavijo razlike.
+```{r, fig.align='center', fig.cap=`Podatki o vrstah blaga / storitev`}
 vrsta.blaga %>%  filter(spol != "skupaj", drzava != "EU28") %>%
   ggplot(aes(y=odstotek, col=`vrsta blaga`)) +
   geom_boxplot() +
@@ -135,7 +172,7 @@ vrsta.blaga %>%  filter(spol != "skupaj", drzava != "EU28") %>%
   facet_grid(`starostna skupina`~spol) +
   theme(axis.ticks.x = element_blank(),
     axis.text.x=element_blank()) +
-  labs(title = "Podatki o vrstah blaga/ storitev")
+  labs(title = "Podatki o vrstah blaga / storitev")
 ```
 Zgornji grafi prikazujejo porazdelitev podatkov za posamezni spol po starostnih skupinah. Na posameznem grafu so podatki o poratdelitvi odstotakov kupcev, ki so kupovali na spletu za različne vrste blaga/storitve. V vzorcu so zajeti podatki vseh držav članic EU in po vseh opazovanih letih.
 V splošnem opazimo, da so ljudje na spletu največ kupovali oblačila in športno opremo, tej skupini sledijo filmi/glasba/knjige/revije/računalniška programska oprema. Visok je tudi je tudi delež tistih, ki so kupili potovanja in počitniške nastanitve. Zelo malo, razen nekaterih izjem pa se na spletu kupuje zdravil, zavarovalniških in drugih finančnih storitev, računalniške strojne opreme ter hrane/živil.
@@ -143,7 +180,7 @@ Opazimo, da delež žensk, ki kupujejo oblačila in športno opremo večji od de
 
 Zanimalo me je tudi, koliko ljudje običajno porabijo v spletnih trgovinah in ali so ti podatki povezani s vrstami blaga/storitev, ki prevladujejo med kupci na spletu ter ali obstaja povezava s pogostostjo nakupovanja.
 
-```{r, out.width="50%"}
+```{r, out.width="50%", fig.cap=`Vrednosti skupnih spletnih nakupov`}
 urejene_vrednosti %>% 
   filter(spol == "skupaj", drzava == "Avstrija" | drzava == "Poljska" | drzava == "Bolgarija", leto == 2019) %>% 
   ggplot(aes(x=`starostna skupina`, y=odstotek, fill=vrednost)) +
@@ -171,9 +208,38 @@ Na grafih so ponovno predstavljene 3 države, ki predstavljajo skupine držav z 
 V splošnem prevladujejo vrednosti do 500 EUR, kar pomeni, da je večina kupcev leta 2019 v obdobju treh mesecev na spletu porabila manj kot 500 EUR. Če obliko grafov primerjamo z grafi o pogostosti spletnega nakupovanja, opazimo da v splošnem prevladuje do 5 nakupov v obdobju treh mesecev. Torej bi lahko intuitivno sklepali, da sta pogostost in vrednost skupnih nakupov povezana. Kjer se bolj pogosto spletno kupuje, se posledično tudi več porabi. Vendar pa bi za resnejšo analizo povezanosti morali pogledati več podatkov.
 Avstrija spada v skupino držav, kjer močno prevladujejo vrednosti od 100 do 499 EUR, večji deleži so tudi pri višjih vrednostih, manj pa je tistih, ki porabijo manj od 100 EUR. Drug ekstrem je Bolgarija in njej podobne države, kjer večina prebivalstva v treh mesecih za spletne nakupe porabi do 100 EUR. Delež tistih, ki porabijo nad 500 EUR je zanemarljivo majhen. V srednjo skupino pa spada Poljska, kjer v splošnem približno polovica prebivalstva porabi do 100 EUR, večina ostalih 50 % pa od 100 do 500 EUR. Praviloma mlajši dosegajo nižje skupne vrednosti nakupov od ostalih dveh starostnih skupin.
 
-Analizo spletnih nakupov sem nadaljevala s podatki o tem od katerih prodajalcev najpogosteje kupujejo prebivalci EU. Podatki predstavlajo 3 skupine, in sicer prodajalci iz domače države, iz EU ter prodajalci iz ostalih držav. 
+Analizo spletnih nakupov sem nadaljevala s podatki o tem od katerih prodajalcev najpogosteje kupujejo prebivalci EU. Podatki so za leto 2019, vendar bistvene razlike med leti ni opaziti.
 
+```{r zemljevid, fig.align='center', fig.cap='Zemljevid najpogostejšega izvora prodajalcev'}
+tmap_mode("view")
+EU %>% 
+  filter(NAME %in% eu) %>%
+  mutate(slo_ime=drzave[NAME]) %>%
+  merge(barvanje, by.x="slo_ime", by.y="drzava") %>% 
+  tm_shape() +
+  tm_polygons(
+    col="skupina", palette=paleta2,
+    id="slo_ime",
+    alpha=0.5,
+    title="Prevladujoča skupina prodajalcev"
+  ) +
+  tm_view(set.view = c(20,55,3)) +
+  tm_layout(title="Prevladujoče skupine prodajalcev po državah")
+```
+Iz zemljevida je razvidno, da v večini držav članic EU prebivalci najpogosteje naročajo blago/storitve od domačih prodajalcev. v nekaterih državah je večji tudi delež tistih, ki naročajo iz drugih držav EU. Najmanj je tistih, ki naročajo iz ostalih držav. Pri Malti, Luksemburgu in Cipru močno prevladuje spletno nakupovanje iz ostalih držav EU. Vsem državam je tudi skupna njihova majhnost, zato predvidevam, da je majhnost države povezana s tem, ali prebivalstvo na spletu več kupuje od domačih ali tujih ponudnikov. 
 
+Iz predhodne analize in vizualizacij je že razvidnih večina lastnosti spletnega nakupovanja v EU. Pomemben del, ki še manjka so težave, ki se pojavljajo pri tovrstni obliki nakupovanja. Analiza teh podatkov je pokazala, da se večina držav srečuje z enakimi težavami.
+```{r , fig.align='center', fig.cap= `Težave pri spletnem nakupovanju`}
+tezave %>%
+  filter(drzava=="Nizozemska" | drzava=="Italija" | drzava=="EU28") %>%
+  ggplot(aes(x=leto, y=odstotek, col=tezava)) + 
+  geom_line() +
+  facet_grid(.~drzava) +
+  theme(axis.text.x = element_text(angle = 90)) +
+  scale_color_discrete(name="težava") +
+  labs(title="Odstotek kupcev, ki so navedli posamezno težavo pri spletnem nakupovanju")
+```
+Na zgornjem grafu so ponovno države z različnimi razmerami gleden na spletno nakupovanje. EU28 predstavlja povprečje držav, srednjo skupino. V splošnem med kupci na spletu prevladujeta 2 težavi. Daleč največji problem predstavlja hitrost dostave, sledi težava napačnega ali poškodovanega blaga. Očitna je tudi povezava med deležem težav, in skupnim deležem kupcev v posameznih državah. Države z večjim deležem kupcev na spletu imajo tudi večji delež kupcev, ki navajajo težave povezane s spletnim nakupovanjem in obratno.
 
 ***
 
