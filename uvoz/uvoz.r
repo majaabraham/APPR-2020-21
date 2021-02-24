@@ -39,7 +39,7 @@ uvozi.pogostost <- function() {
     separate(y, into = c("leto", "pogostost"), sep = ",") %>% 
     mutate(
       drzava=str_replace(drzava," \\([^)]*\\)$| \\-* .+",""),
-      drzava=drzave[drzava],
+      drzava=str_replace_all(drzava, drzave),
       spol=spol[x],
       `starostna skupina`=starost[x],
       leto=parse_integer(leto),
@@ -160,7 +160,7 @@ uvozi.vrednosti <- function() {
       vrednost=str_replace(vrednost,"Online purchases in the last 3 months for ",""),
       vrednost=str_replace(vrednost, "(\\(.+\\))", ""),
       drzava=str_replace(drzava," \\([^)]*\\)$| \\-* .+",""),
-      drzava=drzave[drzava],
+      drzava=str_replace_all(drzava, drzave),
       vrednost=vrednosti[vrednost],
       spol=spol[IND_TYPE],
       `starostna skupina`=starost[IND_TYPE]
@@ -188,7 +188,7 @@ uvozi.tezave <- function() {
     mutate(
       tezava=str_remove(tezava,".+: "),
       drzava=str_replace(drzava," \\([^)]*\\)$| \\-* .+",""),
-      drzava=drzave[drzava],
+      drzava=str_replace_all(drzava, drzave),
       tezava=tezave[tezava],
     )
 }

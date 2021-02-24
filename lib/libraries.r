@@ -13,7 +13,9 @@ library(tmap)
 library(rmapshaper)
 library(tmaptools)
 library(sf)
-
+library(factoextra)
+library(ggdendro)
+library(dendextend)
 library(gsubfn) 
 library(shiny)
 

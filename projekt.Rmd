@@ -159,9 +159,10 @@ EU %>%
     title="Skupaj % kupcev (obdobje 3. mesecev)"
   ) +
   tm_view(set.view = c(20,55,3)) +
-  tm_layout(title="Delež kupcev na spletu v obdobju 3. mesecev") +
-  tm_shape(mestaSP) +
-    tm_dots(col = "blue", clustering=TRUE)
+  tm_layout(title="Delež kupcev na spletu v obdobju 3. mesecev") 
+#+
+#  tm_shape(mestaSP) +
+#    tm_dots(col = "blue", clustering=TRUE)
 ```
 
 V nadaljevanju si oglejmo katere vrste blaga oz. storitev prebivalci v EU najpogosteje kupujejo na spletu. Doslej analize po spolu ni bilo smiselno delati, saj podatki bistvene razlike v pogostosti spletnega nakupovanja med spoloma niso kazali. V nakupovalnih navadah glede na vrste blaga pa se pojavijo nekatere razlike. Tudi med starostnimi skupinami se pričakovano pojavijo razlike.
@@ -249,9 +250,23 @@ Na zgornjem grafu so ponovno države z različnimi razmerami gleden na spletno n
 ```{r analiza}
 source("analiza/analiza.r", encoding="UTF-8")
 ```
-
+Pri napredni analizi me je zanimalo, ali lahko države smiselno razdelim po skupinah glede na njihove značilnostih pri spletnem nakupovanju. Uporabila sem hierarhično razvrščanje, upoštevala pa sem podatke o pogostosti spletnega nakupovanja v državah, podatke o vrednostih spletnega nakupovanja in izvoru prodajalcev. Vsi podatki so bili za leto 2019. Z uporabo različnih metod sem ugotovila, da je države najbolj smiselno razdeliti na 2 skupini. V vseh prejšnih analizah po posamezni značilnosti sem jih intuitivno delila na 3 skupine, vendar pa se ob upoštevanju vseh značilnosti skupaj izkaže, da je države bolje deliti na 2 skupini.
+```{r, fig.align='center'}
+ggplot(dnd, horiz = TRUE, labels = FALSE) +
+  geom_text(
+    data=dnd$labels, 
+    aes(x=x, y=y, label=label), hjust=0, nudge_y = 0.3) +
+  theme(axis.line.y=element_blank(),
+        axis.ticks.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.title.y=element_blank(),
+        panel.background=element_rect(fill="white"),
+        panel.grid=element_blank()) +
+  labs(title = "Hierarhično razvrščanje držav EU")
+```
+Zgornji grafikon kaže delitev držav EU dobljeno s hierarhičnim razvrščanjem. Razvrstitev držav je zelo podobna, kot tista, ki se je posredno kazala ob predhodnih analizah. V prvo skupino spadajo države, ki v splošnem izrazito več kupujejo na spletu, v primerjavi z ostalimi državami. Če bi se odločili in države vseeno delili na 3 skupine, lahko opazimo, da bi isti skupini pripadale Malta, Ciper in Latvija, kar je verjetno posledica tega, da imajo zelo specifične podatke glede izvora prodajalcev pri katerih kupujejo na spletu. 
 ***
 
 ```{r shiny}
-#shinyAppDir("shiny", options=list(width="100%", height=600))
+shinyAppDir("shiny", options=list(width="100%", height=600))
 ```

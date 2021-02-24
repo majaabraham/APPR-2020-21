@@ -75,7 +75,7 @@ vrsta <- c("Food/groceries" = "hrana / živila",
            "clothes, sports goods" = "oblačila / športna oprema",
            "household goods" = "oprema doma",
            "films/music or books/magazines/e-learning material or computer software" = 
-             "filmi / glasba / knjige / revije / gradiva za e-učenje / računalniška programska oprema",
+             "filmi / glasba / knjige / revije / gradiva za e-učenje / rač. prog. oprema",
            "computer hardware" = "računalniška strojna oprema",
            "electronic equipment" = "elektronska oprema",
            "shares/insurance/other financial services" = "delnice / zavarovanje / druge finančne storitve",
