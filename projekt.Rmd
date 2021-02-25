@@ -152,7 +152,7 @@ Za jasnejšo predstavo, v katerih državah prebivalci uporabljajo spletno trgovi
 tmap_mode("view")
 EU %>% 
   filter(NAME %in% eu) %>%
-  mutate(slo_ime=drzave[NAME]) %>%
+  mutate(slo_ime=str_replace_all(NAME, drzave)) %>%
   merge(nakupi, by.x="slo_ime", by.y="drzava") %>% 
   tm_shape() +
   tm_polygons(
@@ -163,10 +163,9 @@ EU %>%
     title="Skupaj % kupcev (obdobje 3. mesecev)"
   ) +
   tm_view(set.view = c(20,55,3)) +
-  tm_layout(title="Delež kupcev na spletu v obdobju 3. mesecev") 
-#+
-#  tm_shape(mestaSP) +
-#    tm_dots(col = "blue", clustering=TRUE)
+  tm_layout(title="Delež kupcev na spletu v obdobju 3. mesecev") +
+  tm_shape(mestaSP) +
+    tm_dots(col = "blue", clustering=TRUE)
 ```
 
 V nadaljevanju si oglejmo katere vrste blaga oz. storitev prebivalci v EU najpogosteje kupujejo na spletu. Doslej analize po spolu ni bilo smiselno delati, saj podatki bistvene razlike v pogostosti spletnega nakupovanja med spoloma niso kazali. V nakupovalnih navadah glede na vrste blaga pa se pojavijo nekatere razlike. Tudi med starostnimi skupinami se pričakovano pojavijo razlike.
@@ -223,7 +222,7 @@ Analizo spletnih nakupov sem nadaljevala s podatki o tem od katerih prodajalcev 
 tmap_mode("view")
 EU %>% 
   filter(NAME %in% eu) %>%
-  mutate(slo_ime=drzave[NAME]) %>%
+  mutate(slo_ime=str_replace_all(NAME, drzave)) %>%
   merge(barvanje, by.x="slo_ime", by.y="drzava") %>% 
   tm_shape() +
   tm_polygons(

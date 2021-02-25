@@ -152,17 +152,17 @@ glavna.mesta <- stran %>%
   select(drzava, mesto) %>%
   right_join(imena.EU)
 
-#koordinate <- geocode_OSM(glavna.mesta$mesto)
+koordinate <- geocode_OSM(glavna.mesta$mesto)
 
-#mesta <- koordinate %>%
-#  rename(mesto = 1) %>%
-#  select(mesto, lon, lat)
-#
-#mestaSP <- st_as_sf(mesta,
-#                    coords = c("lon", "lat"),
-#                    crs = "+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0"
-#                    )
-#
+mesta <- koordinate %>%
+  rename(mesto = 1) %>%
+  select(mesto, lon, lat)
+
+mestaSP <- st_as_sf(mesta,
+                    coords = c("lon", "lat"),
+                    crs = "+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0"
+                    )
+
 prevladujoc <- izvor %>% 
   filter(drzava !="EU28", spol == "skupaj", `starostna skupina` == "skupaj", leto == 2019) %>%
   group_by(drzava) %>% summarise(odstotek1=max(odstotek))
