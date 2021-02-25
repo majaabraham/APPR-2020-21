@@ -44,6 +44,7 @@ shinyServer(function(input, output) {
       geom_col(position = "fill") +
       geom_text(aes(label=odstotek), position = "fill") +
       scale_fill_brewer(name= "vrednost (EUR)", palette = "Reds") +
+      ylab("delež") +
       labs(title="Vrednosti spletnih nakupov v obdobju treh mesecev")
   })
   

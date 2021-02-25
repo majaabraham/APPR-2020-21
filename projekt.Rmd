@@ -39,6 +39,8 @@ source("uvoz/uvoz.r", encoding="UTF-8")
 Večino podatkov sem pridobila iz spletne strani [Eurostat](https://ec.europa.eu/eurostat). Podatki so dostopni v različnih formatih. Uvozila sem 6 tabel v formatih CSV, HTML in XLS.
 Poleg omenjenih podatkov sem uporabila še tabelo, v kateri se nahajajo podatki o najbolj priljubljenih spletnih trgovinah v Evropi. Tabela se nahaja na naslednji povezavi: https://www.webretailer.com/b/online-marketplaces-europe/
 
+Zemljevid, ki sem ga uporabila v vizualizacijah je v formatu SHP, pridobila sem ga na naslednjem naslovu: https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries.zip
+
 Podatki shranjeni v formatu CSV so že skoraj v obliki *tidy data*, potrebno je le ločiti nekatere stolpce in prevesti vsebino podatkov, saj so vsi podatki v angleščini. Vse ostale podatke pa je potrebno še preoblikovati in prečistiti. 
 
 1. `pogostost` - podatki o pogostosti spletnega nakupovanja po letih, državah, storostni skupini in spolu
@@ -125,7 +127,8 @@ pogostost %>%
     geom_col() +
   facet_grid(drzava~`starostna skupina`) +
   geom_text(aes(label=odstotek), position = "stack" , size = 3) +
-  theme(axis.text.x = element_text(angle = 45)) +
+  theme(axis.text.x = element_text(angle = 45),
+        plot.title=element_text(size=24,face="bold")) +
   scale_fill_brewer(palette = "Oranges") +
   labs(title = "Pogostost spletnega nakupovanja po starostnih skupinah")
 
@@ -134,7 +137,8 @@ zadnji.nakup %>%
   ggplot(aes(x=leto, y=odstotek, fill=`zadnji e-nakup`)) +
   geom_col() +
   facet_grid(drzava~`starostna skupina`) +
-  theme(axis.text.x = element_text(angle = 45)) +
+  theme(axis.text.x = element_text(angle = 45),
+        plot.title=element_text(size=24,face="bold")) +
   labs(title = "Podatki o zadnjem spletnem nakupu po starostnih skupinah") 
 
 ```
@@ -173,10 +177,11 @@ vrsta.blaga %>%  filter(spol != "skupaj", drzava != "EU28") %>%
   scale_color_brewer(palette = "Paired") +
   facet_grid(`starostna skupina`~spol) +
   theme(axis.ticks.x = element_blank(),
-    axis.text.x=element_blank()) +
+    axis.text.x=element_blank(),
+    plot.title=element_text(size=24,face="bold")) +
   labs(title = "Podatki o vrstah blaga / storitev")
 ```
-Zgornji grafi prikazujejo porazdelitev podatkov za posamezni spol po starostnih skupinah. Na posameznem grafu so podatki o poratdelitvi odstotakov kupcev, ki so kupovali na spletu za različne vrste blaga/storitve. V vzorcu so zajeti podatki vseh držav članic EU in po vseh opazovanih letih.
+Zgornji grafi prikazujejo porazdelitev podatkov za posamezni spol po starostnih skupinah. Na posameznem grafu so podatki o porazdelitvi odstotakov kupcev, ki so kupovali na spletu za različne vrste blaga/storitve. V vzorcu so zajeti podatki vseh držav članic EU in po vseh opazovanih letih.
 V splošnem opazimo, da so ljudje na spletu največ kupovali oblačila in športno opremo, tej skupini sledijo filmi/glasba/knjige/revije/računalniška programska oprema. Visok je tudi je tudi delež tistih, ki so kupili potovanja in počitniške nastanitve. Zelo malo, razen nekaterih izjem pa se na spletu kupuje zdravil, zavarovalniških in drugih finančnih storitev, računalniške strojne opreme ter hrane/živil.
 Opazimo, da delež žensk, ki kupujejo oblačila in športno opremo večji od deleža moških. V skupini filmov/knjig/fačunalniške strojne opreme pa je ravno obratno. Moški tudi več kupujejo elektronsko opremo kot ženske. Opazimo, da se v starostni skupini od 55 do 74 let delež tistih, ki kupujejo oblačila ter športno opremo bistveno zmanjša, povečaa pa delež potovanj in počitniških nastanitev. V nasprotju v mlajših skupinah opazimo večji delež tistih, ki na spletu kupijo vstopnice za prireditve.
 
@@ -188,7 +193,8 @@ urejene_vrednosti %>%
   ggplot(aes(x=`starostna skupina`, y=odstotek, fill=vrednost)) +
   geom_col(position = "fill") +
   facet_grid(.~drzava) +
-  theme(axis.text.x = element_text(angle = 45)) +
+  theme(axis.text.x = element_text(angle = 45),
+        plot.title=element_text(size=24,face="bold")) +
   scale_fill_brewer(name= "vrednost (EUR)", palette = "Oranges") +
   labs(title="Vrednosti spletnih nakupov v obdobju treh mesecev, 2019") +
   xlab(element_blank()) +
@@ -200,7 +206,8 @@ pogostost %>%
   ggplot(aes(x=`starostna skupina`, y=odstotek, fill=pogostost)) +
     geom_col() +
   facet_grid(.~drzava) +
-  theme(axis.text.x = element_text(angle = 45)) +
+  theme(axis.text.x = element_text(angle = 45),
+        plot.title=element_text(size=24,face="bold")) +
   scale_fill_brewer(palette = "Reds") +
   labs(title = "Pogostost spletnega nakupovanja po starostnih skupinah, 2019")
 
@@ -237,11 +244,12 @@ tezave %>%
   ggplot(aes(x=leto, y=odstotek, col=tezava)) + 
   geom_line() +
   facet_grid(.~drzava) +
-  theme(axis.text.x = element_text(angle = 90)) +
+  theme(axis.text.x = element_text(angle = 90),
+        plot.title=element_text(size=24,face="bold")) +
   scale_color_discrete(name="težava") +
   labs(title="Odstotek kupcev, ki so navedli posamezno težavo pri spletnem nakupovanju")
 ```
-Na zgornjem grafu so ponovno države z različnimi razmerami gleden na spletno nakupovanje. EU28 predstavlja povprečje držav, srednjo skupino. V splošnem med kupci na spletu prevladujeta 2 težavi. Daleč največji problem predstavlja hitrost dostave, sledi težava napačnega ali poškodovanega blaga. Očitna je tudi povezava med deležem težav, in skupnim deležem kupcev v posameznih državah. Države z večjim deležem kupcev na spletu imajo tudi večji delež kupcev, ki navajajo težave povezane s spletnim nakupovanjem in obratno.
+Na zgornjem grafu so ponovno države z različnimi razmerami glede na spletno nakupovanje. EU28 predstavlja povprečje držav, srednjo skupino. V splošnem med kupci na spletu prevladujeta 2 težavi. Daleč največji problem predstavlja hitrost dostave, sledi težava napačnega ali poškodovanega blaga. Očitna je tudi povezava med deležem težav, in skupnim deležem kupcev v posameznih državah. Države z večjim deležem kupcev na spletu imajo tudi večji delež kupcev, ki navajajo težave povezane s spletnim nakupovanjem in obratno.
 
 ***
 
@@ -261,10 +269,17 @@ ggplot(dnd, horiz = TRUE, labels = FALSE) +
         axis.text.y=element_blank(),
         axis.title.y=element_blank(),
         panel.background=element_rect(fill="white"),
-        panel.grid=element_blank()) +
+        panel.grid=element_blank(),
+        plot.title=element_text(size=24,face="bold")) +
   labs(title = "Hierarhično razvrščanje držav EU")
 ```
 Zgornji grafikon kaže delitev držav EU dobljeno s hierarhičnim razvrščanjem. Razvrstitev držav je zelo podobna, kot tista, ki se je posredno kazala ob predhodnih analizah. V prvo skupino spadajo države, ki v splošnem izrazito več kupujejo na spletu, v primerjavi z ostalimi državami. Če bi se odločili in države vseeno delili na 3 skupine, lahko opazimo, da bi isti skupini pripadale Malta, Ciper in Latvija, kar je verjetno posledica tega, da imajo zelo specifične podatke glede izvora prodajalcev pri katerih kupujejo na spletu. 
+
+## Sklep
+Skozi celotno analizo spletnega nakupovanja v Evropski uniji sem dobila precej jasno sliko, kako se potrošniki obnašajo na spletu v posameznih državah, kot tudi v celoti. Države so si v nekaterih lastnostih zelo podobne, vendar tudi različne. V grobem bi jih lahko razvrstili v dve skupini držav s podobnimi lastnostmi spletnega nakupovanja.
+
+Za konec sem dodala še Shiny aplikacijo, ki bralcu omogoča podrobnejši pregled podatkov. Z različnimi vizualizacijami so predstavljeni podatki o lastnostih spletnega nakupovanja za posamezno državo. Možen je tudi pogled po različnih starostnih skupinah in spolu.
+
 ***
 
 ```{r shiny}

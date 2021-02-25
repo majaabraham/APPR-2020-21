@@ -61,7 +61,6 @@ Za zagon tega vzorca je potrebno namestiti sledeče pakete za R:
 * `knitr` - za izdelovanje poročila
 * `rmarkdown` - za prevajanje poročila v obliki RMarkdown
 * `shiny` - za prikaz spletnega vmesnika
-* `DT` - za prikaz interaktivne tabele
 * `rgdal` - za uvoz zemljevidov
 * `rgeos` - za podporo zemljevidom
 * `digest` - za zgoščevalne funkcije (uporabljajo se za shranjevanje zemljevidov)
@@ -75,6 +74,17 @@ Za zagon tega vzorca je potrebno namestiti sledeče pakete za R:
 * `maptools` - za delo z zemljevidi
 * `tmap` - za izrisovanje zemljevidov
 * `extrafont` - za pravilen prikaz šumnikov (neobvezno)
+* `readxl` - za branje "xls" datotek
+* `stringr` - za delo z nizi
+* `scales` - za oblikovanje in delo z osmi in legendami
+* `emojifont` - za pravilen prikaz šumnikov
+* `spdplyr` - za delo s podatki
+* `rmapshaper` - za pripravo zemljevidovž
+* `tmaptools` - za delo z zemljevidi
+* `sf` - za delo s geografskimi koordinatami
+* `factoextra` - za metodo razvrščanja podatkov
+* `ggdendro` - za delo z dendrogrami
+* `dendextend` - za razširitrv dela z dendrogrami
 
 ## Binder
 

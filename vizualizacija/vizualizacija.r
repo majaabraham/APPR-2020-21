@@ -1,5 +1,7 @@
 # 3. faza: Vizualizacija podatkov
 
+# pomožne vizualizacije
+
 pogostost %>% filter(spol == "skupaj") %>%
   ggplot(aes(x=leto, y=odstotek, fill=pogostost)) +
     geom_col() +
