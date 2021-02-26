@@ -141,7 +141,8 @@ zadnji.nakup %>%
   theme(axis.text.x = element_text(angle = 45),
         plot.title=element_text(size=26,face="bold"),
         text = element_text(size=26)) +
-  labs(title = "Podatki o zadnjem spletnem nakupu po starostnih skupinah") 
+  labs(title = "Podatki o zadnjem spletnem nakupu po starostnih skupinah") +
+  scale_x_continuous(breaks=seq(2010, 2019, 3))
 
 ```
 Pri analizi pogostosti spletnega nakupovanja v državah EU bi lahko države grobo razdelili na 3 skupine. Zgornja slika prikazuje grafe držav, ki bi jih lahko uvrstili v omenjene skupine. Grafi kažejo odstotek prebivalstva države po letih, glede na starostno skupino, ki so v obdobju treh mesecev opravili  določeno število spletnih nakupov. V prvo skupino sem uvrstila države, ki imajo podobno sliko, kot povprečje EU, v drugo skupino spadajo države z izjemno nizkim deležem prebivalstva, ki kupuje na spletu in v tretjo skupino države, katerih se delež kupcev na spletu skupno giba okrog 70% prebivalstva ali več. Takoj opazimo, da je vsem državam EU skupen nižji delež kupcev v starostni skupini od 55 do 74 let. Povsod je tudi razvidno, da skupni deleži vseh kupcev po letih rahlo naraščajo. Vendar pa se zdi, da se rast v državah z velikim deležem spletnih kupcev kot so Nizozemska, Nemčija, Švedska, zaustavlja in ponekod tudi že pada. K rasti večinoma prispeva povečanje deležea tistih, ki v treh mesecih opravijo vsaj 6 nakupov, vendar pa velika večina prebivalcev EU opravi največ 5 spletnih nakupov v treh mesecih. Večina opazovanih držav sodi v povprečje EU, kjer so deleži pogostosti relativno izenačeni. V državah z zelo majhnim deležem kupcev, kamor poleg Italije sodijo tudi Romunija, Bolgarija, Ciper, pa je tudi pogostost omenjenega načina nakupovanja manjša.
@@ -248,11 +249,12 @@ tezave %>%
   ggplot(aes(x=leto, y=odstotek, col=tezava)) + 
   geom_line() +
   facet_grid(.~drzava) +
-  theme(axis.text.x = element_text(angle = 90),
+  theme(axis.text.x = element_text(angle = 90, vjust=0.5),
         plot.title=element_text(size=26,face="bold"),
         text = element_text(size=20)) +
   scale_color_discrete(name="težava") +
-  labs(title="Odstotek kupcev, ki so navedli posamezno težavo pri spletnem nakupovanju")
+  labs(title="Odstotek kupcev, ki so navedli posamezno težavo pri spletnem nakupovanju") +
+  scale_x_continuous(breaks=seq(2010, 2019, 3))
 ```
 Na zgornjem grafu so ponovno države z različnimi razmerami glede na spletno nakupovanje. EU28 predstavlja povprečje držav, srednjo skupino. V splošnem med kupci na spletu prevladujeta 2 težavi. Daleč največji problem predstavlja hitrost dostave, sledi težava napačnega ali poškodovanega blaga. Očitna je tudi povezava med deležem težav, in skupnim deležem kupcev v posameznih državah. Države z večjim deležem kupcev na spletu imajo tudi večji delež kupcev, ki navajajo težave povezane s spletnim nakupovanjem in obratno.
 

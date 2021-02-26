@@ -30,9 +30,9 @@ shinyServer(function(input, output) {
     
     ggplot(tabela, aes(x=leto, y=odstotek, col=`vrsta blaga`)) +
       geom_line() +
-      theme(axis.text.x = element_text(angle = 45)) +
       scale_color_brewer(palette = "Paired") +
-      labs(title = "Odstotek kupcev, ki so kupili posamezno vrsto blaga po letih")
+      labs(title = "Odstotek kupcev, ki so kupili posamezno vrsto blaga po letih") +
+      scale_x_continuous(breaks=seq(2010, 2019, 1))
   })
   
   output$vrednosti <-renderPlot({
@@ -56,6 +56,7 @@ shinyServer(function(input, output) {
     
     ggplot(tabela, aes(x=leto, y=odstotek, col=prodajalec)) + 
       geom_line() +
+      scale_x_continuous(breaks=seq(2010, 2019, 1)) +
       labs(title = "Odstotek kupcev, ke je kupoval od posamezne skupine prodajalcev") +
       ylim(0,100)
   })
@@ -68,6 +69,7 @@ shinyServer(function(input, output) {
     ggplot(tabela, aes(x=leto, size=odstotek, y=tezava)) + 
       geom_point() + 
       theme(axis.text.x = element_text(angle = 90), legend.position = "top")+
+      scale_x_continuous(breaks=seq(2010, 2019, 1)) +
       scale_size_continuous(limits = c(1,37))+
       ylab("težave")
     
