@@ -126,9 +126,10 @@ pogostost %>%
   ggplot(aes(x=leto, y=odstotek, fill=pogostost)) +
     geom_col() +
   facet_grid(drzava~`starostna skupina`) +
-  geom_text(aes(label=odstotek), position = "stack" , size = 3) +
+  geom_text(aes(label=odstotek), position = "stack" , size = 5) +
   theme(axis.text.x = element_text(angle = 45),
-        plot.title=element_text(size=24,face="bold")) +
+        plot.title=element_text(size=26,face="bold"),
+        text = element_text(size=26)) +
   scale_fill_brewer(palette = "Oranges") +
   labs(title = "Pogostost spletnega nakupovanja po starostnih skupinah")
 
@@ -138,7 +139,8 @@ zadnji.nakup %>%
   geom_col() +
   facet_grid(drzava~`starostna skupina`) +
   theme(axis.text.x = element_text(angle = 45),
-        plot.title=element_text(size=24,face="bold")) +
+        plot.title=element_text(size=26,face="bold"),
+        text = element_text(size=26)) +
   labs(title = "Podatki o zadnjem spletnem nakupu po starostnih skupinah") 
 
 ```
@@ -177,7 +179,8 @@ vrsta.blaga %>%  filter(spol != "skupaj", drzava != "EU28") %>%
   facet_grid(`starostna skupina`~spol) +
   theme(axis.ticks.x = element_blank(),
     axis.text.x=element_blank(),
-    plot.title=element_text(size=24,face="bold")) +
+    plot.title=element_text(size=26,face="bold"),
+    text = element_text(size=20)) +
   labs(title = "Podatki o vrstah blaga / storitev")
 ```
 Zgornji grafi prikazujejo porazdelitev podatkov za posamezni spol po starostnih skupinah. Na posameznem grafu so podatki o porazdelitvi odstotakov kupcev, ki so kupovali na spletu za različne vrste blaga/storitve. V vzorcu so zajeti podatki vseh držav članic EU in po vseh opazovanih letih.
@@ -193,7 +196,8 @@ urejene_vrednosti %>%
   geom_col(position = "fill") +
   facet_grid(.~drzava) +
   theme(axis.text.x = element_text(angle = 45),
-        plot.title=element_text(size=24,face="bold")) +
+        plot.title=element_text(size=26,face="bold"),
+        text = element_text(size=26)) +
   scale_fill_brewer(name= "vrednost (EUR)", palette = "Oranges") +
   labs(title="Vrednosti spletnih nakupov v obdobju treh mesecev, 2019") +
   xlab(element_blank()) +
@@ -206,7 +210,8 @@ pogostost %>%
     geom_col() +
   facet_grid(.~drzava) +
   theme(axis.text.x = element_text(angle = 45),
-        plot.title=element_text(size=24,face="bold")) +
+        plot.title=element_text(size=26,face="bold"),
+        text = element_text(size=26)) +
   scale_fill_brewer(palette = "Reds") +
   labs(title = "Pogostost spletnega nakupovanja po starostnih skupinah, 2019")
 
@@ -244,7 +249,8 @@ tezave %>%
   geom_line() +
   facet_grid(.~drzava) +
   theme(axis.text.x = element_text(angle = 90),
-        plot.title=element_text(size=24,face="bold")) +
+        plot.title=element_text(size=26,face="bold"),
+        text = element_text(size=20)) +
   scale_color_discrete(name="težava") +
   labs(title="Odstotek kupcev, ki so navedli posamezno težavo pri spletnem nakupovanju")
 ```
@@ -262,14 +268,14 @@ Pri napredni analizi me je zanimalo, ali lahko države smiselno razdelim po skup
 ggplot(dnd, horiz = TRUE, labels = FALSE) +
   geom_text(
     data=dnd$labels, 
-    aes(x=x, y=y, label=label), hjust=0, nudge_y = 0.3) +
+    aes(x=x, y=y, label=label), hjust=0, nudge_y = 0.3, size = 7) +
   theme(axis.line.y=element_blank(),
         axis.ticks.y=element_blank(),
         axis.text.y=element_blank(),
         axis.title.y=element_blank(),
         panel.background=element_rect(fill="white"),
         panel.grid=element_blank(),
-        plot.title=element_text(size=24,face="bold")) +
+        plot.title=element_text(size=26,face="bold")) +
   labs(title = "Hierarhično razvrščanje držav EU")
 ```
 Zgornji grafikon kaže delitev držav EU dobljeno s hierarhičnim razvrščanjem. Razvrstitev držav je zelo podobna, kot tista, ki se je posredno kazala ob predhodnih analizah. V prvo skupino spadajo države, ki v splošnem izrazito več kupujejo na spletu, v primerjavi z ostalimi državami. Če bi se odločili in države vseeno delili na 3 skupine, lahko opazimo, da bi isti skupini pripadale Malta, Ciper in Latvija, kar je verjetno posledica tega, da imajo zelo specifične podatke glede izvora prodajalcev pri katerih kupujejo na spletu. 
